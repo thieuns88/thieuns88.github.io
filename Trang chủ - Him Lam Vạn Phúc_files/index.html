@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0161)https://cdn.autoads.asia/maxlead//themes/tracking/index.html?origin=aHR0cHM6Ly9oaW1sYW12YW5waHVjLnZpcA==&url=aHR0cHM6Ly9oaW1sYW12YW5waHVjLnZpcC8=&websiteId=67448 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="noindex, nofollow">
+<style></style></head>
+<body>
+    <script>
+        function GetURLParameter(sParam) {
+            try {
+                var sPageURL = window.location.search.substring(1);
+                var sURLVariables = sPageURL.split('&');
+                for (var i = 0; i < sURLVariables.length; i++) {
+                    var sParameterName = sURLVariables[i].split('=');
+                    if (sParameterName[0] == sParam) {
+                        return sParameterName[1];
+                    }
+                }
+                return "";
+            } catch (e) {
+                return "";
+            }
+        }
+
+        function GetCookieVal(offset) {
+            var endstr = document.cookie.indexOf(";", offset);
+            if (endstr == -1) { endstr = document.cookie.length; }
+            return unescape(document.cookie.substring(offset, endstr));
+        }
+
+        function GetCookie(name) {
+            var arg = name + "=";
+            var alen = arg.length;
+            var clen = document.cookie.length;
+            var i = 0;
+            while (i < clen) {
+                var j = i + alen;
+                if (document.cookie.substring(i, j) == arg) {
+                    return GetCookieVal(j);
+                }
+                i = document.cookie.indexOf(" ", i) + 1;
+                if (i == 0) break;
+            }
+            return null;
+        }
+
+        function SetCookie(name, value, expires, path, domain) {
+            var strCookie = name + "=" + escape(value) +
+                ((expires) ? "; expires=" + expires.toGMTString() : "") +
+                ((path) ? "; path=" + path : "") +
+                ((domain) ? "; domain=" + domain : "") +
+                "; samesite=none; secure";
+            document.cookie = strCookie;
+        }
+
+        //IE
+        if (!window.crypto) window.crypto = window.msCrypto;
+
+        var nanoid = (t = 21) => { var e = "", r = crypto.getRandomValues(new Uint8Array(t)); for (; t--;) { var n = 63 & r[t]; e += n < 36 ? n.toString(36) : n < 62 ? (n - 26).toString(36).toUpperCase() : n < 63 ? "_" : "-" } return e };
+
+        function GenerateUUID(isNanoId) {
+            if (isNanoId) return nanoid(8);
+
+            // RFC 4122 UUID version 4
+            var cryptoObj = window.crypto || window.msCrypto; // for IE 11
+            var uuid = "";
+            var uuid_pattern = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx';
+
+            if (cryptoObj) {
+                // Modern Browser
+                uuid = uuid_pattern.replace(/[xy]/g, function (c) {
+                    var r = cryptoObj.getRandomValues(new Uint8Array(1))[0] % 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                    return v.toString(16);
+                });
+            } else {
+                // Uncivilized Browser eg. IE < 11
+                uuid = uuid_pattern.replace(/[xy]/g, function (c) {
+                    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                    return v.toString(16);
+                });
+            }
+            return uuid;
+        }
+
+        function SendData() {
+            var cookieName = '__autoads_identity';
+            var identity = GetCookie(cookieName);
+            if (!identity) {
+                identity = GenerateUUID(false);
+                console.log('Not exists __autoads_identity');
+            }
+            var sdwc_expiry = new Date(new Date().getTime() + 365 * 24 * 60 * 60 * 1000);//1Year
+            SetCookie(cookieName, identity, sdwc_expiry, "/", '.autoads.asia');
+            var adsKey = '__autoads_ads_info_' + GetURLParameter('websiteId');
+            var adsInfo = GetCookie(adsKey);
+            if (adsInfo) adsInfo = JSON.parse(adsInfo);
+            var data = { identity, adsInfo };
+            console.log('AutoAds Data: ' + JSON.stringify(data));
+            parent.postMessage({ key: 'send_data', value: data }, "*");
+        }
+
+        (function () {
+            SendData();
+            //tracking action
+        }());
+    </script>
+
+</body></html>

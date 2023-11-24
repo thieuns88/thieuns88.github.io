@@ -8,8 +8,8 @@
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
         "Mã môn học": "ĐTĐG01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Học phần này được thiết kế cho những sinh viên chuyên ngành Đấu thầu và Quản lý dự án, trên cơ sở đã có những kiến thức nhất định về đấu thầu. Nội dung chính của học phần Giám sát và Đánh giá dự án là trang bị thêm cho sinh những kỹ năng khi thực hiện giám sát một dự án, đánh giá dự án trong quá trình thực hiện và sau khi hoàn thành. Những kiến thức này được tổng kết, biên soạn dựa trên các văn bản pháp lý của Việt Nam trong lĩnh vực đấu thầu gồm Luật đấu thầu số 43, các nghị định và thông tư hướng dẫn thi hành Luật Đấu thầu và các văn bản quy phạm phát luật về Quản lý dự án.",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "2",
@@ -20,8 +20,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "ĐTMS01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "3",
@@ -32,8 +32,8 @@
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
         "Mã môn học": "ĐTMS02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "4",
@@ -44,8 +44,8 @@
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 2",
         "Mã môn học": "ĐTMS02NC",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "5",
@@ -56,8 +56,8 @@
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
         "Mã môn học": "ĐTQM",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "6",
@@ -68,8 +68,8 @@
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1, Đấu thầu mua sắm 2",
         "Mã môn học": "ĐTTN03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "7",
@@ -80,8 +80,8 @@
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
         "Mã môn học": "QLHĐ01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "8",
@@ -92,8 +92,8 @@
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
         "Mã môn học": "QLPP05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "9",
@@ -104,8 +104,8 @@
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
         "Mã môn học": "QLPT06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "10",
@@ -116,8 +116,8 @@
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
         "Mã môn học": "QLPT06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "11",
@@ -128,8 +128,8 @@
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
         "Mã môn học": "QLXL10",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "1",
@@ -140,8 +140,8 @@
         "Số TC": "3",
         "DKTQ": "Tài chính doanh nghiệp, Phân tích tài chính doanh nghiệp, Thị trường chứng khoán và Kinh tế đầu tư.",
         "Mã môn học": "ĐTDM04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "2",
@@ -152,8 +152,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý thống kê kinh tế",
         "Mã môn học": "ĐTKT02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "3",
@@ -164,8 +164,8 @@
         "Số TC": "3",
         "DKTQ": "Tài chính doanh nghiệp, Lý thuyết tài chính tiền tệ",
         "Mã môn học": "ĐTPS01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "4",
@@ -176,8 +176,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế đầu tư, Thị trường chứng khoán",
         "Mã môn học": "ĐTQL036",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "5",
@@ -188,8 +188,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế đầu tư",
         "Mã môn học": "ĐTTN01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "6",
@@ -200,8 +200,8 @@
         "Số TC": "3",
         "DKTQ": "Thẩm định dự án đầu tư, Quản lý dự án đầu tư.",
         "Mã môn học": "ĐTTN02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "7",
@@ -212,8 +212,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô 1, Kinh tế vĩ mô 1",
         "Mã môn học": "KHĐT05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "8",
@@ -224,8 +224,8 @@
         "Số TC": "2",
         "DKTQ": "Kinh tế vi mô 1, Kinh tế vĩ mô 1",
         "Mã môn học": "KHĐT10",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "9",
@@ -236,8 +236,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô 1",
         "Mã môn học": "QHMT09",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "10",
@@ -248,8 +248,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế đầu tư, Tài chính doanh nghiệp",
         "Mã môn học": "QTĐT08",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "11",
@@ -260,8 +260,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế đầu tư, Tài chính doanh nghiệp",
         "Mã môn học": "TCĐT17",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "1",
@@ -272,8 +272,8 @@
         "Số TC": "2",
         "DKTQ": "Sinh viên phải học trước học phần Triết học Mác-Lênin, Kinh tế chính trị Mác – Lênin.",
         "Mã môn học": "THCN06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "2",
@@ -284,8 +284,8 @@
         "Số TC": "3",
         "DKTQ": "Sinh viên phải học trước học phần Triết học MácLênin, Kinh tế chính trị Mác – Lênin.",
         "Mã môn học": "THCN09",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "3",
@@ -296,8 +296,8 @@
         "Số TC": "2",
         "DKTQ": "Kinh tế chính trị Mác - Lênin",
         "Mã môn học": "THKT05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "4",
@@ -308,8 +308,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế chính trị Mác - Lênin",
         "Mã môn học": "THKT08",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "5",
@@ -320,8 +320,8 @@
         "Số TC": "2",
         "DKTQ": "Sinh viên phải học các môn Triết học, Kinh tế chính trị, Chủ nghĩa xã hội khoa học, Tư tưởng Hồ Chí Minh trước",
         "Mã môn học": "THLĐ07",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "6",
@@ -332,8 +332,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "THML04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "7",
@@ -344,8 +344,8 @@
         "Số TC": "2",
         "DKTQ": "Sinh viên phải học xong học phần Triết học Mác –Lênin, Kinh tế chính trị Mác –Lênin, Chủ nghĩa xã hội khoa học.",
         "Mã môn học": "THTT02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "8",
@@ -356,8 +356,8 @@
         "Số TC": "3",
         "DKTQ": "Sinh viên phải học xong học phần Triết học Mác – Lênin, Kinh tế chính trị Mác –Lênin, Chủ nghĩa xã hội khoa học.",
         "Mã môn học": "THTT03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "1",
@@ -368,8 +368,8 @@
         "Số TC": "6",
         "DKTQ": "Thi đầu vào đạt mức điểm IELTS ~ 3.5",
         "Mã môn học": "NNIL1.1",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "2",
@@ -380,8 +380,8 @@
         "Số TC": "6",
         "DKTQ": "IELTS 1",
         "Mã môn học": "NNIL1.2",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "3",
@@ -392,8 +392,8 @@
         "Số TC": "6",
         "DKTQ": "IELTS 2- band 4.5 – 5.0",
         "Mã môn học": "NNIL1.3",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "4",
@@ -404,8 +404,8 @@
         "Số TC": "6",
         "DKTQ": "IELTS 3 (Band 5.0-6.0)",
         "Mã môn học": "NNIL1.4",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "5",
@@ -416,8 +416,8 @@
         "Số TC": "3",
         "DKTQ": "Sinh viên đã học xong chương trình Tiếng Anh Tồng quát 04",
         "Mã môn học": "NNKD05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "6",
@@ -428,8 +428,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "NNTA01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "7",
@@ -440,8 +440,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "NNTA02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "8",
@@ -452,8 +452,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "NNTA03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "9",
@@ -464,8 +464,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "NNTA04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "10",
@@ -476,8 +476,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "NNTA05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "11",
@@ -488,8 +488,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "NNTA06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "12",
@@ -500,8 +500,8 @@
         "Số TC": "2",
         "DKTQ": "Cơ sở văn hóa Việt Nam",
         "Mã môn học": "NNTA07",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "13",
@@ -512,8 +512,8 @@
         "Số TC": "2",
         "DKTQ": "Cơ sở văn hóa Việt Nam",
         "Mã môn học": "NNTA08",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "14",
@@ -524,8 +524,8 @@
         "Số TC": "2",
         "DKTQ": "Không",
         "Mã môn học": "NNTA09",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "15",
@@ -536,8 +536,8 @@
         "Số TC": "2",
         "DKTQ": "Không",
         "Mã môn học": "NNTA10",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "16",
@@ -548,8 +548,8 @@
         "Số TC": "2",
         "DKTQ": "Không",
         "Mã môn học": "NNTA11",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "17",
@@ -560,8 +560,8 @@
         "Số TC": "3",
         "DKTQ": "Thực hành tiếng 1 - Nghe",
         "Mã môn học": "NNTA12",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "18",
@@ -572,8 +572,8 @@
         "Số TC": "3",
         "DKTQ": "Thực hành tiếng 1 - Nói",
         "Mã môn học": "NNTA13",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "19",
@@ -584,8 +584,8 @@
         "Số TC": "3",
         "DKTQ": "Thực hành tiếng 1 – Đọc",
         "Mã môn học": "NNTA14",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "20",
@@ -596,8 +596,8 @@
         "Số TC": "3",
         "DKTQ": "Thực hành viết 2",
         "Mã môn học": "NNTA15",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "21",
@@ -608,8 +608,8 @@
         "Số TC": "3",
         "DKTQ": "Sinh viên đã học xong chương trình Tiếng Anh học thuật",
         "Mã môn học": "NNTA16",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "22",
@@ -620,8 +620,8 @@
         "Số TC": "3",
         "DKTQ": "Tiếng Anh thực hành 1 (English – Integrated Skills 1)",
         "Mã môn học": "NNTA17",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "23",
@@ -632,8 +632,8 @@
         "Số TC": "3",
         "DKTQ": "Tiếng Anh thực hành 2 (English – Integrated Skills 2)",
         "Mã môn học": "NNTA18",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "24",
@@ -644,8 +644,8 @@
         "Số TC": "3",
         "DKTQ": "Sinh viên đã học xong chương trình Thực hành tổng hợp 3",
         "Mã môn học": "NNTA19",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "25",
@@ -656,8 +656,8 @@
         "Số TC": "2",
         "DKTQ": "Tiếng Anh thực hành 2",
         "Mã môn học": "NNTA24",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "26",
@@ -668,8 +668,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "NNTT01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "27",
@@ -680,8 +680,8 @@
         "Số TC": "3",
         "DKTQ": "Hoàn thành Ngoại ngữ cơ sở 1 – Tiếng Trung",
         "Mã môn học": "NNTT02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "28",
@@ -692,8 +692,8 @@
         "Số TC": "3",
         "DKTQ": "Hoàn thành Ngoại ngữ cơ sở 2 – Tiếng Trung",
         "Mã môn học": "NNTT03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "1",
@@ -704,8 +704,8 @@
         "Số TC": "2",
         "DKTQ": "",
         "Mã môn học": "GDTC01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "2",
@@ -716,8 +716,8 @@
         "Số TC": "2",
         "DKTQ": "",
         "Mã môn học": "GDTC02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "3",
@@ -728,8 +728,8 @@
         "Số TC": "2",
         "DKTQ": "",
         "Mã môn học": "GDTC03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "4",
@@ -740,8 +740,8 @@
         "Số TC": "2",
         "DKTQ": "",
         "Mã môn học": "GDTC03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "1",
@@ -752,8 +752,8 @@
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật; Luật Hiến pháp, Chính sách công",
         "Mã môn học": "LUCS03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "2",
@@ -764,8 +764,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "LUĐC01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "3",
@@ -776,8 +776,8 @@
         "Số TC": "3",
         "DKTQ": "háp luật đại cương",
         "Mã môn học": "LUKT02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "4",
@@ -788,8 +788,8 @@
         "Số TC": "4",
         "DKTQ": "Không",
         "Mã môn học": "LUKT06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "5",
@@ -800,8 +800,8 @@
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật.",
         "Mã môn học": "LUKT07",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "6",
@@ -812,8 +812,8 @@
         "Số TC": "3",
         "DKTQ": "Lý luận Nhà nước và Pháp luật.",
         "Mã môn học": "LUKT08",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "7",
@@ -824,8 +824,8 @@
         "Số TC": "4",
         "DKTQ": "Những nguyên lý cơ bản của Chủ nghĩa Mác – Lênin 1 và 2; Lý luận về Nhà nước và Pháp luật; Luật Hiến pháp.",
         "Mã môn học": "LUKT09",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "8",
@@ -836,8 +836,8 @@
         "Số TC": "3",
         "DKTQ": "Lý luận nhà nước và pháp luật.",
         "Mã môn học": "LUKT10",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "9",
@@ -848,8 +848,8 @@
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật; Luật Hình sự; Luật dân sự",
         "Mã môn học": "LUKT11",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "10",
@@ -860,8 +860,8 @@
         "Số TC": "3",
         "DKTQ": "Luật Dân sự.",
         "Mã môn học": "LUKT12",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "11",
@@ -872,8 +872,8 @@
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật; Luật Hiến pháp.",
         "Mã môn học": "LUKT13",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "12",
@@ -884,8 +884,8 @@
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật",
         "Mã môn học": "LUKT14",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "13",
@@ -896,8 +896,8 @@
         "Số TC": "3",
         "DKTQ": "Luật Thương mại, Tư pháp quốc tế, Pháp luật đầu tư.",
         "Mã môn học": "LUKT17",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "14",
@@ -908,8 +908,8 @@
         "Số TC": "3",
         "DKTQ": "Pháp luật doanh nghiệp",
         "Mã môn học": "LUKT18",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "15",
@@ -920,8 +920,8 @@
         "Số TC": "4",
         "DKTQ": "Pháp luật doanh nghiệp, Luật Thương mại, Công pháp quốc tế, Tư pháp quốc tế",
         "Mã môn học": "LUKT19",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "16",
@@ -932,8 +932,8 @@
         "Số TC": "3",
         "DKTQ": "Những nguyên lý cơ bản của Chủ nghĩa Mác – Lênin 1 và 2; Lý luận về Nhà nước và Pháp luật; Luật Hiến pháp.",
         "Mã môn học": "LUKT20",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "17",
@@ -944,8 +944,8 @@
         "Số TC": "3",
         "DKTQ": "Những nguyên lý cơ bản của Chủ nghĩa Mác – Lênin 1 và 2; Lý luận về Nhà nước và Pháp luật.",
         "Mã môn học": "LUKT21",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "18",
@@ -956,8 +956,8 @@
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật, Luật dân sự, Luật thương mại.",
         "Mã môn học": "LUKT22",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "19",
@@ -968,8 +968,8 @@
         "Số TC": "3",
         "DKTQ": "Pháp luật doanh nghiệp, Luật Thương mại.",
         "Mã môn học": "LUKT23",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "20",
@@ -980,8 +980,8 @@
         "Số TC": "3",
         "DKTQ": "Pháp luật dân sự",
         "Mã môn học": "LUKT24",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "21",
@@ -992,8 +992,8 @@
         "Số TC": "3",
         "DKTQ": "Lý luận chung về Nhà nước và Pháp luật, Luật dân sự, Luật thương mại.",
         "Mã môn học": "LUKT25",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "22",
@@ -1004,8 +1004,8 @@
         "Số TC": "4",
         "DKTQ": "Lý luận Nhà nước và Pháp luật, Luật dân sự.",
         "Mã môn học": "LUKT26",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "23",
@@ -1016,8 +1016,8 @@
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật, Luật dân sự, Luật hành c",
         "Mã môn học": "LUKT28",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "24",
@@ -1028,8 +1028,8 @@
         "Số TC": "2",
         "DKTQ": "Luật Hành chính; Luật Dân sự",
         "Mã môn học": "LUKT29",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "25",
@@ -1040,8 +1040,8 @@
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật, Luật Dân sự, Pháp luật doanh nghiệp, Luật thương mại.",
         "Mã môn học": "LUKT32",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "26",
@@ -1052,8 +1052,8 @@
         "Số TC": "4",
         "DKTQ": "Những nguyên lý cơ bản của Chủ nghĩa Mác – Lênin 1 và 2.",
         "Mã môn học": "LULL07",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "27",
@@ -1064,8 +1064,8 @@
         "Số TC": "3",
         "DKTQ": "Luật Dân sự, Pháp luật doanh nghiệp",
         "Mã môn học": "LUNT01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "28",
@@ -1076,8 +1076,8 @@
         "Số TC": "3",
         "DKTQ": "Pháp luật kinh tế, Kinh tế quốc tế",
         "Mã môn học": "LUQT04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "29",
@@ -1088,8 +1088,8 @@
         "Số TC": "4",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật, Luật dân sự, pháp luật về đầu tư.",
         "Mã môn học": "LUTN02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "1",
@@ -1100,8 +1100,8 @@
         "Số TC": "3",
         "DKTQ": "Tin học đại cương.",
         "Mã môn học": "KTKD01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "2",
@@ -1112,8 +1112,8 @@
         "Số TC": "3",
         "DKTQ": "Tin học đại cương, Hệ quản trị CSDL",
         "Mã môn học": "KTKD02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "3",
@@ -1124,8 +1124,8 @@
         "Số TC": "3",
         "DKTQ": "Thương mại điện tử",
         "Mã môn học": "KTKD03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "4",
@@ -1136,8 +1136,8 @@
         "Số TC": "2",
         "DKTQ": "Kinh tế vi mô 1, Kinh tế vĩ mô 1",
         "Mã môn học": "KTKD03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "5",
@@ -1148,8 +1148,8 @@
         "Số TC": "3",
         "DKTQ": "Tin học đại cương, Hệ quản trị cơ sở dữ liệu",
         "Mã môn học": "KTKD04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "6",
@@ -1160,8 +1160,8 @@
         "Số TC": "3",
         "DKTQ": "Thương mại điện tử",
         "Mã môn học": "KTKD05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "7",
@@ -1172,8 +1172,8 @@
         "Số TC": "3",
         "DKTQ": "Thương mại điện tử",
         "Mã môn học": "KTKD06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "8",
@@ -1184,8 +1184,8 @@
         "Số TC": "3",
         "DKTQ": "Tin học đại cương, Thương mại điện tử",
         "Mã môn học": "KTKD07",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "9",
@@ -1196,8 +1196,8 @@
         "Số TC": "3",
         "DKTQ": "Tin học đại cương",
         "Mã môn học": "KTKD10",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "10",
@@ -1208,8 +1208,8 @@
         "Số TC": "2",
         "DKTQ": "Tin học đại cương.",
         "Mã môn học": "KTKD10",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "11",
@@ -1220,8 +1220,8 @@
         "Số TC": "2",
         "DKTQ": "Không",
         "Mã môn học": "KTKD11",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "12",
@@ -1232,8 +1232,8 @@
         "Số TC": "3",
         "DKTQ": "Nhập môn lập trình phân tích dữ liệu với Python (hoặc môn Lập trình căn bản).",
         "Mã môn học": "PTDL02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "13",
@@ -1244,8 +1244,8 @@
         "Số TC": "2",
         "DKTQ": "Toán cao cấp",
         "Mã môn học": "PTDL03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "14",
@@ -1256,8 +1256,8 @@
         "Số TC": "3",
         "DKTQ": "Tin học đại cương",
         "Mã môn học": "PTDL04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "15",
@@ -1268,8 +1268,8 @@
         "Số TC": "3",
         "DKTQ": "Toán cao cấp; Tin học đại cương",
         "Mã môn học": "PTDL05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "16",
@@ -1280,8 +1280,8 @@
         "Số TC": "3",
         "DKTQ": "Lý thuyết xác suất và thống kê toán, Kinh tế lượng",
         "Mã môn học": "PTDL06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "17",
@@ -1292,8 +1292,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý thống kê kinh tế",
         "Mã môn học": "PTDL07",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "18",
@@ -1304,8 +1304,8 @@
         "Số TC": "3",
         "DKTQ": "Hệ quản trị cơ sở dữ liệu; Dữ liệu lớn trong kinh tế và kinh doanh.",
         "Mã môn học": "PTDL08",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "19",
@@ -1316,8 +1316,8 @@
         "Số TC": "3",
         "DKTQ": "Nhập môn lập trình phân tích dữ liệu với Python, Cơ sở của Khoa học dữ liệu",
         "Mã môn học": "PTDL09",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "20",
@@ -1328,8 +1328,8 @@
         "Số TC": "3",
         "DKTQ": "Cơ sở của Khoa học dữ liệu, Khai phá dữ liệu cho phân tích kinh doanh",
         "Mã môn học": "PTDL10",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "21",
@@ -1340,8 +1340,8 @@
         "Số TC": "4",
         "DKTQ": "Dữ liệu lớn trong kinh tế và kinh doanh, Quản trị dữ liệu lớn với Apache Spark.",
         "Mã môn học": "PTDL11",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "22",
@@ -1352,8 +1352,8 @@
         "Số TC": "2",
         "DKTQ": "Quản trị dữ liệu lớn với Apache Spark",
         "Mã môn học": "PTDL12",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "23",
@@ -1364,8 +1364,8 @@
         "Số TC": "2",
         "DKTQ": "Lý thuyết Tài chính – Tiền tệ, Tài chính doanh nghiệp, Dữ liệu lớn trong Kinh tế và Kinh doanh.",
         "Mã môn học": "PTDL13",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "24",
@@ -1376,8 +1376,8 @@
         "Số TC": "3",
         "DKTQ": "Dữ liệu lớn trong kinh tế và kinh doanh, Quản trị dữ liệu lớn với Apache Spark",
         "Mã môn học": "PTDL18",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "25",
@@ -1388,8 +1388,8 @@
         "Số TC": "3",
         "DKTQ": "Lý thuyết Tài chính – Tiền tệ, Tài chính doanh nghiệp, Dữ liệu lớn trong Kinh tế và Kinh doanh.",
         "Mã môn học": "PTDL19",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "26",
@@ -1400,8 +1400,8 @@
         "Số TC": "3",
         "DKTQ": "Dữ liệu lớn trong Kinh tế và Kinh doanh",
         "Mã môn học": "QTKD14",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "27",
@@ -1412,8 +1412,8 @@
         "Số TC": "3",
         "DKTQ": "Xác suất và thống kê toán, Tài chính doanh nghiệp, Nguyên lý kế toán.",
         "Mã môn học": "TCTO10",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "28",
@@ -1424,8 +1424,8 @@
         "Số TC": "2",
         "DKTQ": "Không",
         "Mã môn học": "TOCC03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "29",
@@ -1436,8 +1436,8 @@
         "Số TC": "2",
         "DKTQ": "Toán cao cấp 1",
         "Mã môn học": "TOCC04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "30",
@@ -1448,8 +1448,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "TOĐC06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "31",
@@ -1460,8 +1460,8 @@
         "Số TC": "3",
         "DKTQ": "Tin học đại cương",
         "Mã môn học": "TODL01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "32",
@@ -1472,8 +1472,8 @@
         "Số TC": "3",
         "DKTQ": "Toán cao cấp; Lý thuyết xác suất và thống kê toán; Kinh tế học vi mô; Kinh tế học vĩ mô; Tin học đại cương.",
         "Mã môn học": "TOKT05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "33",
@@ -1484,8 +1484,8 @@
         "Số TC": "3",
         "DKTQ": "Toán Cao cấp",
         "Mã môn học": "TOLT07",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "34",
@@ -1496,8 +1496,8 @@
         "Số TC": "3",
         "DKTQ": "Lý thuyết xác suất và thống kê toán",
         "Mã môn học": "TONL08",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "35",
@@ -1508,8 +1508,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "TOTC03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "1",
@@ -1520,8 +1520,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế quốc tế, Thương mại quốc tế, Đầu tư quốc tế",
         "Mã môn học": "DDNTN02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "2",
@@ -1532,8 +1532,8 @@
         "Số TC": "3",
         "DKTQ": "Nghiệp vụ kinh doanh xuất nhập khẩu, Thương mại quốc tế, Đầu tư quốc tế.",
         "Mã môn học": "ĐNĐP06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "3",
@@ -1544,8 +1544,8 @@
         "Số TC": "3",
         "DKTQ": "Nghiệp vụ kinh doanh xuất nhập khẩu, Thương mại quốc tế, Đầu tư quốc tế.",
         "Mã môn học": "ĐNĐP06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "4",
@@ -1556,8 +1556,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế quốc tế",
         "Mã môn học": "ĐNMA05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "5",
@@ -1568,8 +1568,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "ĐNNV03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "6",
@@ -1580,8 +1580,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế quốc tế",
         "Mã môn học": "ĐNQT11",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "7",
@@ -1592,8 +1592,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô 1, Kinh tế vĩ mô 1",
         "Mã môn học": "ĐNQT13",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "8",
@@ -1604,8 +1604,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô, Kinh tế quốc tế",
         "Mã môn học": "ĐNQT15",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "9",
@@ -1616,8 +1616,8 @@
         "Số TC": "2",
         "DKTQ": "Kinh tế đầu tư, Đầu tư Quốc tế",
         "Mã môn học": "ĐNQT17",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "10",
@@ -1628,8 +1628,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "ĐNQT18",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "11",
@@ -1640,8 +1640,8 @@
         "Số TC": "2",
         "DKTQ": "Kinh tế quốc tế",
         "Mã môn học": "ĐNTC05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "12",
@@ -1652,8 +1652,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô, Kinh tế quốc tế",
         "Mã môn học": "ĐNTM08",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "13",
@@ -1664,8 +1664,8 @@
         "Số TC": "2",
         "DKTQ": "Kinh tế vĩ mô, Kinh tế quốc tế",
         "Mã môn học": "ĐNTM09",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "14",
@@ -1676,8 +1676,8 @@
         "Số TC": "3",
         "DKTQ": "Nghiệp vụ kinh doanh xuất nhập khẩu",
         "Mã môn học": "ĐNTT01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "15",
@@ -1688,8 +1688,8 @@
         "Số TC": "2",
         "DKTQ": "Tiếng Anh cơ bản 1, 2, 3, 4",
         "Mã môn học": "ĐNTT16",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "16",
@@ -1700,8 +1700,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế quốc tế",
         "Mã môn học": "QTCU04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "17",
@@ -1712,8 +1712,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô, Kinh tế quốc tế",
         "Mã môn học": "QTDQ10",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "18",
@@ -1724,8 +1724,8 @@
         "Số TC": "3",
         "DKTQ": "Logistics cơ bản; NV KDXNK",
         "Mã môn học": "QTTM01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "19",
@@ -1736,8 +1736,8 @@
         "Số TC": "2",
         "DKTQ": "Kinh tế quốc tế, Thương mại quốc tế",
         "Mã môn học": "QTTM04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "20",
@@ -1748,8 +1748,8 @@
         "Số TC": "2",
         "DKTQ": "Kinh tế quốc tế",
         "Mã môn học": "QTTM05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "21",
@@ -1760,8 +1760,8 @@
         "Số TC": "3",
         "DKTQ": "Giao dịch TMQT, Kinh doanh quốc tế",
         "Mã môn học": "QTTM06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "22",
@@ -1772,8 +1772,8 @@
         "Số TC": "2",
         "DKTQ": "Logistics trong doanh nghiệp; Quản trị kinh doanh logistics.",
         "Mã môn học": "QTTM07",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "23",
@@ -1784,8 +1784,8 @@
         "Số TC": "2",
         "DKTQ": "Kinh tế vi mô, Kinh tế vĩ mô",
         "Mã môn học": "QTTM09",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "24",
@@ -1796,8 +1796,8 @@
         "Số TC": "2",
         "DKTQ": "Kinh tế vi mô, Kinh tế vĩ mô, Lý thuyết tài chính tiền tệ",
         "Mã môn học": "TCQT13",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "25",
@@ -1808,8 +1808,8 @@
         "Số TC": "3",
         "DKTQ": "NV KD XNK, Kinh doanh quốc tế",
         "Mã môn học": "TMQT11",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "26",
@@ -1820,8 +1820,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô, Kinh tế quốc tế, Thương mại quốc tế.",
         "Mã môn học": "TMTN01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "27",
@@ -1832,8 +1832,8 @@
         "Số TC": "3",
         "DKTQ": "Quản trị logistics kinh doanh, Thương mại quốc tế, Quản trị mua hàng và chuỗi cung ứng.",
         "Mã môn học": "TMTN02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "1",
@@ -1844,8 +1844,8 @@
         "Số TC": "2",
         "DKTQ": "Không",
         "Mã môn học": "ĐLDL01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "2",
@@ -1856,8 +1856,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "DLTT01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "3",
@@ -1868,8 +1868,8 @@
         "Số TC": "3",
         "DKTQ": "Marketing căn bản",
         "Mã môn học": "QTBH01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "4",
@@ -1880,8 +1880,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "QTBV01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "5",
@@ -1892,8 +1892,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, Marketing căn bản",
         "Mã môn học": "QTCB01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "6",
@@ -1904,8 +1904,8 @@
         "Số TC": "3",
         "DKTQ": "Marketing căn bản",
         "Mã môn học": "QTCC01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "7",
@@ -1916,8 +1916,8 @@
         "Số TC": "3",
         "DKTQ": "Quản trị học, Kinh tế vi mô, Kinh tế vĩ mô",
         "Mã môn học": "QTCL01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "8",
@@ -1928,8 +1928,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "QTDD01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "9",
@@ -1940,8 +1940,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "QTĐH01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "10",
@@ -1952,8 +1952,8 @@
         "Số TC": "3",
         "DKTQ": "KINH TẾ VI MÔ, MARKETING CĂN BẢN",
         "Mã môn học": "QTDM01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "11",
@@ -1964,8 +1964,8 @@
         "Số TC": "3",
         "DKTQ": "MARKETING CĂN BẢN",
         "Mã môn học": "QTEO01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "12",
@@ -1976,8 +1976,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "QTHD11",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "13",
@@ -1988,8 +1988,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "QTHO06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "14",
@@ -2000,8 +2000,8 @@
         "Số TC": "2",
         "DKTQ": "Không",
         "Mã môn học": "QTHO18",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "15",
@@ -2012,8 +2012,8 @@
         "Số TC": "3",
         "DKTQ": "Pháp luật đại cương, Kinh tế vi mô 1, Quản trị học",
         "Mã môn học": "QTKS07",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "16",
@@ -2024,8 +2024,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "QTLH01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "17",
@@ -2036,8 +2036,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "QTLT01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "18",
@@ -2048,8 +2048,8 @@
         "Số TC": "3",
         "DKTQ": "MARKETING CĂN BẢN, QUẢN TRỊ HỌC, KINH TẾ VI MÔ, KINH TẾ VĨ MÔ.",
         "Mã môn học": "QTMA09",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "19",
@@ -2060,8 +2060,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "QTMC02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "20",
@@ -2072,8 +2072,8 @@
         "Số TC": "2",
         "DKTQ": "Kinh tế vi mô, Marketing căn bản, Marketing Dịch vụ",
         "Mã môn học": "QTMD01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "21",
@@ -2084,8 +2084,8 @@
         "Số TC": "3",
         "DKTQ": "Marketing căn bản, Quản trị Marketing",
         "Mã môn học": "QTMS01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "22",
@@ -2096,8 +2096,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "QTNH01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "23",
@@ -2108,8 +2108,8 @@
         "Số TC": "3",
         "DKTQ": "Quản trị học",
         "Mã môn học": "QTNL03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "24",
@@ -2120,8 +2120,8 @@
         "Số TC": "2",
         "DKTQ": "Không",
         "Mã môn học": "QTQH01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "25",
@@ -2132,8 +2132,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "QTTA01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "26",
@@ -2144,8 +2144,8 @@
         "Số TC": "3",
         "DKTQ": "MARKETING CĂN BẢN, QUẢN TRỊ HỌC, KINH TẾ VI MÔ, KINH TẾ VĨ MÔ.",
         "Mã môn học": "QTTH01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "27",
@@ -2156,8 +2156,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "QTTL01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "28",
@@ -2168,8 +2168,8 @@
         "Số TC": "2",
         "DKTQ": "Không",
         "Mã môn học": "QTTL03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "29",
@@ -2180,8 +2180,8 @@
         "Số TC": "3",
         "DKTQ": "Quản trị học, Quản trị chiến lược",
         "Mã môn học": "QTTN01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "30",
@@ -2192,8 +2192,8 @@
         "Số TC": "3",
         "DKTQ": "KINH TẾ VI MÔ, MARKETING CĂN BẢN, DIGITAL MARKETING",
         "Mã môn học": "QTTN03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "31",
@@ -2204,8 +2204,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, Kinh tế vĩ mô Marketing căn bản",
         "Mã môn học": "QTTN10",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "32",
@@ -2216,8 +2216,8 @@
         "Số TC": "3",
         "DKTQ": "KINH TẾ VI MÔ, MARKETING CĂN BẢN",
         "Mã môn học": "QTTT01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "33",
@@ -2228,8 +2228,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, Marketing, Nguyên lý thống kê và Kinh tế lượng",
         "Mã môn học": "QTTT11",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "34",
@@ -2240,8 +2240,8 @@
         "Số TC": "2",
         "DKTQ": "Không",
         "Mã môn học": "QTVH02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "35",
@@ -2252,8 +2252,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, Marketing căn bản",
         "Mã môn học": "QTVH12",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "36",
@@ -2264,8 +2264,8 @@
         "Số TC": "2",
         "DKTQ": "Không",
         "Mã môn học": "TQDL01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "37",
@@ -2276,8 +2276,8 @@
         "Số TC": "2",
         "DKTQ": "Không",
         "Mã môn học": "TTDL05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "1",
@@ -2288,8 +2288,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô 1, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Kinh tế vi mô 2.",
         "Mã môn học": "KHCC06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "2",
@@ -2300,8 +2300,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, kinh tế vĩ mô, Kinh tế đầu tư.",
         "Mã môn học": "KHCO09",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "3",
@@ -2312,8 +2312,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế Vi mô và Kinh tế Vĩ mô",
         "Mã môn học": "KHKT11",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "4",
@@ -2324,8 +2324,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô 1",
         "Mã môn học": "KHMA02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "5",
@@ -2336,8 +2336,8 @@
         "Số TC": "3",
         "DKTQ": "Vi mô 1; Vi mô 2; Vĩ mô 1",
         "Mã môn học": "KHMA04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "6",
@@ -2348,8 +2348,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "KHMI01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "7",
@@ -2360,8 +2360,8 @@
         "Số TC": "3",
         "DKTQ": "Toán cao cấp I, II và Kinh tế vi mô 1.",
         "Mã môn học": "KHMI03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "8",
@@ -2372,8 +2372,8 @@
         "Số TC": "3",
         "DKTQ": "Toán cao cấp, Xác suất thống kê, Kinh tế lượng, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2",
         "Mã môn học": "KHPD13",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "9",
@@ -2384,8 +2384,8 @@
         "Số TC": "4",
         "DKTQ": "Toán cao cấp, Xác suất thống kê, Kinh tế lượng, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2",
         "Mã môn học": "KHPD14",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "10",
@@ -2396,8 +2396,8 @@
         "Số TC": "3",
         "DKTQ": "Toán cao cấp, Xác suất thống kê, Kinh tế lượng, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô.",
         "Mã môn học": "KHPD15",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "11",
@@ -2408,8 +2408,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô 1, kinh tế vĩ mô 2, kinh tế lượng",
         "Mã môn học": "KHPT12",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "12",
@@ -2420,8 +2420,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô 1, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Kinh tế phát triển.",
         "Mã môn học": "KHTN01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "13",
@@ -2432,8 +2432,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế phát triển, Kinh tế vi mô, Kinh tế vĩ mô.",
         "Mã môn học": "KTKT08",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "14",
@@ -2444,8 +2444,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô - Xác suất thống kê - Lập và thẩm định dự án đầu tư",
         "Mã môn học": "KTPT16",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "15",
@@ -2456,8 +2456,8 @@
         "Số TC": "4",
         "DKTQ": "Các môn kinh tế vi mô, vĩ mô, kinh tế lượng, địa lý kinh tế.",
         "Mã môn học": "KTPT17",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "16",
@@ -2468,8 +2468,8 @@
         "Số TC": "3",
         "DKTQ": "Toán cao cấp, Xác suất thống kê, Kinh tế lượng, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô, Phân tích chi phí lợi ích.",
         "Mã môn học": "KTPT18",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "17",
@@ -2480,8 +2480,8 @@
         "Số TC": "3",
         "DKTQ": "Kế hoạch kinh doanh, Nghiên cứu thị trường, Kinh tế vi mô 1, Kinh tế vi mô 2.",
         "Mã môn học": "KTPT19",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "18",
@@ -2492,8 +2492,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế phát triển",
         "Mã môn học": "KTPT20",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "19",
@@ -2504,8 +2504,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô 1, Kinh tế vĩ mô 2, Kinh tế phát triển",
         "Mã môn học": "KTSN18",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "20",
@@ -2516,8 +2516,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế phát triển, Kinh tế phát triển so sánh, Kinh tế vĩ mô, Kinh tế vi mô, Kinh tế công cộng",
         "Mã môn học": "QHBV01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "21",
@@ -2528,8 +2528,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, kinh tế vĩ mô.",
         "Mã môn học": "QHĐL07",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "1",
@@ -2540,8 +2540,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô 1.",
         "Mã môn học": "CSCS11",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "2",
@@ -2552,8 +2552,8 @@
         "Số TC": "3",
         "DKTQ": "Quản trị học, Quản lý công.",
         "Mã môn học": "CSCT02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "3",
@@ -2564,8 +2564,8 @@
         "Số TC": "3",
         "DKTQ": "quản lý công, phân tích chính sách",
         "Mã môn học": "CSCX07",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "4",
@@ -2576,8 +2576,8 @@
         "Số TC": "3",
         "DKTQ": "Quản lý công; Marketing dich vụ công.",
         "Mã môn học": "CSDV04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "5",
@@ -2588,8 +2588,8 @@
         "Số TC": "2",
         "DKTQ": "Quản trị học, Quản lý công.",
         "Mã môn học": "CSHC05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "6",
@@ -2600,8 +2600,8 @@
         "Số TC": "3",
         "DKTQ": "Marketing căn bản",
         "Mã môn học": "CSMR08",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "7",
@@ -2612,8 +2612,8 @@
         "Số TC": "3",
         "DKTQ": "Sinh viên đã được học môn Quản lý công, Hành chính công",
         "Mã môn học": "CSNL09",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "8",
@@ -2624,8 +2624,8 @@
         "Số TC": "3",
         "DKTQ": "Chính sách công",
         "Mã môn học": "CSPT11",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "9",
@@ -2636,8 +2636,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô, hành chính công, quản trị chiến lược",
         "Mã môn học": "CSQL11",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "10",
@@ -2648,8 +2648,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô 1,2 Kinh tế vi mô, Chính sách công",
         "Mã môn học": "CSQL13",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "11",
@@ -2660,8 +2660,8 @@
         "Số TC": "3",
         "DKTQ": "Quản lý công",
         "Mã môn học": "CSTC14",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "12",
@@ -2672,8 +2672,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô 1,2, Kinh tế vi mô, Chính sách công, Quản lý công",
         "Mã môn học": "CSTN01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "13",
@@ -2684,8 +2684,8 @@
         "Số TC": "3",
         "DKTQ": "Quản trị chiến lược, Quản lý công",
         "Mã môn học": "CSTN02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "14",
@@ -2696,8 +2696,8 @@
         "Số TC": "3",
         "DKTQ": "Quản lý công",
         "Mã môn học": "CSVH16",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "15",
@@ -2708,8 +2708,8 @@
         "Số TC": "3",
         "DKTQ": "Triết học/nguyên lý, phương pháp nghiên cứu khoa học, nguyên lý thống kê",
         "Mã môn học": "CSXH02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "16",
@@ -2720,8 +2720,8 @@
         "Số TC": "3",
         "DKTQ": "Toán xác xuất thống kê; Kinh tế lượng; Kinh tế vi mô 1; Kinh tế vĩ mô 2; Phân tích và dự báo kinh tế vĩ mô.",
         "Mã môn học": "PPNC01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "17",
@@ -2732,8 +2732,8 @@
         "Số TC": "3",
         "DKTQ": "Quản trị học, Quản lý nguồn nhân lực",
         "Mã môn học": "QTOB01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "1",
@@ -2744,8 +2744,8 @@
         "Số TC": "3",
         "DKTQ": "Môn Tài chính doanh nghiệp; - Môn Lý thuyết Tài chính - Tiền tệ; - Môn Thị trường chứng khoán; - Môn Nguyên lý đầu tư.",
         "Mã môn học": "ĐTPS01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "2",
@@ -2756,8 +2756,8 @@
         "Số TC": "3",
         "DKTQ": "Lý thuyết tài chính tiền tệ.",
         "Mã môn học": "NHTM02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "3",
@@ -2768,8 +2768,8 @@
         "Số TC": "3",
         "DKTQ": "",
         "Mã môn học": "QTMC04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "4",
@@ -2780,8 +2780,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô 1. Lý thuyết Tài chính tiền tệ.",
         "Mã môn học": "TCBH01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "5",
@@ -2792,8 +2792,8 @@
         "Số TC": "3",
         "DKTQ": "Tài chính doanh nghiệp, Thị trường chứng khoán",
         "Mã môn học": "TCCK06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "6",
@@ -2804,8 +2804,8 @@
         "Số TC": "3",
         "DKTQ": "Tài chính doanh nghiệp, Kinh tế vĩ mô",
         "Mã môn học": "TCCK25",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "7",
@@ -2816,8 +2816,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô, Lý thuyết tài chính tiền tệ, kinh tế công cộng.",
         "Mã môn học": "TCCO21",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "8",
@@ -2828,8 +2828,8 @@
         "Số TC": "3",
         "DKTQ": "Môn Kinh tế vi mô; - Môn Kinh tế vĩ mô; - Môn Nguyên lý kế toán; - Môn Lý thuyết Tài chính - Tiền tệ.",
         "Mã môn học": "TCDCN03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "9",
@@ -2840,8 +2840,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý Kế toán, Tài chính Doanh nghiệp",
         "Mã môn học": "TCĐG01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "10",
@@ -2852,8 +2852,8 @@
         "Số TC": "3",
         "DKTQ": "Lý thuyết Tài chính tiền tệ; - Nguyên lý kế toán; - Kinh tế vĩ mô; - Kinh tế vi mô, - Thị trường chứng khoán, - Tài chính doanh nghiệp",
         "Mã môn học": "TCDN22",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "11",
@@ -2864,8 +2864,8 @@
         "Số TC": "0",
         "DKTQ": "Lý thuyết Tài chính tiền tệ; - Nguyên lý kế toán; - Kinh tế vĩ mô; - Kinh tế vi mô, - Thị trường chứng khoán, - Tài chính doanh nghiệp",
         "Mã môn học": "TCPT08",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "12",
@@ -2876,8 +2876,8 @@
         "Số TC": "3",
         "DKTQ": "Lý thuyết tài chính tiền tệ, Ngân hàng thương mại.",
         "Mã môn học": "TCTD01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "13",
@@ -2888,8 +2888,8 @@
         "Số TC": "3",
         "DKTQ": "Lý thuyết tài chính tiền tệ.",
         "Mã môn học": "TCTH11",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "14",
@@ -2900,8 +2900,8 @@
         "Số TC": "3",
         "DKTQ": "Môn Kinh tế vi mô - Môn Lý thuyết tài chính tiền tệ - Môn Nguyên lý kế toán - Môn Tài Chính Doanh Nghiệp",
         "Mã môn học": "TCTN01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "15",
@@ -2912,8 +2912,8 @@
         "Số TC": "3",
         "DKTQ": "Sinh viên đã hoàn thành tất cả các môn học theo yêu cầu của hệ thống tín chỉ",
         "Mã môn học": "TCTN02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "16",
@@ -2924,8 +2924,8 @@
         "Số TC": "3",
         "DKTQ": "Sinh viên đã được học các môn như Kinh tế vi mô, Kinh tế vĩ mô.",
         "Mã môn học": "TCTT02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "17",
@@ -2936,8 +2936,8 @@
         "Số TC": "3",
         "DKTQ": "Sinh viên đã được học các môn Lý thuyết tài chính tiền tệ, Kinh tế vĩ mô, Ngân hàng thương mại",
         "Mã môn học": "TCTW02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "18",
@@ -2948,8 +2948,8 @@
         "Số TC": "3",
         "DKTQ": "Tài chính đầu tư",
         "Mã môn học": "TĐTC01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "19",
@@ -2960,8 +2960,8 @@
         "Số TC": "3",
         "DKTQ": "Môn Tài chính doanh nghiệp; - Môn Nguyên lý thẩm định giá.",
         "Mã môn học": "TĐTC02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "20",
@@ -2972,8 +2972,8 @@
         "Số TC": "3",
         "DKTQ": "Tài chính đầu tư",
         "Mã môn học": "TĐTC03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "21",
@@ -2984,8 +2984,8 @@
         "Số TC": "3",
         "DKTQ": "Tài chính đầu tư",
         "Mã môn học": "TĐTC04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "22",
@@ -2996,8 +2996,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý thẩm đinh giá",
         "Mã môn học": "TĐTC05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "23",
@@ -3008,8 +3008,8 @@
         "Số TC": "3",
         "DKTQ": "Tài chính đầu tư",
         "Mã môn học": "TĐTC06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "1",
@@ -3020,8 +3020,8 @@
         "Số TC": "3",
         "DKTQ": "Kế toán quản trị 1",
         "Mã môn học": "ACAD07",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "2",
@@ -3032,8 +3032,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, kinh tế vĩ mô, Tài chính doanh nghiệp, Nguyên lý kế toán",
         "Mã môn học": "ACBG03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "3",
@@ -3044,8 +3044,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán",
         "Mã môn học": "ACCO05",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "4",
@@ -3056,8 +3056,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính 1, Kế toán tài chính 2",
         "Mã môn học": "ACFI07",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "5",
@@ -3068,8 +3068,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô.",
         "Mã môn học": "ACIF02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "6",
@@ -3080,8 +3080,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Dự toán xây dựng cơ bản, Kiểm toán căn bản, kế toán tài chính, kế toán quản trị.",
         "Mã môn học": "ACOD06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "7",
@@ -3092,8 +3092,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính 1 Các môn học song hành : Kế toán tài chính 2",
         "Mã môn học": "ACST01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "8",
@@ -3104,8 +3104,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính Các môn học song hành : Kế toán tài chính 2",
         "Mã môn học": "KETN01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "9",
@@ -3116,8 +3116,8 @@
         "Số TC": "3",
         "DKTQ": "Kiểm toán căn bản, Kế toán tài chính",
         "Mã môn học": "KITN02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "10",
@@ -3128,8 +3128,8 @@
         "Số TC": "3",
         "DKTQ": "Sinh viên cần có kiến thức của các học phần Nguyên lý kế toán và Kế toán tài chính 1 để có thể hiểu được các khái niệm trong học phần Kiểm toán căn bản.",
         "Mã môn học": "KTCB01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "11",
@@ -3140,8 +3140,8 @@
         "Số TC": "3",
         "DKTQ": "Sinh viên cần có kiến thức của học phần Kiểm toán căn bản và Kiểm toán tài chính để có thể hiểu được các khái niệm trong học phần Kiểm toán nội bộ.",
         "Mã môn học": "KTNB01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "12",
@@ -3152,8 +3152,8 @@
         "Số TC": "3",
         "DKTQ": "Sinh viên đã được học các môn: Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô, Nguyên lý kế toán, Kế toán tài chính, Quản trị ngân hàng thương mại.",
         "Mã môn học": "KTNH01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "13",
@@ -3164,8 +3164,8 @@
         "Số TC": "3",
         "DKTQ": "Sinh viên đã được học các môn: Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô, Nguyên lý kế toán, Kế toán tài chính, Quản trị ngân hàng thương mại.",
         "Mã môn học": "KTTC02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "14",
@@ -3176,8 +3176,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, kế toán tài chính 1, kế toán tài chính 2, Thuế.",
         "Mã môn học": "KTTH01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "15",
@@ -3188,8 +3188,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô, Nguyên lý kế toán, Kế toán tài chính, tài chính công.",
         "Mã môn học": "TCHC08",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "16",
@@ -3200,8 +3200,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Tài chính doanh nghiệp, Lý thuyết tài chính tiền tệ",
         "Mã môn học": "TCKH04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "17",
@@ -3212,8 +3212,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô.",
         "Mã môn học": "TCKQ01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "18",
@@ -3224,8 +3224,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, triết học",
         "Mã môn học": "TCKT01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "19",
@@ -3236,8 +3236,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính, kế toán quản trị",
         "Mã môn học": "TCKT22",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "20",
@@ -3248,8 +3248,8 @@
         "Số TC": "3",
         "DKTQ": "Kế toán tài chính 1",
         "Mã môn học": "TCKT29",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "21",
@@ -3260,8 +3260,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính 1 Các môn học song hành : Kế toán tài chính 2, Chuẩn mực kế toán quốc tế và Việt Nam",
         "Mã môn học": "TCKT30",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "22",
@@ -3272,8 +3272,8 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô, Nguyên lý kế toán, Kế toán tài chính, tài chính công.",
         "Mã môn học": "TCKT31",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "23",
@@ -3284,8 +3284,8 @@
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính, Thuế.",
         "Mã môn học": "TCTH01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "1",
@@ -3296,8 +3296,8 @@
         "Số TC": "3",
         "DKTQ": "Students are expected to have taken the following courses prior to taking this course - Corporate finance - Financial and monetary policy - Financial market and institution",
         "Mã môn học": "CLCBH26",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "2",
@@ -3308,8 +3308,8 @@
         "Số TC": "3",
         "DKTQ": "Corporate finance - Financial and monetary policy - Financial market and institution",
         "Mã môn học": "CLCCK27",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "3",
@@ -3320,8 +3320,8 @@
         "Số TC": "3",
         "DKTQ": "Introduction of Management",
         "Mã môn học": "CLCCL06",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "4",
@@ -3332,8 +3332,8 @@
         "Số TC": "3",
         "DKTQ": "Corporate finance - Financial and monetary policy - Financial market and institution",
         "Mã môn học": "CLCCN32",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "5",
@@ -3344,8 +3344,8 @@
         "Số TC": "3",
         "DKTQ": "Introduction to Business  International Trade  Microeconomics 1&2",
         "Mã môn học": "CLCCU07",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "6",
@@ -3356,8 +3356,8 @@
         "Số TC": "3",
         "DKTQ": "Corporate Finance",
         "Mã môn học": "CLCDG28",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "7",
@@ -3368,8 +3368,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "CLCDP08",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "8",
@@ -3380,8 +3380,8 @@
         "Số TC": "3",
         "DKTQ": "Corporate finance Stock market Principles of investment",
         "Mã môn học": "CLCDS25",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "9",
@@ -3392,8 +3392,8 @@
         "Số TC": "3",
         "DKTQ": "Macroeconomics 1&2; International Marketing; International Finance",
         "Mã môn học": "CLCDT09",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "10",
@@ -3404,8 +3404,8 @@
         "Số TC": "3",
         "DKTQ": "Microeconomics 1/ Introduction to Management/ Introduction to Business",
         "Mã môn học": "CLCHV12",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "11",
@@ -3416,8 +3416,8 @@
         "Số TC": "3",
         "DKTQ": "Corporate finance and Principles of investment",
         "Mã môn học": "CLCHV33",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "12",
@@ -3428,8 +3428,8 @@
         "Số TC": "3",
         "DKTQ": "Microeconomics I, Macroeconomics I",
         "Mã môn học": "CLCKD03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "13",
@@ -3440,8 +3440,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "CLCKD17",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "14",
@@ -3452,8 +3452,8 @@
         "Số TC": "3",
         "DKTQ": "",
         "Mã môn học": "CLCLV14",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "15",
@@ -3464,8 +3464,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "CLCLV14",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "16",
@@ -3476,8 +3476,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "CLCMR01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "17",
@@ -3488,8 +3488,8 @@
         "Số TC": "3",
         "DKTQ": "Corporate finance, Financial markets and institutions, Principles of Investment",
         "Mã môn học": "CLCPS34",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "18",
@@ -3500,8 +3500,8 @@
         "Số TC": "3",
         "DKTQ": "Corporate finance, Financial markets and institutions, Principles of Investment",
         "Mã môn học": "CLCPS34",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "19",
@@ -3512,8 +3512,8 @@
         "Số TC": "3",
         "DKTQ": "Không",
         "Mã môn học": "CLCQH15",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "20",
@@ -3524,8 +3524,8 @@
         "Số TC": "3",
         "DKTQ": "Corporate Finance;  Financial markets and institutions.",
         "Mã môn học": "CLCRR31",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "21",
@@ -3536,8 +3536,8 @@
         "Số TC": "3",
         "DKTQ": "Principles of Accounting - Corporate Finance",
         "Mã môn học": "CLCTH16",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "22",
@@ -3548,8 +3548,8 @@
         "Số TC": "3",
         "DKTQ": "Corporate finance; Money, Banking & Financial Markets, Principles of accounting.",
         "Mã môn học": "CLCTN01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "23",
@@ -3560,8 +3560,8 @@
         "Số TC": "3",
         "DKTQ": "Corporate finance and International finance",
         "Mã môn học": "CLCTN02",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "24",
@@ -3572,8 +3572,8 @@
         "Số TC": "3",
         "DKTQ": "International Marketing and Principles of Marketing",
         "Mã môn học": "CLCTN03",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "25",
@@ -3584,8 +3584,8 @@
         "Số TC": "3",
         "DKTQ": "Tin học đại cương.",
         "Mã môn học": "CLCTT11",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "26",
@@ -3596,8 +3596,8 @@
         "Số TC": "3",
         "DKTQ": "Microeconomics I  Macroeconomics I",
         "Mã môn học": "CLCTT23",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "27",
@@ -3608,8 +3608,8 @@
         "Số TC": "3",
         "DKTQ": "Money, Banking and Financial markets;  Corporate finance",
         "Mã môn học": "CLCTTTC01",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "28",
@@ -3620,8 +3620,8 @@
         "Số TC": "3",
         "DKTQ": "Corporate finance  Stock market  Principles of investment",
         "Mã môn học": "ĐTDM04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "29",
@@ -3632,8 +3632,8 @@
         "Số TC": "3",
         "DKTQ": "Corporate finance  Stock market  Principles of investment",
         "Mã môn học": "ĐTDM04",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "30",
@@ -3644,8 +3644,8 @@
         "Số TC": "3",
         "DKTQ": "Corporate finance, Financial markets and institutions",
         "Mã môn học": "TCĐT09",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     },
     {
         "STT": "31",
@@ -3656,7 +3656,7 @@
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô I, Lý thuyết tài chính tiền tệ, Tài chính doanh nghiệp.",
         "Mã môn học": "TCQT12",
-        "Tóm tắt": "Xem tóm tắt",
-        "Xem chi tiết": "Xem chi tiết"
+        "TomTat": "Xem TomTat",
+        "ChiTiet": "ChiTiet"
     }
 ]

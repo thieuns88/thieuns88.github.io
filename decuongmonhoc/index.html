@@ -101,6 +101,78 @@
 						</tbody>
 					</table>
 				</div>
+				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+						<div class="modal-content">
+							<div class="modal-header">
+							  <h5 class="modal-title" id="exampleModalLabel">Tóm tắt học phần</h5>
+							  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+							<div class="modal-body">
+							  <!-- <div class="row">
+								<div class="col-4">
+									Bộ môn:
+								</div>
+								<div class="col-8">
+									
+								</div>
+							  </div>
+							  <div class="row">
+								<div class="col-4">
+									Tên tiếng Việt:
+								</div>
+								<div class="col-8">
+									
+								</div>
+							  </div>
+							  <div class="row">
+								<div class="col-4">
+									Tên tiếng Anh:
+								</div>
+								<div class="col-8">
+									
+								</div>
+							  </div>
+							  <div class="row">
+								<div class="col-4">
+									Số TC:
+								</div>
+								<div class="col-8">
+									
+								</div>
+							  </div>
+							  <div class="row">
+								<div class="col-4">
+									DKTQ:
+								</div>
+								<div class="col-8">
+									
+								</div>
+							  </div>
+							  <div class="row">
+								<div class="col-4">
+									Mã môn học:
+								</div>
+								<div class="col-8">
+									
+								</div>
+							  </div> -->
+							  <div class="row">
+								<div class="col-4">
+									<p id="tthp"></p>
+								</div>
+								<div class="col-8">
+									
+								</div>
+							  </div>
+							</div>
+							<div class="modal-footer">
+							  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+							  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+							</div>
+						  </div>
+					</div>
+				</div>
 			</div>
 		</div>
 
@@ -144,6 +216,14 @@
 	</div>
 	<script src="lib/bootstrap.bundle.min.js"></script>
 	<script language="javascript">
+		
+
+
+		function passData(){
+			let tomtatid = document.getElementById('tthp');
+			console.log(tomtatid);
+			tomtatid.innerHTML ='abc';
+		}
 		function filterdata() {
 			var e = document.getElementById("input6");
 			var value = e.value;
@@ -160,11 +240,20 @@
 							return i.MaBoMon === value;
 						});
 					}
+					
+					for (let i=0; i < result.length; i++) {
+						// result[i].xemtomtat = '<a href="javascript:openModal(result[i]);">Xem tóm tắt</a>';
+						// result[i].xemtomtat = '<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Xem tóm tắt</button>';
+						result[i].xemtomtat = '<a href="javascript:passData();" data-bs-toggle="modal" data-bs-target="#exampleModal">Xem tóm tắt</a>';
+						result[i].xemchitiet = '<a href="#">Xem chi tiết</a>';
+					} 
+					let result2=result;
+
 					$("#myTable").dataTable().fnDestroy();
 					
 					$('#myTable').DataTable(
 					{
-						data: result,
+						data: result2,
 						paging: true,
 						"columns": [
 							{ "data": "STT" },
@@ -175,8 +264,8 @@
 							{ "data": "Số TC" },
 							// { "data": "DKTQ" },
 							{ "data": "Mã môn học" },
-							{ "data": "TomTat" },
-							{ "data": "ChiTiet" }]
+							{ "data": "xemtomtat" },
+							{ "data": "xemchitiet" }]
 					}
 				);
 

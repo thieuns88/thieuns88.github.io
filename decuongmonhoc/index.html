@@ -1,0 +1,223 @@
+﻿<!DOCTYPE html>
+<html lang="vi-VN">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>APD - Đề cương môn học</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+	<link href="lib/DataTables/datatables.min.css" rel="stylesheet">
+
+	<script src="lib/DataTables/datatables.min.js"></script>
+	<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+	<div id="wrapper" class="container">
+		<div id="banner">
+			<a href="http://apd.edu.vn" class="mLogo">
+				<img src="http://apd.edu.vn/o/apd/images/custom-images/banners/banner-chung.gif" class="">
+			</a>
+		</div>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid">
+				<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="http://apd.edu.vn">Trang chủ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Đề cương môn học</a>
+						</li>
+
+				</div>
+			</div>
+		</nav>
+		<div id="content">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-12 pb-3">
+						<p class="text-center">
+						<h2 class="uppercase text-primary">
+							<i class="fa fa-book" aria-hidden="true"></i> TÌM KIẾM ĐỀ CƯƠNG MÔN HỌC
+						</h2>
+						</p>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<div class="col-6 pb-3 align-self-center">
+						<div class="input-group mb-3 ">
+							<!-- <input type="text" class="form-control" id="timkiem" size="100"
+								aria-label="Nhập tên học phần" placeholder="Nhập tên học phần"> -->
+							<select class="form-select" id="input6" aria-label="Chọn đơn vị">
+								<option value="0" selected>Tất cả</option>
+								<option value="DT">Bộ môn Đấu thầu</option>
+								<option value="QH">Bộ môn Đầu tư</option>
+								<option value="TH">Bộ môn lý luận chính trị</option>
+								<option value="NN">Bộ môn Ngoại ngữ</option>
+								<option value="GD">Giáo dục thể chất và quốc phòng</option>
+								<option value="LU">Khoa Luật kinh tế</option>
+								<option value="KTS">Khoa Kinh tế số</option>
+								<option value="DN">Khoa Kinh tế quốc tế</option>
+								<option value="QT">Khoa Quản trị kinh doanh</option>
+								<option value="KH">Khoa Kinh tế phát triển</option>
+								<option value="CS">Khoa Chính sách công</option>
+								<option value="TC">Khoa Tài chính - Đầu tư</option>
+								<option value="KTKT">Khoa Kế toán - Kiểm toán</option>
+								<option value="CLC">Viện Đào tạo quốc tế</option>
+							</select>
+							<a class="btn btn-primary" href="javascript:filterdata();" role="button">Tìm kiếm</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<table id="myTable" class="table cell-border hover" style="width:100%" >
+						<thead>
+							<tr class="table-primary">
+								<th align="center">STT</th>
+								<!-- <th align="center" style="width:100px;">Mã bộ môn</th> -->
+								<th align="center" >Tên đơn vị</th>
+								<th align="center" >Tên tiếng Việt</th>
+								<th align="center" >Tên tiếng anh</th>
+								<th align="center" >Số TC</th>
+								<!-- <th align="center" >DKTQ</th> -->
+								<th align="center">Mã môn học</th>
+								<th align="center" >Tóm tắt</th>
+								<th align="center" >Xem chi tiết</th>
+							</tr>
+						</thead>
+						<tbody>
+
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<div id="footer">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="copyright">© Bản quyền thuộc về Học viện Chính sách &amp; Phát triển - Bộ Kế hoạch và
+						Đầu tư</div>
+					<p class="address"><i class="fa fa-map-marker"></i> Khu đô thị Nam An Khánh - An Thượng - Hoài Đức -
+						Hà Nội</p>
+					<p class="phone"><i class="fa fa-phone"></i> (024) 3747 3186 <i class="fa fa-fax"></i> (024) 3747
+						5217</p>
+				</div>
+				<div class="col-lg-4">
+					<div class="icon-group">
+						<a href="https://www.facebook.com/HocvienCSPT" target="_blank"><i
+								class="fa fa-facebook"></i></a>
+						<a href="https://www.instagram.com/explore/locations/979023372/hoc-vien-chinh-sach-va-phat-trien/"
+							target="_blank"><i class="fa fa-instagram"></i></a>
+						<a href="https://www.youtube.com/channel/UCN_NK8XmYXaY1uKcRmRAj8Q" target="_blank"><i
+								class="fa fa-youtube"></i></a>
+					</div>
+					<div class="developer">
+						<span>Designed and Developed by <a href="https://beacons.ai/thieuns">Thieu Nguyen</a></span>
+					</div>
+					<div class="visitor-tracking-wraper">
+						<div class="current-visitor-online">
+							<span class="tracking-label">Số lượng online: </span>
+							<span class="tracking-value">2059</span>
+						</div>
+						<div class="total-visitor">
+							<span class="tracking-label">Số lượng truy cập: </span>
+							<span class="tracking-value">36515888</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<script src="lib/bootstrap.bundle.min.js"></script>
+	<script language="javascript">
+		function filterdata() {
+			var e = document.getElementById("input6");
+			var value = e.value;
+			// var text = e.options[e.selectedIndex].text;
+			$.ajax({
+				url: "data/dat.json",
+				dataType: "json",
+				type: "get",
+				cache: false,
+				success: function (obj) {
+					let result = obj;
+					if (value!=="0") {
+						result = obj.filter(function (i, n) {
+							return i.MaBoMon === value;
+						});
+					}
+					$("#myTable").dataTable().fnDestroy();
+					
+					$('#myTable').DataTable(
+					{
+						data: result,
+						paging: true,
+						"columns": [
+							{ "data": "STT" },
+							// { "data": "MaBoMon" },
+							{ "data": "Tên bộ môn" },
+							{ "data": "Tên tiếng Việt" },
+							{ "data": "Tên tiếng anh" },
+							{ "data": "Số TC" },
+							// { "data": "DKTQ" },
+							{ "data": "Mã môn học" },
+							{ "data": "Tóm tắt" },
+							{ "data": "Xem chi tiết" }]
+					}
+				);
+
+					// $(json).each(function (i, data) {
+
+					// 	let key = "value";
+					// 	let value = "#00f";
+					// 	let result = data.filter(d => d[key] == value);
+					// 	console.log(result)
+
+
+					// });
+				}
+			})
+		}
+		// $(document).ready(function () {
+		// 	let dat = [];
+		// 	$.getJSON("data/dat.json", function (json) {
+		// 		dat = json;
+		// 		// console.log(dat);
+		// 		$('#myTable').DataTable(
+		// 			{
+		// 				data: dat,
+		// 				"columns": [
+		// 					{ "data": "STT" },
+		// 					// { "data": "MaBoMon" },
+		// 					{ "data": "Tên bộ môn" },
+		// 					{ "data": "Tên tiếng Việt" },
+		// 					{ "data": "Tên tiếng anh" },
+		// 					{ "data": "Số TC" },
+		// 					// { "data": "DKTQ" },
+		// 					{ "data": "Mã môn học" },
+		// 					{ "data": "Tóm tắt" },
+		// 					{ "data": "Xem chi tiết" }]
+		// 			}
+		// 		);
+		// 	});
+			
+
+		// });
+	</script>
+</body>
+
+</html>

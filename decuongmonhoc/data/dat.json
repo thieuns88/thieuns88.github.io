@@ -7,7 +7,7 @@
         "Tên tiếng anh": "Project Surveying and Assessment",
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
-        "Mã môn học": "ĐTĐG01",
+        "MaMonHoc": "ĐTĐG01",
         "TomTat": "Học phần này được thiết kế cho những sinh viên chuyên ngành Đấu thầu và Quản lý dự án, trên cơ sở đã có những kiến thức nhất định về đấu thầu. Nội dung chính của học phần Giám sát và Đánh giá dự án là trang bị thêm cho sinh những kỹ năng khi thực hiện giám sát một dự án, đánh giá dự án trong quá trình thực hiện và sau khi hoàn thành. Những kiến thức này được tổng kết, biên soạn dựa trên các văn bản pháp lý của Việt Nam trong lĩnh vực đấu thầu gồm Luật đấu thầu số 43, các nghị định và thông tư hướng dẫn thi hành Luật Đấu thầu và các văn bản quy phạm phát luật về Quản lý dự án.",
         "ChiTiet": "ChiTiet"
     },
@@ -19,7 +19,7 @@
         "Tên tiếng anh": "Procurement bidding 1",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "ĐTMS01",
+        "MaMonHoc": "ĐTMS01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -31,7 +31,7 @@
         "Tên tiếng anh": "Procurement bidding 2",
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
-        "Mã môn học": "ĐTMS02",
+        "MaMonHoc": "ĐTMS02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -43,7 +43,7 @@
         "Tên tiếng anh": "Advanced Procurement bidding 2",
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 2",
-        "Mã môn học": "ĐTMS02NC",
+        "MaMonHoc": "ĐTMS02NC",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -55,7 +55,7 @@
         "Tên tiếng anh": "Online bidding",
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
-        "Mã môn học": "ĐTQM",
+        "MaMonHoc": "ĐTQM",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -67,7 +67,7 @@
         "Tên tiếng anh": "Advanced Creating Bidding Documents",
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1, Đấu thầu mua sắm 2",
-        "Mã môn học": "ĐTTN03",
+        "MaMonHoc": "ĐTTN03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -79,7 +79,7 @@
         "Tên tiếng anh": "Contracts in Public Procurement",
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
-        "Mã môn học": "QLHĐ01",
+        "MaMonHoc": "QLHĐ01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -91,7 +91,7 @@
         "Tên tiếng anh": "Project investment in the form of public-private partnership",
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
-        "Mã môn học": "QLPP05",
+        "MaMonHoc": "QLPP05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -103,7 +103,7 @@
         "Tên tiếng anh": "Procurement of Consulting Services",
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
-        "Mã môn học": "QLPT06",
+        "MaMonHoc": "QLPT06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -115,7 +115,7 @@
         "Tên tiếng anh": "Procurement of Non-consulting Services",
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
-        "Mã môn học": "QLPT06",
+        "MaMonHoc": "QLPT06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -127,7 +127,7 @@
         "Tên tiếng anh": "Construction Procurement",
         "Số TC": "3",
         "DKTQ": "Đấu thầu mua sắm 1",
-        "Mã môn học": "QLXL10",
+        "MaMonHoc": "QLXL10",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -139,7 +139,7 @@
         "Tên tiếng anh": "Portfolio management",
         "Số TC": "3",
         "DKTQ": "Tài chính doanh nghiệp, Phân tích tài chính doanh nghiệp, Thị trường chứng khoán và Kinh tế đầu tư.",
-        "Mã môn học": "ĐTDM04",
+        "MaMonHoc": "ĐTDM04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -151,7 +151,7 @@
         "Tên tiếng anh": "Technical Analysis",
         "Số TC": "3",
         "DKTQ": "Nguyên lý thống kê kinh tế",
-        "Mã môn học": "ĐTKT02",
+        "MaMonHoc": "ĐTKT02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -163,7 +163,7 @@
         "Tên tiếng anh": "Derivatives",
         "Số TC": "3",
         "DKTQ": "Tài chính doanh nghiệp, Lý thuyết tài chính tiền tệ",
-        "Mã môn học": "ĐTPS01",
+        "MaMonHoc": "ĐTPS01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -175,7 +175,7 @@
         "Tên tiếng anh": "Risk management",
         "Số TC": "3",
         "DKTQ": "Kinh tế đầu tư, Thị trường chứng khoán",
-        "Mã môn học": "ĐTQL036",
+        "MaMonHoc": "ĐTQL036",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -187,7 +187,7 @@
         "Tên tiếng anh": "Advanced Economics of Investment",
         "Số TC": "3",
         "DKTQ": "Kinh tế đầu tư",
-        "Mã môn học": "ĐTTN01",
+        "MaMonHoc": "ĐTTN01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -199,7 +199,7 @@
         "Tên tiếng anh": "Apraisal of Investment Project",
         "Số TC": "3",
         "DKTQ": "Thẩm định dự án đầu tư, Quản lý dự án đầu tư.",
-        "Mã môn học": "ĐTTN02",
+        "MaMonHoc": "ĐTTN02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -211,7 +211,7 @@
         "Tên tiếng anh": "Economics of Investment",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô 1, Kinh tế vĩ mô 1",
-        "Mã môn học": "KHĐT05",
+        "MaMonHoc": "KHĐT05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -223,7 +223,7 @@
         "Tên tiếng anh": "Economics of Investment",
         "Số TC": "2",
         "DKTQ": "Kinh tế vi mô 1, Kinh tế vĩ mô 1",
-        "Mã môn học": "KHĐT10",
+        "MaMonHoc": "KHĐT10",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -235,7 +235,7 @@
         "Tên tiếng anh": "Environmental Economics",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô 1",
-        "Mã môn học": "QHMT09",
+        "MaMonHoc": "QHMT09",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -247,7 +247,7 @@
         "Tên tiếng anh": "Investment Project Management",
         "Số TC": "3",
         "DKTQ": "Kinh tế đầu tư, Tài chính doanh nghiệp",
-        "Mã môn học": "QTĐT08",
+        "MaMonHoc": "QTĐT08",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -259,7 +259,7 @@
         "Tên tiếng anh": "Apraisal of Investment Project",
         "Số TC": "3",
         "DKTQ": "Kinh tế đầu tư, Tài chính doanh nghiệp",
-        "Mã môn học": "TCĐT17",
+        "MaMonHoc": "TCĐT17",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -271,7 +271,7 @@
         "Tên tiếng anh": "Scientific Socialism",
         "Số TC": "2",
         "DKTQ": "Sinh viên phải học trước học phần Triết học Mác-Lênin, Kinh tế chính trị Mác – Lênin.",
-        "Mã môn học": "THCN06",
+        "MaMonHoc": "THCN06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -283,7 +283,7 @@
         "Tên tiếng anh": "Scientific Socialism",
         "Số TC": "3",
         "DKTQ": "Sinh viên phải học trước học phần Triết học MácLênin, Kinh tế chính trị Mác – Lênin.",
-        "Mã môn học": "THCN09",
+        "MaMonHoc": "THCN09",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -295,7 +295,7 @@
         "Tên tiếng anh": "Political economics of Marxism and Leninism",
         "Số TC": "2",
         "DKTQ": "Kinh tế chính trị Mác - Lênin",
-        "Mã môn học": "THKT05",
+        "MaMonHoc": "THKT05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -307,7 +307,7 @@
         "Tên tiếng anh": "Political economics of Marxism and Leninism",
         "Số TC": "3",
         "DKTQ": "Kinh tế chính trị Mác - Lênin",
-        "Mã môn học": "THKT08",
+        "MaMonHoc": "THKT08",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -319,7 +319,7 @@
         "Tên tiếng anh": "Viet Nam Communist Party History",
         "Số TC": "2",
         "DKTQ": "Sinh viên phải học các môn Triết học, Kinh tế chính trị, Chủ nghĩa xã hội khoa học, Tư tưởng Hồ Chí Minh trước",
-        "Mã môn học": "THLĐ07",
+        "MaMonHoc": "THLĐ07",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -331,7 +331,7 @@
         "Tên tiếng anh": "Philosophy of Marxism-Leninism",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "THML04",
+        "MaMonHoc": "THML04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -343,7 +343,7 @@
         "Tên tiếng anh": "Hồ Chí Minh Thought",
         "Số TC": "2",
         "DKTQ": "Sinh viên phải học xong học phần Triết học Mác –Lênin, Kinh tế chính trị Mác –Lênin, Chủ nghĩa xã hội khoa học.",
-        "Mã môn học": "THTT02",
+        "MaMonHoc": "THTT02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -355,7 +355,7 @@
         "Tên tiếng anh": "Hồ Chí Minh Thought",
         "Số TC": "3",
         "DKTQ": "Sinh viên phải học xong học phần Triết học Mác – Lênin, Kinh tế chính trị Mác –Lênin, Chủ nghĩa xã hội khoa học.",
-        "Mã môn học": "THTT03",
+        "MaMonHoc": "THTT03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -367,7 +367,7 @@
         "Tên tiếng anh": "",
         "Số TC": "6",
         "DKTQ": "Thi đầu vào đạt mức điểm IELTS ~ 3.5",
-        "Mã môn học": "NNIL1.1",
+        "MaMonHoc": "NNIL1.1",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -379,7 +379,7 @@
         "Tên tiếng anh": "",
         "Số TC": "6",
         "DKTQ": "IELTS 1",
-        "Mã môn học": "NNIL1.2",
+        "MaMonHoc": "NNIL1.2",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -391,7 +391,7 @@
         "Tên tiếng anh": "IELTS Intermediate Level (Bands: 5.0 – 6.0)",
         "Số TC": "6",
         "DKTQ": "IELTS 2- band 4.5 – 5.0",
-        "Mã môn học": "NNIL1.3",
+        "MaMonHoc": "NNIL1.3",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -403,7 +403,7 @@
         "Tên tiếng anh": "IELT 1.4 Intermediate Level (Bands: 6.0 – 6.5)",
         "Số TC": "6",
         "DKTQ": "IELTS 3 (Band 5.0-6.0)",
-        "Mã môn học": "NNIL1.4",
+        "MaMonHoc": "NNIL1.4",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -415,7 +415,7 @@
         "Tên tiếng anh": "Business English",
         "Số TC": "3",
         "DKTQ": "Sinh viên đã học xong chương trình Tiếng Anh Tồng quát 04",
-        "Mã môn học": "NNKD05",
+        "MaMonHoc": "NNKD05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -427,7 +427,7 @@
         "Tên tiếng anh": "Phonetics and Phonology",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "NNTA01",
+        "MaMonHoc": "NNTA01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -439,7 +439,7 @@
         "Tên tiếng anh": "Grammar",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "NNTA02",
+        "MaMonHoc": "NNTA02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -451,7 +451,7 @@
         "Tên tiếng anh": "English - Listening Skill 1 English – Speaking skill",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "NNTA03",
+        "MaMonHoc": "NNTA03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -463,7 +463,7 @@
         "Tên tiếng anh": "English - Speaking Skill 1",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "NNTA04",
+        "MaMonHoc": "NNTA04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -475,7 +475,7 @@
         "Tên tiếng anh": "English - Reading Skill 1",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "NNTA05",
+        "MaMonHoc": "NNTA05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -487,7 +487,7 @@
         "Tên tiếng anh": "English – Writing skill 1",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "NNTA06",
+        "MaMonHoc": "NNTA06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -499,7 +499,7 @@
         "Tên tiếng anh": "Cross-cultural communication",
         "Số TC": "2",
         "DKTQ": "Cơ sở văn hóa Việt Nam",
-        "Mã môn học": "NNTA07",
+        "MaMonHoc": "NNTA07",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -511,7 +511,7 @@
         "Tên tiếng anh": "General Linguistics",
         "Số TC": "2",
         "DKTQ": "Cơ sở văn hóa Việt Nam",
-        "Mã môn học": "NNTA08",
+        "MaMonHoc": "NNTA08",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -523,7 +523,7 @@
         "Tên tiếng anh": "Contrastive linguistics",
         "Số TC": "2",
         "DKTQ": "Không",
-        "Mã môn học": "NNTA09",
+        "MaMonHoc": "NNTA09",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -535,7 +535,7 @@
         "Tên tiếng anh": "Vietnamese in use",
         "Số TC": "2",
         "DKTQ": "Không",
-        "Mã môn học": "NNTA10",
+        "MaMonHoc": "NNTA10",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -547,7 +547,7 @@
         "Tên tiếng anh": "Discourse Analysis",
         "Số TC": "2",
         "DKTQ": "Không",
-        "Mã môn học": "NNTA11",
+        "MaMonHoc": "NNTA11",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -559,7 +559,7 @@
         "Tên tiếng anh": "English - Listening Skill 2",
         "Số TC": "3",
         "DKTQ": "Thực hành tiếng 1 - Nghe",
-        "Mã môn học": "NNTA12",
+        "MaMonHoc": "NNTA12",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -571,7 +571,7 @@
         "Tên tiếng anh": "English - Speaking Skill 2",
         "Số TC": "3",
         "DKTQ": "Thực hành tiếng 1 - Nói",
-        "Mã môn học": "NNTA13",
+        "MaMonHoc": "NNTA13",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -583,7 +583,7 @@
         "Tên tiếng anh": "English 2 - Reading Skills",
         "Số TC": "3",
         "DKTQ": "Thực hành tiếng 1 – Đọc",
-        "Mã môn học": "NNTA14",
+        "MaMonHoc": "NNTA14",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -595,7 +595,7 @@
         "Tên tiếng anh": "English – Writing skill 2",
         "Số TC": "3",
         "DKTQ": "Thực hành viết 2",
-        "Mã môn học": "NNTA15",
+        "MaMonHoc": "NNTA15",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -607,7 +607,7 @@
         "Tên tiếng anh": "English - Integrated Skills 1",
         "Số TC": "3",
         "DKTQ": "Sinh viên đã học xong chương trình Tiếng Anh học thuật",
-        "Mã môn học": "NNTA16",
+        "MaMonHoc": "NNTA16",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -619,7 +619,7 @@
         "Tên tiếng anh": "English – Integrated Skills 2",
         "Số TC": "3",
         "DKTQ": "Tiếng Anh thực hành 1 (English – Integrated Skills 1)",
-        "Mã môn học": "NNTA17",
+        "MaMonHoc": "NNTA17",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -631,7 +631,7 @@
         "Tên tiếng anh": "English – Integrated Skills 3",
         "Số TC": "3",
         "DKTQ": "Tiếng Anh thực hành 2 (English – Integrated Skills 2)",
-        "Mã môn học": "NNTA18",
+        "MaMonHoc": "NNTA18",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -643,7 +643,7 @@
         "Tên tiếng anh": "English - Integrated Skills 4",
         "Số TC": "3",
         "DKTQ": "Sinh viên đã học xong chương trình Thực hành tổng hợp 3",
-        "Mã môn học": "NNTA19",
+        "MaMonHoc": "NNTA19",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -655,7 +655,7 @@
         "Tên tiếng anh": "Culture of English Speaking Countries",
         "Số TC": "2",
         "DKTQ": "Tiếng Anh thực hành 2",
-        "Mã môn học": "NNTA24",
+        "MaMonHoc": "NNTA24",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -667,7 +667,7 @@
         "Tên tiếng anh": "Chinese 1",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "NNTT01",
+        "MaMonHoc": "NNTT01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -679,7 +679,7 @@
         "Tên tiếng anh": "Chinese 2",
         "Số TC": "3",
         "DKTQ": "Hoàn thành Ngoại ngữ cơ sở 1 – Tiếng Trung",
-        "Mã môn học": "NNTT02",
+        "MaMonHoc": "NNTT02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -691,7 +691,7 @@
         "Tên tiếng anh": "Chinese 3",
         "Số TC": "3",
         "DKTQ": "Hoàn thành Ngoại ngữ cơ sở 2 – Tiếng Trung",
-        "Mã môn học": "NNTT03",
+        "MaMonHoc": "NNTT03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -703,7 +703,7 @@
         "Tên tiếng anh": "",
         "Số TC": "2",
         "DKTQ": "",
-        "Mã môn học": "GDTC01",
+        "MaMonHoc": "GDTC01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -715,7 +715,7 @@
         "Tên tiếng anh": "",
         "Số TC": "2",
         "DKTQ": "",
-        "Mã môn học": "GDTC02",
+        "MaMonHoc": "GDTC02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -727,7 +727,7 @@
         "Tên tiếng anh": "",
         "Số TC": "2",
         "DKTQ": "",
-        "Mã môn học": "GDTC03",
+        "MaMonHoc": "GDTC03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -739,7 +739,7 @@
         "Tên tiếng anh": "",
         "Số TC": "2",
         "DKTQ": "",
-        "Mã môn học": "GDTC03",
+        "MaMonHoc": "GDTC03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -751,7 +751,7 @@
         "Tên tiếng anh": "Law and Public policy",
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật; Luật Hiến pháp, Chính sách công",
-        "Mã môn học": "LUCS03",
+        "MaMonHoc": "LUCS03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -763,7 +763,7 @@
         "Tên tiếng anh": "Legal Overview",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "LUĐC01",
+        "MaMonHoc": "LUĐC01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -775,7 +775,7 @@
         "Tên tiếng anh": "Economic Law",
         "Số TC": "3",
         "DKTQ": "háp luật đại cương",
-        "Mã môn học": "LUKT02",
+        "MaMonHoc": "LUKT02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -787,7 +787,7 @@
         "Tên tiếng anh": "Economic Law",
         "Số TC": "4",
         "DKTQ": "Không",
-        "Mã môn học": "LUKT06",
+        "MaMonHoc": "LUKT06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -799,7 +799,7 @@
         "Tên tiếng anh": "Constitutional Law",
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật.",
-        "Mã môn học": "LUKT07",
+        "MaMonHoc": "LUKT07",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -811,7 +811,7 @@
         "Tên tiếng anh": "Criminal Law",
         "Số TC": "3",
         "DKTQ": "Lý luận Nhà nước và Pháp luật.",
-        "Mã môn học": "LUKT08",
+        "MaMonHoc": "LUKT08",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -823,7 +823,7 @@
         "Tên tiếng anh": "Civil Law",
         "Số TC": "4",
         "DKTQ": "Những nguyên lý cơ bản của Chủ nghĩa Mác – Lênin 1 và 2; Lý luận về Nhà nước và Pháp luật; Luật Hiến pháp.",
-        "Mã môn học": "LUKT09",
+        "MaMonHoc": "LUKT09",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -835,7 +835,7 @@
         "Tên tiếng anh": "Administrative Law",
         "Số TC": "3",
         "DKTQ": "Lý luận nhà nước và pháp luật.",
-        "Mã môn học": "LUKT10",
+        "MaMonHoc": "LUKT10",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -847,7 +847,7 @@
         "Tên tiếng anh": "Law on Civil Procedures and Criminal Procedures",
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật; Luật Hình sự; Luật dân sự",
-        "Mã môn học": "LUKT11",
+        "MaMonHoc": "LUKT11",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -859,7 +859,7 @@
         "Tên tiếng anh": "Law on Enterprises",
         "Số TC": "3",
         "DKTQ": "Luật Dân sự.",
-        "Mã môn học": "LUKT12",
+        "MaMonHoc": "LUKT12",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -871,7 +871,7 @@
         "Tên tiếng anh": "Public International Law",
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật; Luật Hiến pháp.",
-        "Mã môn học": "LUKT13",
+        "MaMonHoc": "LUKT13",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -883,7 +883,7 @@
         "Tên tiếng anh": "International Private Law",
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật",
-        "Mã môn học": "LUKT14",
+        "MaMonHoc": "LUKT14",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -895,7 +895,7 @@
         "Tên tiếng anh": "Law in International Investment",
         "Số TC": "3",
         "DKTQ": "Luật Thương mại, Tư pháp quốc tế, Pháp luật đầu tư.",
-        "Mã môn học": "LUKT17",
+        "MaMonHoc": "LUKT17",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -907,7 +907,7 @@
         "Tên tiếng anh": "Law in Commerce",
         "Số TC": "3",
         "DKTQ": "Pháp luật doanh nghiệp",
-        "Mã môn học": "LUKT18",
+        "MaMonHoc": "LUKT18",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -919,7 +919,7 @@
         "Tên tiếng anh": "Law in International Commerce",
         "Số TC": "4",
         "DKTQ": "Pháp luật doanh nghiệp, Luật Thương mại, Công pháp quốc tế, Tư pháp quốc tế",
-        "Mã môn học": "LUKT19",
+        "MaMonHoc": "LUKT19",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -931,7 +931,7 @@
         "Tên tiếng anh": "Foreign Constitutional Law",
         "Số TC": "3",
         "DKTQ": "Những nguyên lý cơ bản của Chủ nghĩa Mác – Lênin 1 và 2; Lý luận về Nhà nước và Pháp luật; Luật Hiến pháp.",
-        "Mã môn học": "LUKT20",
+        "MaMonHoc": "LUKT20",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -943,7 +943,7 @@
         "Tên tiếng anh": "Law in ASEAN Community",
         "Số TC": "3",
         "DKTQ": "Những nguyên lý cơ bản của Chủ nghĩa Mác – Lênin 1 và 2; Lý luận về Nhà nước và Pháp luật.",
-        "Mã môn học": "LUKT21",
+        "MaMonHoc": "LUKT21",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -955,7 +955,7 @@
         "Tên tiếng anh": "Law on Finance and Banking",
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật, Luật dân sự, Luật thương mại.",
-        "Mã môn học": "LUKT22",
+        "MaMonHoc": "LUKT22",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -967,7 +967,7 @@
         "Tên tiếng anh": "Law on Competition",
         "Số TC": "3",
         "DKTQ": "Pháp luật doanh nghiệp, Luật Thương mại.",
-        "Mã môn học": "LUKT23",
+        "MaMonHoc": "LUKT23",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -979,7 +979,7 @@
         "Tên tiếng anh": "Labor Law",
         "Số TC": "3",
         "DKTQ": "Pháp luật dân sự",
-        "Mã môn học": "LUKT24",
+        "MaMonHoc": "LUKT24",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -991,7 +991,7 @@
         "Tên tiếng anh": "Laws on Intellectual Property",
         "Số TC": "3",
         "DKTQ": "Lý luận chung về Nhà nước và Pháp luật, Luật dân sự, Luật thương mại.",
-        "Mã môn học": "LUKT25",
+        "MaMonHoc": "LUKT25",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1003,7 +1003,7 @@
         "Tên tiếng anh": "Investment Law",
         "Số TC": "4",
         "DKTQ": "Lý luận Nhà nước và Pháp luật, Luật dân sự.",
-        "Mã môn học": "LUKT26",
+        "MaMonHoc": "LUKT26",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1015,7 +1015,7 @@
         "Tên tiếng anh": "Land Law",
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật, Luật dân sự, Luật hành c",
-        "Mã môn học": "LUKT28",
+        "MaMonHoc": "LUKT28",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1027,7 +1027,7 @@
         "Tên tiếng anh": "Law in Environment",
         "Số TC": "2",
         "DKTQ": "Luật Hành chính; Luật Dân sự",
-        "Mã môn học": "LUKT29",
+        "MaMonHoc": "LUKT29",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1039,7 +1039,7 @@
         "Tên tiếng anh": "Law on Protection of Consumer Rights",
         "Số TC": "3",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật, Luật Dân sự, Pháp luật doanh nghiệp, Luật thương mại.",
-        "Mã môn học": "LUKT32",
+        "MaMonHoc": "LUKT32",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1051,7 +1051,7 @@
         "Tên tiếng anh": "Doctrines of State and Law",
         "Số TC": "4",
         "DKTQ": "Những nguyên lý cơ bản của Chủ nghĩa Mác – Lênin 1 và 2.",
-        "Mã môn học": "LULL07",
+        "MaMonHoc": "LULL07",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1063,7 +1063,7 @@
         "Tên tiếng anh": "Law on Enterprises (advanced)",
         "Số TC": "3",
         "DKTQ": "Luật Dân sự, Pháp luật doanh nghiệp",
-        "Mã môn học": "LUNT01",
+        "MaMonHoc": "LUNT01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1075,7 +1075,7 @@
         "Tên tiếng anh": "Law in International Economy",
         "Số TC": "3",
         "DKTQ": "Pháp luật kinh tế, Kinh tế quốc tế",
-        "Mã môn học": "LUQT04",
+        "MaMonHoc": "LUQT04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1087,7 +1087,7 @@
         "Tên tiếng anh": "Investment Law (advanced)",
         "Số TC": "4",
         "DKTQ": "Lý luận về Nhà nước và Pháp luật, Luật dân sự, pháp luật về đầu tư.",
-        "Mã môn học": "LUTN02",
+        "MaMonHoc": "LUTN02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1099,7 +1099,7 @@
         "Tên tiếng anh": "Introduction to Programming",
         "Số TC": "3",
         "DKTQ": "Tin học đại cương.",
-        "Mã môn học": "KTKD01",
+        "MaMonHoc": "KTKD01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1111,7 +1111,7 @@
         "Tên tiếng anh": "Management Information Systems",
         "Số TC": "3",
         "DKTQ": "Tin học đại cương, Hệ quản trị CSDL",
-        "Mã môn học": "KTKD02",
+        "MaMonHoc": "KTKD02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1123,7 +1123,7 @@
         "Tên tiếng anh": "Electronic Payment",
         "Số TC": "3",
         "DKTQ": "Thương mại điện tử",
-        "Mã môn học": "KTKD03",
+        "MaMonHoc": "KTKD03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1135,7 +1135,7 @@
         "Tên tiếng anh": "Digital Economics Theory",
         "Số TC": "2",
         "DKTQ": "Kinh tế vi mô 1, Kinh tế vĩ mô 1",
-        "Mã môn học": "KTKD03",
+        "MaMonHoc": "KTKD03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1147,7 +1147,7 @@
         "Tên tiếng anh": "E-commerce web design",
         "Số TC": "3",
         "DKTQ": "Tin học đại cương, Hệ quản trị cơ sở dữ liệu",
-        "Mã môn học": "KTKD04",
+        "MaMonHoc": "KTKD04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1159,7 +1159,7 @@
         "Tên tiếng anh": "Digital transformation",
         "Số TC": "3",
         "DKTQ": "Thương mại điện tử",
-        "Mã môn học": "KTKD05",
+        "MaMonHoc": "KTKD05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1171,7 +1171,7 @@
         "Tên tiếng anh": "Digital Business Models",
         "Số TC": "3",
         "DKTQ": "Thương mại điện tử",
-        "Mã môn học": "KTKD06",
+        "MaMonHoc": "KTKD06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1183,7 +1183,7 @@
         "Tên tiếng anh": "E-Commerce Security",
         "Số TC": "3",
         "DKTQ": "Tin học đại cương, Thương mại điện tử",
-        "Mã môn học": "KTKD07",
+        "MaMonHoc": "KTKD07",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1195,7 +1195,7 @@
         "Tên tiếng anh": "Computer Networking and Digital Communication",
         "Số TC": "3",
         "DKTQ": "Tin học đại cương",
-        "Mã môn học": "KTKD10",
+        "MaMonHoc": "KTKD10",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1207,7 +1207,7 @@
         "Tên tiếng anh": "Multimedia Communications",
         "Số TC": "2",
         "DKTQ": "Tin học đại cương.",
-        "Mã môn học": "KTKD10",
+        "MaMonHoc": "KTKD10",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1219,7 +1219,7 @@
         "Tên tiếng anh": "Management Science",
         "Số TC": "2",
         "DKTQ": "Không",
-        "Mã môn học": "KTKD11",
+        "MaMonHoc": "KTKD11",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1231,7 +1231,7 @@
         "Tên tiếng anh": "Introduction to Data Science",
         "Số TC": "3",
         "DKTQ": "Nhập môn lập trình phân tích dữ liệu với Python (hoặc môn Lập trình căn bản).",
-        "Mã môn học": "PTDL02",
+        "MaMonHoc": "PTDL02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1243,7 +1243,7 @@
         "Tên tiếng anh": "Mathematical logic",
         "Số TC": "2",
         "DKTQ": "Toán cao cấp",
-        "Mã môn học": "PTDL03",
+        "MaMonHoc": "PTDL03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1255,7 +1255,7 @@
         "Tên tiếng anh": "Database Management System",
         "Số TC": "3",
         "DKTQ": "Tin học đại cương",
-        "Mã môn học": "PTDL04",
+        "MaMonHoc": "PTDL04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1267,7 +1267,7 @@
         "Tên tiếng anh": "Introduction to data analysis programming with Python",
         "Số TC": "3",
         "DKTQ": "Toán cao cấp; Tin học đại cương",
-        "Mã môn học": "PTDL05",
+        "MaMonHoc": "PTDL05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1279,7 +1279,7 @@
         "Tên tiếng anh": "Time series analysic in finance",
         "Số TC": "3",
         "DKTQ": "Lý thuyết xác suất và thống kê toán, Kinh tế lượng",
-        "Mã môn học": "PTDL06",
+        "MaMonHoc": "PTDL06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1291,7 +1291,7 @@
         "Tên tiếng anh": "Multivariate Statistical Analysis",
         "Số TC": "3",
         "DKTQ": "Nguyên lý thống kê kinh tế",
-        "Mã môn học": "PTDL07",
+        "MaMonHoc": "PTDL07",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1303,7 +1303,7 @@
         "Tên tiếng anh": "Big data management with Apache Spark",
         "Số TC": "3",
         "DKTQ": "Hệ quản trị cơ sở dữ liệu; Dữ liệu lớn trong kinh tế và kinh doanh.",
-        "Mã môn học": "PTDL08",
+        "MaMonHoc": "PTDL08",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1315,7 +1315,7 @@
         "Tên tiếng anh": "Data mining for business analysis",
         "Số TC": "3",
         "DKTQ": "Nhập môn lập trình phân tích dữ liệu với Python, Cơ sở của Khoa học dữ liệu",
-        "Mã môn học": "PTDL09",
+        "MaMonHoc": "PTDL09",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1327,7 +1327,7 @@
         "Tên tiếng anh": "Machine Learning and Artificial Intelligence",
         "Số TC": "3",
         "DKTQ": "Cơ sở của Khoa học dữ liệu, Khai phá dữ liệu cho phân tích kinh doanh",
-        "Mã môn học": "PTDL10",
+        "MaMonHoc": "PTDL10",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1339,7 +1339,7 @@
         "Tên tiếng anh": "Big Data Analytics with R",
         "Số TC": "4",
         "DKTQ": "Dữ liệu lớn trong kinh tế và kinh doanh, Quản trị dữ liệu lớn với Apache Spark.",
-        "Mã môn học": "PTDL11",
+        "MaMonHoc": "PTDL11",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1351,7 +1351,7 @@
         "Tên tiếng anh": "Applied blockchain technology in management",
         "Số TC": "2",
         "DKTQ": "Quản trị dữ liệu lớn với Apache Spark",
-        "Mã môn học": "PTDL12",
+        "MaMonHoc": "PTDL12",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1363,7 +1363,7 @@
         "Tên tiếng anh": "Finacial Tecnology",
         "Số TC": "2",
         "DKTQ": "Lý thuyết Tài chính – Tiền tệ, Tài chính doanh nghiệp, Dữ liệu lớn trong Kinh tế và Kinh doanh.",
-        "Mã môn học": "PTDL13",
+        "MaMonHoc": "PTDL13",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1375,7 +1375,7 @@
         "Tên tiếng anh": "Big Data Analytics with R",
         "Số TC": "3",
         "DKTQ": "Dữ liệu lớn trong kinh tế và kinh doanh, Quản trị dữ liệu lớn với Apache Spark",
-        "Mã môn học": "PTDL18",
+        "MaMonHoc": "PTDL18",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1387,7 +1387,7 @@
         "Tên tiếng anh": "Finacial Tecnology",
         "Số TC": "3",
         "DKTQ": "Lý thuyết Tài chính – Tiền tệ, Tài chính doanh nghiệp, Dữ liệu lớn trong Kinh tế và Kinh doanh.",
-        "Mã môn học": "PTDL19",
+        "MaMonHoc": "PTDL19",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1399,7 +1399,7 @@
         "Tên tiếng anh": "E - Commerce",
         "Số TC": "3",
         "DKTQ": "Dữ liệu lớn trong Kinh tế và Kinh doanh",
-        "Mã môn học": "QTKD14",
+        "MaMonHoc": "QTKD14",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1411,7 +1411,7 @@
         "Tên tiếng anh": "Financial maths",
         "Số TC": "3",
         "DKTQ": "Xác suất và thống kê toán, Tài chính doanh nghiệp, Nguyên lý kế toán.",
-        "Mã môn học": "TCTO10",
+        "MaMonHoc": "TCTO10",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1423,7 +1423,7 @@
         "Tên tiếng anh": "Advanced Mathematics for Economics 1",
         "Số TC": "2",
         "DKTQ": "Không",
-        "Mã môn học": "TOCC03",
+        "MaMonHoc": "TOCC03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1435,7 +1435,7 @@
         "Tên tiếng anh": "Advanced Mathematics for Economics 2",
         "Số TC": "2",
         "DKTQ": "Toán cao cấp 1",
-        "Mã môn học": "TOCC04",
+        "MaMonHoc": "TOCC04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1447,7 +1447,7 @@
         "Tên tiếng anh": "Computer skill",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "TOĐC06",
+        "MaMonHoc": "TOĐC06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1459,7 +1459,7 @@
         "Tên tiếng anh": "Big data for Economics and Business",
         "Số TC": "3",
         "DKTQ": "Tin học đại cương",
-        "Mã môn học": "TODL01",
+        "MaMonHoc": "TODL01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1471,7 +1471,7 @@
         "Tên tiếng anh": "Econometrics",
         "Số TC": "3",
         "DKTQ": "Toán cao cấp; Lý thuyết xác suất và thống kê toán; Kinh tế học vi mô; Kinh tế học vĩ mô; Tin học đại cương.",
-        "Mã môn học": "TOKT05",
+        "MaMonHoc": "TOKT05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1483,7 +1483,7 @@
         "Tên tiếng anh": "Probability Theory and Mathematical Statistics",
         "Số TC": "3",
         "DKTQ": "Toán Cao cấp",
-        "Mã môn học": "TOLT07",
+        "MaMonHoc": "TOLT07",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1495,7 +1495,7 @@
         "Tên tiếng anh": "Principles of economic statistics",
         "Số TC": "3",
         "DKTQ": "Lý thuyết xác suất và thống kê toán",
-        "Mã môn học": "TONL08",
+        "MaMonHoc": "TONL08",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1507,7 +1507,7 @@
         "Tên tiếng anh": "Advanced Mathematics for Economics",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "TOTC03",
+        "MaMonHoc": "TOTC03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1519,7 +1519,7 @@
         "Tên tiếng anh": "Advanced International Business",
         "Số TC": "3",
         "DKTQ": "Kinh tế quốc tế, Thương mại quốc tế, Đầu tư quốc tế",
-        "Mã môn học": "DDNTN02",
+        "MaMonHoc": "DDNTN02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1531,7 +1531,7 @@
         "Tên tiếng anh": "International Economic Negotiation",
         "Số TC": "3",
         "DKTQ": "Nghiệp vụ kinh doanh xuất nhập khẩu, Thương mại quốc tế, Đầu tư quốc tế.",
-        "Mã môn học": "ĐNĐP06",
+        "MaMonHoc": "ĐNĐP06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1543,7 +1543,7 @@
         "Tên tiếng anh": "International Economic Negotiation",
         "Số TC": "3",
         "DKTQ": "Nghiệp vụ kinh doanh xuất nhập khẩu, Thương mại quốc tế, Đầu tư quốc tế.",
-        "Mã môn học": "ĐNĐP06",
+        "MaMonHoc": "ĐNĐP06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1555,7 +1555,7 @@
         "Tên tiếng anh": "International Marketing",
         "Số TC": "3",
         "DKTQ": "Kinh tế quốc tế",
-        "Mã môn học": "ĐNMA05",
+        "MaMonHoc": "ĐNMA05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1567,7 +1567,7 @@
         "Tên tiếng anh": "Import and export operations",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "ĐNNV03",
+        "MaMonHoc": "ĐNNV03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1579,7 +1579,7 @@
         "Tên tiếng anh": "International Business",
         "Số TC": "3",
         "DKTQ": "Kinh tế quốc tế",
-        "Mã môn học": "ĐNQT11",
+        "MaMonHoc": "ĐNQT11",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1591,7 +1591,7 @@
         "Tên tiếng anh": "International Economics",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô 1, Kinh tế vĩ mô 1",
-        "Mã môn học": "ĐNQT13",
+        "MaMonHoc": "ĐNQT13",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1603,7 +1603,7 @@
         "Tên tiếng anh": "International Investment",
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô, Kinh tế quốc tế",
-        "Mã môn học": "ĐNQT15",
+        "MaMonHoc": "ĐNQT15",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1615,7 +1615,7 @@
         "Tên tiếng anh": "Foreign Investment Project Management",
         "Số TC": "2",
         "DKTQ": "Kinh tế đầu tư, Đầu tư Quốc tế",
-        "Mã môn học": "ĐNQT17",
+        "MaMonHoc": "ĐNQT17",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1627,7 +1627,7 @@
         "Tên tiếng anh": "Purchasing and Supply Chain Management",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "ĐNQT18",
+        "MaMonHoc": "ĐNQT18",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1639,7 +1639,7 @@
         "Tên tiếng anh": "Globalization and Risks",
         "Số TC": "2",
         "DKTQ": "Kinh tế quốc tế",
-        "Mã môn học": "ĐNTC05",
+        "MaMonHoc": "ĐNTC05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1651,7 +1651,7 @@
         "Tên tiếng anh": "International Trade",
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô, Kinh tế quốc tế",
-        "Mã môn học": "ĐNTM08",
+        "MaMonHoc": "ĐNTM08",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1663,7 +1663,7 @@
         "Tên tiếng anh": "International Trade",
         "Số TC": "2",
         "DKTQ": "Kinh tế vĩ mô, Kinh tế quốc tế",
-        "Mã môn học": "ĐNTM09",
+        "MaMonHoc": "ĐNTM09",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1675,7 +1675,7 @@
         "Tên tiếng anh": "International Payment",
         "Số TC": "3",
         "DKTQ": "Nghiệp vụ kinh doanh xuất nhập khẩu",
-        "Mã môn học": "ĐNTT01",
+        "MaMonHoc": "ĐNTT01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1687,7 +1687,7 @@
         "Tên tiếng anh": "Business Correspondence",
         "Số TC": "2",
         "DKTQ": "Tiếng Anh cơ bản 1, 2, 3, 4",
-        "Mã môn học": "ĐNTT16",
+        "MaMonHoc": "ĐNTT16",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1699,7 +1699,7 @@
         "Tên tiếng anh": "Supply Chain Management",
         "Số TC": "3",
         "DKTQ": "Kinh tế quốc tế",
-        "Mã môn học": "QTCU04",
+        "MaMonHoc": "QTCU04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1711,7 +1711,7 @@
         "Tên tiếng anh": "International Investment",
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô, Kinh tế quốc tế",
-        "Mã môn học": "QTDQ10",
+        "MaMonHoc": "QTDQ10",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1723,7 +1723,7 @@
         "Tên tiếng anh": "Business Logistics Management",
         "Số TC": "3",
         "DKTQ": "Logistics cơ bản; NV KDXNK",
-        "Mã môn học": "QTTM01",
+        "MaMonHoc": "QTTM01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1735,7 +1735,7 @@
         "Tên tiếng anh": "Tariff barriers in international trade",
         "Số TC": "2",
         "DKTQ": "Kinh tế quốc tế, Thương mại quốc tế",
-        "Mã môn học": "QTTM04",
+        "MaMonHoc": "QTTM04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1747,7 +1747,7 @@
         "Tên tiếng anh": "International transportation and freight forwarding",
         "Số TC": "2",
         "DKTQ": "Kinh tế quốc tế",
-        "Mã môn học": "QTTM05",
+        "MaMonHoc": "QTTM05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1759,7 +1759,7 @@
         "Tên tiếng anh": "Basic Logistics",
         "Số TC": "3",
         "DKTQ": "Giao dịch TMQT, Kinh doanh quốc tế",
-        "Mã môn học": "QTTM06",
+        "MaMonHoc": "QTTM06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1771,7 +1771,7 @@
         "Tên tiếng anh": "Warehouse and Package Management",
         "Số TC": "2",
         "DKTQ": "Logistics trong doanh nghiệp; Quản trị kinh doanh logistics.",
-        "Mã môn học": "QTTM07",
+        "MaMonHoc": "QTTM07",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1783,7 +1783,7 @@
         "Tên tiếng anh": "Logistics policy",
         "Số TC": "2",
         "DKTQ": "Kinh tế vi mô, Kinh tế vĩ mô",
-        "Mã môn học": "QTTM09",
+        "MaMonHoc": "QTTM09",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1795,7 +1795,7 @@
         "Tên tiếng anh": "International Finance",
         "Số TC": "2",
         "DKTQ": "Kinh tế vi mô, Kinh tế vĩ mô, Lý thuyết tài chính tiền tệ",
-        "Mã môn học": "TCQT13",
+        "MaMonHoc": "TCQT13",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1807,7 +1807,7 @@
         "Tên tiếng anh": "Basic Logistics",
         "Số TC": "3",
         "DKTQ": "NV KD XNK, Kinh doanh quốc tế",
-        "Mã môn học": "TMQT11",
+        "MaMonHoc": "TMQT11",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1819,7 +1819,7 @@
         "Tên tiếng anh": "Advance International Trade",
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô, Kinh tế quốc tế, Thương mại quốc tế.",
-        "Mã môn học": "TMTN01",
+        "MaMonHoc": "TMTN01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1831,7 +1831,7 @@
         "Tên tiếng anh": "Advanced Logistics",
         "Số TC": "3",
         "DKTQ": "Quản trị logistics kinh doanh, Thương mại quốc tế, Quản trị mua hàng và chuỗi cung ứng.",
-        "Mã môn học": "TMTN02",
+        "MaMonHoc": "TMTN02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1843,7 +1843,7 @@
         "Tên tiếng anh": "",
         "Số TC": "2",
         "DKTQ": "Không",
-        "Mã môn học": "ĐLDL01",
+        "MaMonHoc": "ĐLDL01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1855,7 +1855,7 @@
         "Tên tiếng anh": "E Tourism",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "DLTT01",
+        "MaMonHoc": "DLTT01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1867,7 +1867,7 @@
         "Tên tiếng anh": "SALES MANAGEMENT",
         "Số TC": "3",
         "DKTQ": "Marketing căn bản",
-        "Mã môn học": "QTBH01",
+        "MaMonHoc": "QTBH01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1879,7 +1879,7 @@
         "Tên tiếng anh": "Sustainable Tourism",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "QTBV01",
+        "MaMonHoc": "QTBV01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1891,7 +1891,7 @@
         "Tên tiếng anh": "CONSUMER BEHAVIOUR",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, Marketing căn bản",
-        "Mã môn học": "QTCB01",
+        "MaMonHoc": "QTCB01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1903,7 +1903,7 @@
         "Tên tiếng anh": "Public Relations",
         "Số TC": "3",
         "DKTQ": "Marketing căn bản",
-        "Mã môn học": "QTCC01",
+        "MaMonHoc": "QTCC01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1915,7 +1915,7 @@
         "Tên tiếng anh": "Strategic Management",
         "Số TC": "3",
         "DKTQ": "Quản trị học, Kinh tế vi mô, Kinh tế vĩ mô",
-        "Mã môn học": "QTCL01",
+        "MaMonHoc": "QTCL01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1927,7 +1927,7 @@
         "Tên tiếng anh": "",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "QTDD01",
+        "MaMonHoc": "QTDD01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1939,7 +1939,7 @@
         "Tên tiếng anh": "",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "QTĐH01",
+        "MaMonHoc": "QTĐH01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1951,7 +1951,7 @@
         "Tên tiếng anh": "DIGITAL MARKETING",
         "Số TC": "3",
         "DKTQ": "KINH TẾ VI MÔ, MARKETING CĂN BẢN",
-        "Mã môn học": "QTDM01",
+        "MaMonHoc": "QTDM01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1963,7 +1963,7 @@
         "Tên tiếng anh": "EVENT MANAGEMENT",
         "Số TC": "3",
         "DKTQ": "MARKETING CĂN BẢN",
-        "Mã môn học": "QTEO01",
+        "MaMonHoc": "QTEO01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1975,7 +1975,7 @@
         "Tên tiếng anh": "Tour Guiding Skill",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "QTHD11",
+        "MaMonHoc": "QTHD11",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1987,7 +1987,7 @@
         "Tên tiếng anh": "Essentials of Management",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "QTHO06",
+        "MaMonHoc": "QTHO06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -1999,7 +1999,7 @@
         "Tên tiếng anh": "Essentials of Management",
         "Số TC": "2",
         "DKTQ": "Không",
-        "Mã môn học": "QTHO18",
+        "MaMonHoc": "QTHO18",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2011,7 +2011,7 @@
         "Tên tiếng anh": "Entrepreneurship",
         "Số TC": "3",
         "DKTQ": "Pháp luật đại cương, Kinh tế vi mô 1, Quản trị học",
-        "Mã môn học": "QTKS07",
+        "MaMonHoc": "QTKS07",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2023,7 +2023,7 @@
         "Tên tiếng anh": "",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "QTLH01",
+        "MaMonHoc": "QTLH01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2035,7 +2035,7 @@
         "Tên tiếng anh": "Hospitality Management",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "QTLT01",
+        "MaMonHoc": "QTLT01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2047,7 +2047,7 @@
         "Tên tiếng anh": "MARKETING MANAGEMENT",
         "Số TC": "3",
         "DKTQ": "MARKETING CĂN BẢN, QUẢN TRỊ HỌC, KINH TẾ VI MÔ, KINH TẾ VĨ MÔ.",
-        "Mã môn học": "QTMA09",
+        "MaMonHoc": "QTMA09",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2059,7 +2059,7 @@
         "Tên tiếng anh": "Marketing Essential",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "QTMC02",
+        "MaMonHoc": "QTMC02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2071,7 +2071,7 @@
         "Tên tiếng anh": "TOURISM MARKETING",
         "Số TC": "2",
         "DKTQ": "Kinh tế vi mô, Marketing căn bản, Marketing Dịch vụ",
-        "Mã môn học": "QTMD01",
+        "MaMonHoc": "QTMD01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2083,7 +2083,7 @@
         "Tên tiếng anh": "SERVICE MARKETING",
         "Số TC": "3",
         "DKTQ": "Marketing căn bản, Quản trị Marketing",
-        "Mã môn học": "QTMS01",
+        "MaMonHoc": "QTMS01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2095,7 +2095,7 @@
         "Tên tiếng anh": "",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "QTNH01",
+        "MaMonHoc": "QTNH01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2107,7 +2107,7 @@
         "Tên tiếng anh": "Human Resource Management",
         "Số TC": "3",
         "DKTQ": "Quản trị học",
-        "Mã môn học": "QTNL03",
+        "MaMonHoc": "QTNL03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2119,7 +2119,7 @@
         "Tên tiếng anh": "",
         "Số TC": "2",
         "DKTQ": "Không",
-        "Mã môn học": "QTQH01",
+        "MaMonHoc": "QTQH01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2131,7 +2131,7 @@
         "Tên tiếng anh": "English for tourism",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "QTTA01",
+        "MaMonHoc": "QTTA01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2143,7 +2143,7 @@
         "Tên tiếng anh": "BRAND MANAGEMENT",
         "Số TC": "3",
         "DKTQ": "MARKETING CĂN BẢN, QUẢN TRỊ HỌC, KINH TẾ VI MÔ, KINH TẾ VĨ MÔ.",
-        "Mã môn học": "QTTH01",
+        "MaMonHoc": "QTTH01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2155,7 +2155,7 @@
         "Tên tiếng anh": "MANAGERIAL PSYCHOLOGY",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "QTTL01",
+        "MaMonHoc": "QTTL01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2167,7 +2167,7 @@
         "Tên tiếng anh": "",
         "Số TC": "2",
         "DKTQ": "Không",
-        "Mã môn học": "QTTL03",
+        "MaMonHoc": "QTTL03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2179,7 +2179,7 @@
         "Tên tiếng anh": "Strategic Management Advanced",
         "Số TC": "3",
         "DKTQ": "Quản trị học, Quản trị chiến lược",
-        "Mã môn học": "QTTN01",
+        "MaMonHoc": "QTTN01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2191,7 +2191,7 @@
         "Tên tiếng anh": "ADVANCED DIGITAL MARKETING",
         "Số TC": "3",
         "DKTQ": "KINH TẾ VI MÔ, MARKETING CĂN BẢN, DIGITAL MARKETING",
-        "Mã môn học": "QTTN03",
+        "MaMonHoc": "QTTN03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2203,7 +2203,7 @@
         "Tên tiếng anh": "TECHNOLOGY MANAGEMENT",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, Kinh tế vĩ mô Marketing căn bản",
-        "Mã môn học": "QTTN10",
+        "MaMonHoc": "QTTN10",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2215,7 +2215,7 @@
         "Tên tiếng anh": "INTEGRATED MARKETING COMMUNICATIONS",
         "Số TC": "3",
         "DKTQ": "KINH TẾ VI MÔ, MARKETING CĂN BẢN",
-        "Mã môn học": "QTTT01",
+        "MaMonHoc": "QTTT01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2227,7 +2227,7 @@
         "Tên tiếng anh": "Market research",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, Marketing, Nguyên lý thống kê và Kinh tế lượng",
-        "Mã môn học": "QTTT11",
+        "MaMonHoc": "QTTT11",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2239,7 +2239,7 @@
         "Tên tiếng anh": "",
         "Số TC": "2",
         "DKTQ": "Không",
-        "Mã môn học": "QTVH02",
+        "MaMonHoc": "QTVH02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2251,7 +2251,7 @@
         "Tên tiếng anh": "BUSINESS CULTURE AND ETHICS",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, Marketing căn bản",
-        "Mã môn học": "QTVH12",
+        "MaMonHoc": "QTVH12",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2263,7 +2263,7 @@
         "Tên tiếng anh": "",
         "Số TC": "2",
         "DKTQ": "Không",
-        "Mã môn học": "TQDL01",
+        "MaMonHoc": "TQDL01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2275,7 +2275,7 @@
         "Tên tiếng anh": "",
         "Số TC": "2",
         "DKTQ": "Không",
-        "Mã môn học": "TTDL05",
+        "MaMonHoc": "TTDL05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2287,7 +2287,7 @@
         "Tên tiếng anh": "Public Economics",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô 1, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Kinh tế vi mô 2.",
-        "Mã môn học": "KHCC06",
+        "MaMonHoc": "KHCC06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2299,7 +2299,7 @@
         "Tên tiếng anh": "Public Investment",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, kinh tế vĩ mô, Kinh tế đầu tư.",
-        "Mã môn học": "KHCO09",
+        "MaMonHoc": "KHCO09",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2311,7 +2311,7 @@
         "Tên tiếng anh": "Development Economics",
         "Số TC": "3",
         "DKTQ": "Kinh tế Vi mô và Kinh tế Vĩ mô",
-        "Mã môn học": "KHKT11",
+        "MaMonHoc": "KHKT11",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2323,7 +2323,7 @@
         "Tên tiếng anh": "Introduction to Macroeconomics",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô 1",
-        "Mã môn học": "KHMA02",
+        "MaMonHoc": "KHMA02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2335,7 +2335,7 @@
         "Tên tiếng anh": "Intermediate Macroeconomics",
         "Số TC": "3",
         "DKTQ": "Vi mô 1; Vi mô 2; Vĩ mô 1",
-        "Mã môn học": "KHMA04",
+        "MaMonHoc": "KHMA04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2347,7 +2347,7 @@
         "Tên tiếng anh": "Microeconomics 1",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "KHMI01",
+        "MaMonHoc": "KHMI01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2359,7 +2359,7 @@
         "Tên tiếng anh": "Microeconomics 2",
         "Số TC": "3",
         "DKTQ": "Toán cao cấp I, II và Kinh tế vi mô 1.",
-        "Mã môn học": "KHMI03",
+        "MaMonHoc": "KHMI03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2371,7 +2371,7 @@
         "Tên tiếng anh": "Macroeconomic Analysis and Forecasting",
         "Số TC": "3",
         "DKTQ": "Toán cao cấp, Xác suất thống kê, Kinh tế lượng, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2",
-        "Mã môn học": "KHPD13",
+        "MaMonHoc": "KHPD13",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2383,7 +2383,7 @@
         "Tên tiếng anh": "Macroeconomic Analysis and Forecasting",
         "Số TC": "4",
         "DKTQ": "Toán cao cấp, Xác suất thống kê, Kinh tế lượng, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2",
-        "Mã môn học": "KHPD14",
+        "MaMonHoc": "KHPD14",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2395,7 +2395,7 @@
         "Tên tiếng anh": "Macroeconomic Analysis and Forecasting",
         "Số TC": "3",
         "DKTQ": "Toán cao cấp, Xác suất thống kê, Kinh tế lượng, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô.",
-        "Mã môn học": "KHPD15",
+        "MaMonHoc": "KHPD15",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2407,7 +2407,7 @@
         "Tên tiếng anh": "Development Planning",
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô 1, kinh tế vĩ mô 2, kinh tế lượng",
-        "Mã môn học": "KHPT12",
+        "MaMonHoc": "KHPT12",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2419,7 +2419,7 @@
         "Tên tiếng anh": "Advanced Development Economics",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô 1, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Kinh tế phát triển.",
-        "Mã môn học": "KHTN01",
+        "MaMonHoc": "KHTN01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2431,7 +2431,7 @@
         "Tên tiếng anh": "Development Economics 2",
         "Số TC": "3",
         "DKTQ": "Kinh tế phát triển, Kinh tế vi mô, Kinh tế vĩ mô.",
-        "Mã môn học": "KTKT08",
+        "MaMonHoc": "KTKT08",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2443,7 +2443,7 @@
         "Tên tiếng anh": "Cost-Benefit Analysis",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô - Xác suất thống kê - Lập và thẩm định dự án đầu tư",
-        "Mã môn học": "KTPT16",
+        "MaMonHoc": "KTPT16",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2455,7 +2455,7 @@
         "Tên tiếng anh": "Spatial Analysis",
         "Số TC": "4",
         "DKTQ": "Các môn kinh tế vi mô, vĩ mô, kinh tế lượng, địa lý kinh tế.",
-        "Mã môn học": "KTPT17",
+        "MaMonHoc": "KTPT17",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2467,7 +2467,7 @@
         "Tên tiếng anh": "Quantitative Analysis in Economics",
         "Số TC": "3",
         "DKTQ": "Toán cao cấp, Xác suất thống kê, Kinh tế lượng, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô, Phân tích chi phí lợi ích.",
-        "Mã môn học": "KTPT18",
+        "MaMonHoc": "KTPT18",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2479,7 +2479,7 @@
         "Tên tiếng anh": "Market Development Planning",
         "Số TC": "3",
         "DKTQ": "Kế hoạch kinh doanh, Nghiên cứu thị trường, Kinh tế vi mô 1, Kinh tế vi mô 2.",
-        "Mã môn học": "KTPT19",
+        "MaMonHoc": "KTPT19",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2491,7 +2491,7 @@
         "Tên tiếng anh": "Comparative Economic Development",
         "Số TC": "3",
         "DKTQ": "Kinh tế phát triển",
-        "Mã môn học": "KTPT20",
+        "MaMonHoc": "KTPT20",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2503,7 +2503,7 @@
         "Tên tiếng anh": "National Accounts System",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô 1, Kinh tế vĩ mô 2, Kinh tế phát triển",
-        "Mã môn học": "KTSN18",
+        "MaMonHoc": "KTSN18",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2515,7 +2515,7 @@
         "Tên tiếng anh": "Sustainable Development",
         "Số TC": "3",
         "DKTQ": "Kinh tế phát triển, Kinh tế phát triển so sánh, Kinh tế vĩ mô, Kinh tế vi mô, Kinh tế công cộng",
-        "Mã môn học": "QHBV01",
+        "MaMonHoc": "QHBV01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2527,7 +2527,7 @@
         "Tên tiếng anh": "Economic Geography",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, kinh tế vĩ mô.",
-        "Mã môn học": "QHĐL07",
+        "MaMonHoc": "QHĐL07",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2539,7 +2539,7 @@
         "Tên tiếng anh": "Public Policy",
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô 1.",
-        "Mã môn học": "CSCS11",
+        "MaMonHoc": "CSCS11",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2551,7 +2551,7 @@
         "Tên tiếng anh": "Comperative Politics",
         "Số TC": "3",
         "DKTQ": "Quản trị học, Quản lý công.",
-        "Mã môn học": "CSCT02",
+        "MaMonHoc": "CSCT02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2563,7 +2563,7 @@
         "Tên tiếng anh": "Social Policy",
         "Số TC": "3",
         "DKTQ": "quản lý công, phân tích chính sách",
-        "Mã môn học": "CSCX07",
+        "MaMonHoc": "CSCX07",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2575,7 +2575,7 @@
         "Tên tiếng anh": "Quality management in public service",
         "Số TC": "3",
         "DKTQ": "Quản lý công; Marketing dich vụ công.",
-        "Mã môn học": "CSDV04",
+        "MaMonHoc": "CSDV04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2587,7 +2587,7 @@
         "Tên tiếng anh": "Public administration",
         "Số TC": "2",
         "DKTQ": "Quản trị học, Quản lý công.",
-        "Mã môn học": "CSHC05",
+        "MaMonHoc": "CSHC05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2599,7 +2599,7 @@
         "Tên tiếng anh": "Public Service Marketing",
         "Số TC": "3",
         "DKTQ": "Marketing căn bản",
-        "Mã môn học": "CSMR08",
+        "MaMonHoc": "CSMR08",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2611,7 +2611,7 @@
         "Tên tiếng anh": "Humane Resource Management in Public organization",
         "Số TC": "3",
         "DKTQ": "Sinh viên đã được học môn Quản lý công, Hành chính công",
-        "Mã môn học": "CSNL09",
+        "MaMonHoc": "CSNL09",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2623,7 +2623,7 @@
         "Tên tiếng anh": "Introduction to Policy Analysis",
         "Số TC": "3",
         "DKTQ": "Chính sách công",
-        "Mã môn học": "CSPT11",
+        "MaMonHoc": "CSPT11",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2635,7 +2635,7 @@
         "Tên tiếng anh": "Public management",
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô, hành chính công, quản trị chiến lược",
-        "Mã môn học": "CSQL11",
+        "MaMonHoc": "CSQL11",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2647,7 +2647,7 @@
         "Tên tiếng anh": "State Management of Economy",
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô 1,2 Kinh tế vi mô, Chính sách công",
-        "Mã môn học": "CSQL13",
+        "MaMonHoc": "CSQL13",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2659,7 +2659,7 @@
         "Tên tiếng anh": "Oganization and management in public sector",
         "Số TC": "3",
         "DKTQ": "Quản lý công",
-        "Mã môn học": "CSTC14",
+        "MaMonHoc": "CSTC14",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2671,7 +2671,7 @@
         "Tên tiếng anh": "Advanced Public Policy",
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô 1,2, Kinh tế vi mô, Chính sách công, Quản lý công",
-        "Mã môn học": "CSTN01",
+        "MaMonHoc": "CSTN01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2683,7 +2683,7 @@
         "Tên tiếng anh": "Advance Public management",
         "Số TC": "3",
         "DKTQ": "Quản trị chiến lược, Quản lý công",
-        "Mã môn học": "CSTN02",
+        "MaMonHoc": "CSTN02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2695,7 +2695,7 @@
         "Tên tiếng anh": "Office culture in public organization",
         "Số TC": "3",
         "DKTQ": "Quản lý công",
-        "Mã môn học": "CSVH16",
+        "MaMonHoc": "CSVH16",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2707,7 +2707,7 @@
         "Tên tiếng anh": "Sociology",
         "Số TC": "3",
         "DKTQ": "Triết học/nguyên lý, phương pháp nghiên cứu khoa học, nguyên lý thống kê",
-        "Mã môn học": "CSXH02",
+        "MaMonHoc": "CSXH02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2719,7 +2719,7 @@
         "Tên tiếng anh": "Research Methods",
         "Số TC": "3",
         "DKTQ": "Toán xác xuất thống kê; Kinh tế lượng; Kinh tế vi mô 1; Kinh tế vĩ mô 2; Phân tích và dự báo kinh tế vĩ mô.",
-        "Mã môn học": "PPNC01",
+        "MaMonHoc": "PPNC01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2731,7 +2731,7 @@
         "Tên tiếng anh": "Organizational Behavior",
         "Số TC": "3",
         "DKTQ": "Quản trị học, Quản lý nguồn nhân lực",
-        "Mã môn học": "QTOB01",
+        "MaMonHoc": "QTOB01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2743,7 +2743,7 @@
         "Tên tiếng anh": "Derivatives",
         "Số TC": "3",
         "DKTQ": "Môn Tài chính doanh nghiệp; - Môn Lý thuyết Tài chính - Tiền tệ; - Môn Thị trường chứng khoán; - Môn Nguyên lý đầu tư.",
-        "Mã môn học": "ĐTPS01",
+        "MaMonHoc": "ĐTPS01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2755,7 +2755,7 @@
         "Tên tiếng anh": "Commercial Banks",
         "Số TC": "3",
         "DKTQ": "Lý thuyết tài chính tiền tệ.",
-        "Mã môn học": "NHTM02",
+        "MaMonHoc": "NHTM02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2767,7 +2767,7 @@
         "Tên tiếng anh": "",
         "Số TC": "3",
         "DKTQ": "",
-        "Mã môn học": "QTMC04",
+        "MaMonHoc": "QTMC04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2779,7 +2779,7 @@
         "Tên tiếng anh": "Insurance",
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô 1. Lý thuyết Tài chính tiền tệ.",
-        "Mã môn học": "TCBH01",
+        "MaMonHoc": "TCBH01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2791,7 +2791,7 @@
         "Tên tiếng anh": "",
         "Số TC": "3",
         "DKTQ": "Tài chính doanh nghiệp, Thị trường chứng khoán",
-        "Mã môn học": "TCCK06",
+        "MaMonHoc": "TCCK06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2803,7 +2803,7 @@
         "Tên tiếng anh": "Stock Market",
         "Số TC": "3",
         "DKTQ": "Tài chính doanh nghiệp, Kinh tế vĩ mô",
-        "Mã môn học": "TCCK25",
+        "MaMonHoc": "TCCK25",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2815,7 +2815,7 @@
         "Tên tiếng anh": "Public Finance Management",
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô, Lý thuyết tài chính tiền tệ, kinh tế công cộng.",
-        "Mã môn học": "TCCO21",
+        "MaMonHoc": "TCCO21",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2827,7 +2827,7 @@
         "Tên tiếng anh": "Corporate Finance",
         "Số TC": "3",
         "DKTQ": "Môn Kinh tế vi mô; - Môn Kinh tế vĩ mô; - Môn Nguyên lý kế toán; - Môn Lý thuyết Tài chính - Tiền tệ.",
-        "Mã môn học": "TCDCN03",
+        "MaMonHoc": "TCDCN03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2839,7 +2839,7 @@
         "Tên tiếng anh": "Asset Valuation",
         "Số TC": "3",
         "DKTQ": "Nguyên lý Kế toán, Tài chính Doanh nghiệp",
-        "Mã môn học": "TCĐG01",
+        "MaMonHoc": "TCĐG01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2851,7 +2851,7 @@
         "Tên tiếng anh": "Corporate Finance 2",
         "Số TC": "3",
         "DKTQ": "Lý thuyết Tài chính tiền tệ; - Nguyên lý kế toán; - Kinh tế vĩ mô; - Kinh tế vi mô, - Thị trường chứng khoán, - Tài chính doanh nghiệp",
-        "Mã môn học": "TCDN22",
+        "MaMonHoc": "TCDN22",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2863,7 +2863,7 @@
         "Tên tiếng anh": "Financial statement analysis",
         "Số TC": "0",
         "DKTQ": "Lý thuyết Tài chính tiền tệ; - Nguyên lý kế toán; - Kinh tế vĩ mô; - Kinh tế vi mô, - Thị trường chứng khoán, - Tài chính doanh nghiệp",
-        "Mã môn học": "TCPT08",
+        "MaMonHoc": "TCPT08",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2875,7 +2875,7 @@
         "Tên tiếng anh": "Credit Appraisal",
         "Số TC": "3",
         "DKTQ": "Lý thuyết tài chính tiền tệ, Ngân hàng thương mại.",
-        "Mã môn học": "TCTD01",
+        "MaMonHoc": "TCTD01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2887,7 +2887,7 @@
         "Tên tiếng anh": "Tax",
         "Số TC": "3",
         "DKTQ": "Lý thuyết tài chính tiền tệ.",
-        "Mã môn học": "TCTH11",
+        "MaMonHoc": "TCTH11",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2899,7 +2899,7 @@
         "Tên tiếng anh": "Advance Corporate Finance",
         "Số TC": "3",
         "DKTQ": "Môn Kinh tế vi mô - Môn Lý thuyết tài chính tiền tệ - Môn Nguyên lý kế toán - Môn Tài Chính Doanh Nghiệp",
-        "Mã môn học": "TCTN01",
+        "MaMonHoc": "TCTN01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2911,7 +2911,7 @@
         "Tên tiếng anh": "Advanced Financial & Monetary Theory",
         "Số TC": "3",
         "DKTQ": "Sinh viên đã hoàn thành tất cả các môn học theo yêu cầu của hệ thống tín chỉ",
-        "Mã môn học": "TCTN02",
+        "MaMonHoc": "TCTN02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2923,7 +2923,7 @@
         "Tên tiếng anh": "Financial & Monetary Theory",
         "Số TC": "3",
         "DKTQ": "Sinh viên đã được học các môn như Kinh tế vi mô, Kinh tế vĩ mô.",
-        "Mã môn học": "TCTT02",
+        "MaMonHoc": "TCTT02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2935,7 +2935,7 @@
         "Tên tiếng anh": "Central Bank",
         "Số TC": "3",
         "DKTQ": "Sinh viên đã được học các môn Lý thuyết tài chính tiền tệ, Kinh tế vĩ mô, Ngân hàng thương mại",
-        "Mã môn học": "TCTW02",
+        "MaMonHoc": "TCTW02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2947,7 +2947,7 @@
         "Tên tiếng anh": "Principle of valuation",
         "Số TC": "3",
         "DKTQ": "Tài chính đầu tư",
-        "Mã môn học": "TĐTC01",
+        "MaMonHoc": "TĐTC01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2959,7 +2959,7 @@
         "Tên tiếng anh": "Business valuation",
         "Số TC": "3",
         "DKTQ": "Môn Tài chính doanh nghiệp; - Môn Nguyên lý thẩm định giá.",
-        "Mã môn học": "TĐTC02",
+        "MaMonHoc": "TĐTC02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2971,7 +2971,7 @@
         "Tên tiếng anh": "Valuation of intangible assets",
         "Số TC": "3",
         "DKTQ": "Tài chính đầu tư",
-        "Mã môn học": "TĐTC03",
+        "MaMonHoc": "TĐTC03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2983,7 +2983,7 @@
         "Tên tiếng anh": "Machinery and equipment valuation",
         "Số TC": "3",
         "DKTQ": "Tài chính đầu tư",
-        "Mã môn học": "TĐTC04",
+        "MaMonHoc": "TĐTC04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -2995,7 +2995,7 @@
         "Tên tiếng anh": "Real Estate Appraisal",
         "Số TC": "3",
         "DKTQ": "Nguyên lý thẩm đinh giá",
-        "Mã môn học": "TĐTC05",
+        "MaMonHoc": "TĐTC05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3007,7 +3007,7 @@
         "Tên tiếng anh": "Asset Valuation Model",
         "Số TC": "3",
         "DKTQ": "Tài chính đầu tư",
-        "Mã môn học": "TĐTC06",
+        "MaMonHoc": "TĐTC06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3019,7 +3019,7 @@
         "Tên tiếng anh": "Management Accounting 2",
         "Số TC": "3",
         "DKTQ": "Kế toán quản trị 1",
-        "Mã môn học": "ACAD07",
+        "MaMonHoc": "ACAD07",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3031,7 +3031,7 @@
         "Tên tiếng anh": "Estimation of Basic contsruction",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, kinh tế vĩ mô, Tài chính doanh nghiệp, Nguyên lý kế toán",
-        "Mã môn học": "ACBG03",
+        "MaMonHoc": "ACBG03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3043,7 +3043,7 @@
         "Tên tiếng anh": "Construction accouting",
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán",
-        "Mã môn học": "ACCO05",
+        "MaMonHoc": "ACCO05",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3055,7 +3055,7 @@
         "Tên tiếng anh": "Group Accounting",
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính 1, Kế toán tài chính 2",
-        "Mã môn học": "ACFI07",
+        "MaMonHoc": "ACFI07",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3067,7 +3067,7 @@
         "Tên tiếng anh": "Accounting information system",
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô.",
-        "Mã môn học": "ACIF02",
+        "MaMonHoc": "ACIF02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3079,7 +3079,7 @@
         "Tên tiếng anh": "Audit of Basic contsruction investment and Buget",
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Dự toán xây dựng cơ bản, Kiểm toán căn bản, kế toán tài chính, kế toán quản trị.",
-        "Mã môn học": "ACOD06",
+        "MaMonHoc": "ACOD06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3091,7 +3091,7 @@
         "Tên tiếng anh": "International and Vietnam Accounting Standards",
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính 1 Các môn học song hành : Kế toán tài chính 2",
-        "Mã môn học": "ACST01",
+        "MaMonHoc": "ACST01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3103,7 +3103,7 @@
         "Tên tiếng anh": "Advanced accounting",
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính Các môn học song hành : Kế toán tài chính 2",
-        "Mã môn học": "KETN01",
+        "MaMonHoc": "KETN01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3115,7 +3115,7 @@
         "Tên tiếng anh": "Advanced audit",
         "Số TC": "3",
         "DKTQ": "Kiểm toán căn bản, Kế toán tài chính",
-        "Mã môn học": "KITN02",
+        "MaMonHoc": "KITN02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3127,7 +3127,7 @@
         "Tên tiếng anh": "Fundamentals of Auditing",
         "Số TC": "3",
         "DKTQ": "Sinh viên cần có kiến thức của các học phần Nguyên lý kế toán và Kế toán tài chính 1 để có thể hiểu được các khái niệm trong học phần Kiểm toán căn bản.",
-        "Mã môn học": "KTCB01",
+        "MaMonHoc": "KTCB01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3139,7 +3139,7 @@
         "Tên tiếng anh": "Internal Auditing",
         "Số TC": "3",
         "DKTQ": "Sinh viên cần có kiến thức của học phần Kiểm toán căn bản và Kiểm toán tài chính để có thể hiểu được các khái niệm trong học phần Kiểm toán nội bộ.",
-        "Mã môn học": "KTNB01",
+        "MaMonHoc": "KTNB01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3151,7 +3151,7 @@
         "Tên tiếng anh": "Commercial bank accounting",
         "Số TC": "3",
         "DKTQ": "Sinh viên đã được học các môn: Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô, Nguyên lý kế toán, Kế toán tài chính, Quản trị ngân hàng thương mại.",
-        "Mã môn học": "KTNH01",
+        "MaMonHoc": "KTNH01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3163,7 +3163,7 @@
         "Tên tiếng anh": "Practical Accounting",
         "Số TC": "3",
         "DKTQ": "Sinh viên đã được học các môn: Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô, Nguyên lý kế toán, Kế toán tài chính, Quản trị ngân hàng thương mại.",
-        "Mã môn học": "KTTC02",
+        "MaMonHoc": "KTTC02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3175,7 +3175,7 @@
         "Tên tiếng anh": "Practical Accounting",
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, kế toán tài chính 1, kế toán tài chính 2, Thuế.",
-        "Mã môn học": "KTTH01",
+        "MaMonHoc": "KTTH01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3187,7 +3187,7 @@
         "Tên tiếng anh": "administrative accoungting",
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô, Nguyên lý kế toán, Kế toán tài chính, tài chính công.",
-        "Mã môn học": "TCHC08",
+        "MaMonHoc": "TCHC08",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3199,7 +3199,7 @@
         "Tên tiếng anh": "Financial accounting",
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Tài chính doanh nghiệp, Lý thuyết tài chính tiền tệ",
-        "Mã môn học": "TCKH04",
+        "MaMonHoc": "TCKH04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3211,7 +3211,7 @@
         "Tên tiếng anh": "Managerial Accounting",
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính, Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô.",
-        "Mã môn học": "TCKQ01",
+        "MaMonHoc": "TCKQ01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3223,7 +3223,7 @@
         "Tên tiếng anh": "Principles of accounting",
         "Số TC": "3",
         "DKTQ": "Kinh tế vi mô, triết học",
-        "Mã môn học": "TCKT01",
+        "MaMonHoc": "TCKT01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3235,7 +3235,7 @@
         "Tên tiếng anh": "Financial Audit",
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính, kế toán quản trị",
-        "Mã môn học": "TCKT22",
+        "MaMonHoc": "TCKT22",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3247,7 +3247,7 @@
         "Tên tiếng anh": "Fianancial Accounting2",
         "Số TC": "3",
         "DKTQ": "Kế toán tài chính 1",
-        "Mã môn học": "TCKT29",
+        "MaMonHoc": "TCKT29",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3259,7 +3259,7 @@
         "Tên tiếng anh": "International Accounting",
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính 1 Các môn học song hành : Kế toán tài chính 2, Chuẩn mực kế toán quốc tế và Việt Nam",
-        "Mã môn học": "TCKT30",
+        "MaMonHoc": "TCKT30",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3271,7 +3271,7 @@
         "Tên tiếng anh": "Corporate Acounting Organization",
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô 1, Kinh tế vĩ mô 2, Phân tích và dự báo kinh tế vĩ mô, Nguyên lý kế toán, Kế toán tài chính, tài chính công.",
-        "Mã môn học": "TCKT31",
+        "MaMonHoc": "TCKT31",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3283,7 +3283,7 @@
         "Tên tiếng anh": "Tax Accountting",
         "Số TC": "3",
         "DKTQ": "Nguyên lý kế toán, Kế toán tài chính, Thuế.",
-        "Mã môn học": "TCTH01",
+        "MaMonHoc": "TCTH01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3295,7 +3295,7 @@
         "Tên tiếng anh": "Principles of Insurance",
         "Số TC": "3",
         "DKTQ": "Students are expected to have taken the following courses prior to taking this course - Corporate finance - Financial and monetary policy - Financial market and institution",
-        "Mã môn học": "CLCBH26",
+        "MaMonHoc": "CLCBH26",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3307,7 +3307,7 @@
         "Tên tiếng anh": "Fixed Income Securities",
         "Số TC": "3",
         "DKTQ": "Corporate finance - Financial and monetary policy - Financial market and institution",
-        "Mã môn học": "CLCCK27",
+        "MaMonHoc": "CLCCK27",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3319,7 +3319,7 @@
         "Tên tiếng anh": "Strategic Management",
         "Số TC": "3",
         "DKTQ": "Introduction of Management",
-        "Mã môn học": "CLCCL06",
+        "MaMonHoc": "CLCCL06",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3331,7 +3331,7 @@
         "Tên tiếng anh": "Personal Finance",
         "Số TC": "3",
         "DKTQ": "Corporate finance - Financial and monetary policy - Financial market and institution",
-        "Mã môn học": "CLCCN32",
+        "MaMonHoc": "CLCCN32",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3343,7 +3343,7 @@
         "Tên tiếng anh": "Supply Chain Management",
         "Số TC": "3",
         "DKTQ": "Introduction to Business  International Trade  Microeconomics 1&2",
-        "Mã môn học": "CLCCU07",
+        "MaMonHoc": "CLCCU07",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3355,7 +3355,7 @@
         "Tên tiếng anh": "Asset pricing",
         "Số TC": "3",
         "DKTQ": "Corporate Finance",
-        "Mã môn học": "CLCDG28",
+        "MaMonHoc": "CLCDG28",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3367,7 +3367,7 @@
         "Tên tiếng anh": "Business Negotiation",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "CLCDP08",
+        "MaMonHoc": "CLCDP08",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3379,7 +3379,7 @@
         "Tên tiếng anh": "Real estate principles",
         "Số TC": "3",
         "DKTQ": "Corporate finance Stock market Principles of investment",
-        "Mã môn học": "CLCDS25",
+        "MaMonHoc": "CLCDS25",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3391,7 +3391,7 @@
         "Tên tiếng anh": "International Investment/ Foreign Investment",
         "Số TC": "3",
         "DKTQ": "Macroeconomics 1&2; International Marketing; International Finance",
-        "Mã môn học": "CLCDT09",
+        "MaMonHoc": "CLCDT09",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3403,7 +3403,7 @@
         "Tên tiếng anh": "Introduction to Organizational Behavior",
         "Số TC": "3",
         "DKTQ": "Microeconomics 1/ Introduction to Management/ Introduction to Business",
-        "Mã môn học": "CLCHV12",
+        "MaMonHoc": "CLCHV12",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3415,7 +3415,7 @@
         "Tên tiếng anh": "Behavioural Finance",
         "Số TC": "3",
         "DKTQ": "Corporate finance and Principles of investment",
-        "Mã môn học": "CLCHV33",
+        "MaMonHoc": "CLCHV33",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3427,7 +3427,7 @@
         "Tên tiếng anh": "International Business Management",
         "Số TC": "3",
         "DKTQ": "Microeconomics I, Macroeconomics I",
-        "Mã môn học": "CLCKD03",
+        "MaMonHoc": "CLCKD03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3439,7 +3439,7 @@
         "Tên tiếng anh": "Introduction to Business",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "CLCKD17",
+        "MaMonHoc": "CLCKD17",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3451,7 +3451,7 @@
         "Tên tiếng anh": "Logistics and International Freight Forwarding",
         "Số TC": "3",
         "DKTQ": "",
-        "Mã môn học": "CLCLV14",
+        "MaMonHoc": "CLCLV14",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3463,7 +3463,7 @@
         "Tên tiếng anh": "Logistics and International Freight Forwarding",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "CLCLV14",
+        "MaMonHoc": "CLCLV14",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3475,7 +3475,7 @@
         "Tên tiếng anh": "International Marketing",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "CLCMR01",
+        "MaMonHoc": "CLCMR01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3487,7 +3487,7 @@
         "Tên tiếng anh": "Futures, options and other derivatives",
         "Số TC": "3",
         "DKTQ": "Corporate finance, Financial markets and institutions, Principles of Investment",
-        "Mã môn học": "CLCPS34",
+        "MaMonHoc": "CLCPS34",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3499,7 +3499,7 @@
         "Tên tiếng anh": "Futures, options and other derivatives",
         "Số TC": "3",
         "DKTQ": "Corporate finance, Financial markets and institutions, Principles of Investment",
-        "Mã môn học": "CLCPS34",
+        "MaMonHoc": "CLCPS34",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3511,7 +3511,7 @@
         "Tên tiếng anh": "Public Relations",
         "Số TC": "3",
         "DKTQ": "Không",
-        "Mã môn học": "CLCQH15",
+        "MaMonHoc": "CLCQH15",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3523,7 +3523,7 @@
         "Tên tiếng anh": "Financial Risk Management",
         "Số TC": "3",
         "DKTQ": "Corporate Finance;  Financial markets and institutions.",
-        "Mã môn học": "CLCRR31",
+        "MaMonHoc": "CLCRR31",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3535,7 +3535,7 @@
         "Tên tiếng anh": "Taxation and tax system",
         "Số TC": "3",
         "DKTQ": "Principles of Accounting - Corporate Finance",
-        "Mã môn học": "CLCTH16",
+        "MaMonHoc": "CLCTH16",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3547,7 +3547,7 @@
         "Tên tiếng anh": "Advanced Corporate Finance",
         "Số TC": "3",
         "DKTQ": "Corporate finance; Money, Banking & Financial Markets, Principles of accounting.",
-        "Mã môn học": "CLCTN01",
+        "MaMonHoc": "CLCTN01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3559,7 +3559,7 @@
         "Tên tiếng anh": "International financial management",
         "Số TC": "3",
         "DKTQ": "Corporate finance and International finance",
-        "Mã môn học": "CLCTN02",
+        "MaMonHoc": "CLCTN02",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3571,7 +3571,7 @@
         "Tên tiếng anh": "International Marketing Management",
         "Số TC": "3",
         "DKTQ": "International Marketing and Principles of Marketing",
-        "Mã môn học": "CLCTN03",
+        "MaMonHoc": "CLCTN03",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3583,7 +3583,7 @@
         "Tên tiếng anh": "Principles of Information Systems",
         "Số TC": "3",
         "DKTQ": "Tin học đại cương.",
-        "Mã môn học": "CLCTT11",
+        "MaMonHoc": "CLCTT11",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3595,7 +3595,7 @@
         "Tên tiếng anh": "Money, Banking and Financial Markets",
         "Số TC": "3",
         "DKTQ": "Microeconomics I  Macroeconomics I",
-        "Mã môn học": "CLCTT23",
+        "MaMonHoc": "CLCTT23",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3607,7 +3607,7 @@
         "Tên tiếng anh": "Thị trường tài chính và định chế tài chính",
         "Số TC": "3",
         "DKTQ": "Money, Banking and Financial markets;  Corporate finance",
-        "Mã môn học": "CLCTTTC01",
+        "MaMonHoc": "CLCTTTC01",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3619,7 +3619,7 @@
         "Tên tiếng anh": "Portfolio management",
         "Số TC": "3",
         "DKTQ": "Corporate finance  Stock market  Principles of investment",
-        "Mã môn học": "ĐTDM04",
+        "MaMonHoc": "ĐTDM04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3631,7 +3631,7 @@
         "Tên tiếng anh": "Portfolio management",
         "Số TC": "3",
         "DKTQ": "Corporate finance  Stock market  Principles of investment",
-        "Mã môn học": "ĐTDM04",
+        "MaMonHoc": "ĐTDM04",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3643,7 +3643,7 @@
         "Tên tiếng anh": "Principles of Investment",
         "Số TC": "3",
         "DKTQ": "Corporate finance, Financial markets and institutions",
-        "Mã môn học": "TCĐT09",
+        "MaMonHoc": "TCĐT09",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     },
@@ -3655,7 +3655,7 @@
         "Tên tiếng anh": "International Finance",
         "Số TC": "3",
         "DKTQ": "Kinh tế vĩ mô I, Lý thuyết tài chính tiền tệ, Tài chính doanh nghiệp.",
-        "Mã môn học": "TCQT12",
+        "MaMonHoc": "TCQT12",
         "TomTat": "Xem TomTat",
         "ChiTiet": "ChiTiet"
     }

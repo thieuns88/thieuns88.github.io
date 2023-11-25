@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>APD - Đề cương môn học</title>
+	<title>Học viện Chính sách và Phát triển - Đề cương môn học</title>
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
@@ -20,7 +20,7 @@
 	<div id="wrapper" class="container">
 		<div id="banner">
 			<a href="http://apd.edu.vn" class="mLogo">
-				<img src="http://apd.edu.vn/o/apd/images/custom-images/banners/banner-chung.gif" class="">
+				<img src="media/banner-chung.gif" class="">
 			</a>
 		</div>
 		<nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -92,7 +92,7 @@
 								<th align="center" >Số TC</th>
 								<!-- <th align="center" >DKTQ</th> -->
 								<th align="center">Mã môn học</th>
-								<th align="center" >Tóm tắt</th>
+								<!-- <th align="center" >Tóm tắt</th> -->
 								<th align="center" >Xem chi tiết</th>
 							</tr>
 						</thead>
@@ -109,54 +109,6 @@
 							  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 							</div>
 							<div class="modal-body">
-							  <!-- <div class="row">
-								<div class="col-4">
-									Bộ môn:
-								</div>
-								<div class="col-8">
-									
-								</div>
-							  </div>
-							  <div class="row">
-								<div class="col-4">
-									Tên tiếng Việt:
-								</div>
-								<div class="col-8">
-									
-								</div>
-							  </div>
-							  <div class="row">
-								<div class="col-4">
-									Tên tiếng Anh:
-								</div>
-								<div class="col-8">
-									
-								</div>
-							  </div>
-							  <div class="row">
-								<div class="col-4">
-									Số TC:
-								</div>
-								<div class="col-8">
-									
-								</div>
-							  </div>
-							  <div class="row">
-								<div class="col-4">
-									DKTQ:
-								</div>
-								<div class="col-8">
-									
-								</div>
-							  </div>
-							  <div class="row">
-								<div class="col-4">
-									Mã môn học:
-								</div>
-								<div class="col-8">
-									
-								</div>
-							  </div> -->
 							  <div class="row">
 								<div class="col-4">
 									<p id="tthp"></p>
@@ -196,7 +148,7 @@
 								class="fa fa-youtube"></i></a>
 					</div>
 					<div class="developer">
-						<span>Designed and Developed by <a href="https://beacons.ai/thieuns">Thieu Nguyen</a></span>
+						<span>Phát triển bởi <a href="https://beacons.ai/thieuns" target="_blank">Thieu Nguyen</a></span>
 					</div>
 					<div class="visitor-tracking-wraper">
 						<div class="current-visitor-online">
@@ -243,9 +195,10 @@
 					
 					for (let i=0; i < result.length; i++) {
 						// result[i].xemtomtat = '<a href="javascript:openModal(result[i]);">Xem tóm tắt</a>';
+						// <button type="button" class="btn btn-primary" onclick="openModal('Hello, world!')">Mở Modal</button>
 						// result[i].xemtomtat = '<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Xem tóm tắt</button>';
 						result[i].xemtomtat = '<a href="javascript:passData();" data-bs-toggle="modal" data-bs-target="#exampleModal">Xem tóm tắt</a>';
-						result[i].xemchitiet = '<a href="#">Xem chi tiết</a>';
+						result[i].xemchitiet = '<a href="uploads/'+result[i].MaMonHoc+'.pdf" target="_blank">Xem chi tiết</a>';
 					} 
 					let result2=result;
 
@@ -263,8 +216,8 @@
 							{ "data": "Tên tiếng anh" },
 							{ "data": "Số TC" },
 							// { "data": "DKTQ" },
-							{ "data": "Mã môn học" },
-							{ "data": "xemtomtat" },
+							{ "data": "MaMonHoc" },
+							// { "data": "xemtomtat" },
 							{ "data": "xemchitiet" }]
 					}
 				);
@@ -297,7 +250,7 @@
 		// 					{ "data": "Tên tiếng anh" },
 		// 					{ "data": "Số TC" },
 		// 					// { "data": "DKTQ" },
-		// 					{ "data": "Mã môn học" },
+		// 					{ "data": "MaMonHoc" },
 		// 					{ "data": "Tóm tắt" },
 		// 					{ "data": "Xem chi tiết" }]
 		// 			}

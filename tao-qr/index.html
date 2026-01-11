@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QR Generator + Logo (qrcodejs)</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 24px; }
+    .wrap { display: grid; grid-template-columns: 360px 1fr; gap: 24px; align-items: start; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; }
+    label { display:block; margin: 12px 0 6px; font-weight: 600; }
+    input[type="text"], textarea { width: 100%; padding: 10px; border-radius: 10px; border: 1px solid #ccc; }
+    input[type="range"] { width: 100%; }
+    .row { display:flex; gap: 10px; }
+    .row > * { flex: 1; }
+    button { padding: 10px 12px; border: 0; border-radius: 10px; cursor: pointer; font-weight: 700; }
+    button.primary { background: #111; color: #fff; }
+    button.ghost { background: #f1f1f1; }
+    #qrWrap { width: 320px; height: 320px; border-radius: 12px; background: #fff; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+    .hint { color:#555; font-size: 13px; line-height: 1.4; }
+    .preview { display:flex; gap: 16px; align-items: start; flex-wrap: wrap; }
+    .small { font-size: 12px; color:#666; }
+  </style>
+
+  <!-- qrcodejs (DavidShim) -->
+  <script src="qrcode.min.js"></script>
+</head>
+
+<body>
+  <h1>Tạo mã QR có logo ở giữa (qrcodejs)</h1>
+  <p class="hint">
+    Mẹo: hãy để <b>Error correction = H</b> để QR vẫn quét tốt khi chèn logo.
+  </p>
+
+  <div class="wrap">
+    <div class="card">
+      <label>Nội dung QR (URL / text)</label>
+      <textarea id="content" rows="4">https://example.com</textarea>
+
+      <div class="row">
+        <div>
+          <label>Kích thước (px)</label>
+          <input id="size" type="text" value="512" />
+        </div>
+        <div>
+          <label>Margin</label>
+          <input id="margin" type="text" value="2" />
+        </div>
+      </div>
+      <div class="small">
+        qrcodejs không có margin “chuẩn” như thư viện khác, nên mình tạo margin bằng cách vẽ QR vào giữa một canvas lớn hơn.
+      </div>
+
+      <label>Error correction</label>
+      <div class="row">
+        <select id="ec" style="padding:10px;border-radius:10px;border:1px solid #ccc;">
+          <option value="L">L (7%)</option>
+          <option value="M">M (15%)</option>
+          <option value="Q">Q (25%)</option>
+          <option value="H" selected>H (30%)</option>
+        </select>
+
+        <select id="format" style="padding:10px;border-radius:10px;border:1px solid #ccc;">
+          <option value="png" selected>PNG</option>
+          <option value="jpeg">JPEG</option>
+          <option value="webp">WEBP</option>
+        </select>
+      </div>
+
+      <label>Chọn logo (PNG/JPG/SVG)</label>
+      <input id="logo" type="file" accept="image/*" />
+      <div class="small">
+        Lưu ý: SVG đôi khi không vẽ được lên canvas tùy trình duyệt; PNG là ổn nhất.
+      </div>
+
+      <label>Tỉ lệ logo so với QR (%)</label>
+      <input id="logoPct" type="range" min="10" max="40" value="22" />
+      <div class="hint">Mặc định ~22% thường ổn. Nếu logo lớn quá, QR có thể khó quét.</div>
+
+      <label>Viền trắng quanh logo (px)</label>
+      <input id="logoPadding" type="range" min="0" max="30" value="10" />
+
+      <label>Bo góc logo (px)</label>
+      <input id="logoRadius" type="range" min="0" max="40" value="12" />
+
+      <div style="display:flex; gap:10px; margin-top:16px;">
+        <button class="primary" id="btnGen">Tạo / Cập nhật</button>
+        <button class="ghost" id="btnDl">Tải xuống</button>
+      </div>
+
+      <p class="hint" style="margin-top:12px;">
+        Nếu bạn muốn QR nền trong suốt hoặc đổi màu, mình có thể mở rộng thêm.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="preview">
+        <div>
+          <div id="qrWrap">
+            <!-- final output canvas will be inserted here -->
+          </div>
+          <div class="hint" style="margin-top:10px;">
+            Preview sẽ hiển thị ở đây.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const $ = (id) => document.getElementById(id);
+
+  const qrWrap = $("qrWrap");
+
+  let logoImg = null;
+
+  $("logo").addEventListener("change", (e) => {
+    const file = e.target.files?.[0];
+    if (!file) {
+      logoImg = null;
+      render(false);
+      return;
+    }
+    const reader = new FileReader();
+    reader.onload = () => {
+      const img = new Image();
+      img.onload = () => {
+        logoImg = img;
+        render(false);
+      };
+      img.src = reader.result;
+    };
+    reader.readAsDataURL(file);
+  });
+
+  $("btnGen").addEventListener("click", () => render(true));
+  $("btnDl").addEventListener("click", download);
+
+  ["content","size","margin","ec","logoPct","logoPadding","logoRadius","format"].forEach(id => {
+    const el = $(id);
+    if (el) el.addEventListener("input", () => render(false));
+  });
+
+  function clampInt(v, def, min, max) {
+    const n = parseInt(v, 10);
+    if (Number.isNaN(n)) return def;
+    return Math.max(min, Math.min(max, n));
+  }
+
+  // qrcodejs output can be <img> or <canvas>. We will force canvas usage by providing a div,
+  // then we will extract the generated <img> or <canvas> into our own final canvas.
+  function generateQrToTemp(text, qrSize, ecLevel) {
+    return new Promise((resolve) => {
+      const temp = document.createElement("div");
+      temp.style.position = "fixed";
+      temp.style.left = "-99999px";
+      temp.style.top = "-99999px";
+      document.body.appendChild(temp);
+
+      // build QR
+      new QRCode(temp, {
+        text,
+        width: qrSize,
+        height: qrSize,
+        colorDark: "#000000",
+        colorLight: "#ffffff",
+        correctLevel: QRCode.CorrectLevel[ecLevel] // L/M/Q/H
+      });
+
+      // qrcodejs may render async; wait a tick
+      setTimeout(() => {
+        const canvas = temp.querySelector("canvas");
+        const img = temp.querySelector("img");
+        // Prefer canvas if exists; else convert img -> canvas
+        if (canvas) {
+          document.body.removeChild(temp);
+          resolve(canvas);
+          return;
+        }
+        if (img) {
+          const c = document.createElement("canvas");
+          c.width = qrSize;
+          c.height = qrSize;
+          const ctx = c.getContext("2d");
+          const i = new Image();
+          i.onload = () => {
+            ctx.drawImage(i, 0, 0, qrSize, qrSize);
+            document.body.removeChild(temp);
+            resolve(c);
+          };
+          i.src = img.src;
+          return;
+        }
+
+        // fallback: nothing found
+        document.body.removeChild(temp);
+        resolve(null);
+      }, 30);
+    });
+  }
+
+  async function render(forceAlert = false) {
+    const text = $("content").value.trim();
+    if (!text) {
+      if (forceAlert) alert("Vui lòng nhập nội dung QR.");
+      return;
+    }
+
+    const size = clampInt($("size").value, 512, 128, 2048);
+    const margin = clampInt($("margin").value, 2, 0, 80);
+    const ec = $("ec").value;
+
+    // Final canvas size includes margin around QR
+    const finalSize = size;
+    const innerSize = Math.max(64, finalSize - margin * 2); // actual QR drawn size
+
+    // Generate QR into temp canvas (innerSize x innerSize)
+    const qrTempCanvas = await generateQrToTemp(text, innerSize, ec);
+    if (!qrTempCanvas) {
+      alert("Không tạo được QR (qrcodejs). Hãy thử reload trang.");
+      return;
+    }
+
+    // Create final output canvas
+    const out = document.createElement("canvas");
+    out.id = "qrcanvas";
+    out.width = finalSize;
+    out.height = finalSize;
+    out.style.width = "320px";
+    out.style.height = "320px";
+
+    const ctx = out.getContext("2d");
+
+    // White background
+    ctx.fillStyle = "#ffffff";
+    ctx.fillRect(0, 0, finalSize, finalSize);
+
+    // Draw QR centered with margin
+    ctx.drawImage(qrTempCanvas, margin, margin, innerSize, innerSize);
+
+    // Draw logo if present
+    if (logoImg) {
+      const logoPct = clampInt($("logoPct").value, 22, 10, 40) / 100;
+      const pad = clampInt($("logoPadding").value, 10, 0, 60);
+      const rad = clampInt($("logoRadius").value, 12, 0, 120);
+
+      const logoSize = Math.round(innerSize * logoPct);
+      const boxSize = logoSize + pad * 2;
+
+      const centerX = finalSize / 2;
+      const centerY = finalSize / 2;
+
+      const x = Math.round(centerX - boxSize / 2);
+      const y = Math.round(centerY - boxSize / 2);
+
+      // White rounded box behind logo
+      drawRoundedRect(ctx, x, y, boxSize, boxSize, rad);
+      ctx.fillStyle = "#ffffff";
+      ctx.fill();
+
+      // Clip logo to rounded rect
+      ctx.save();
+      const clipR = Math.max(0, rad - Math.round(pad * 0.6));
+      drawRoundedRect(ctx, x + pad, y + pad, logoSize, logoSize, clipR);
+      ctx.clip();
+
+      // Keep aspect ratio
+      const fit = fitContain(logoImg.width, logoImg.height, logoSize, logoSize);
+      const lx = Math.round(centerX - fit.w / 2);
+      const ly = Math.round(centerY - fit.h / 2);
+      ctx.drawImage(logoImg, lx, ly, fit.w, fit.h);
+
+      ctx.restore();
+    }
+
+    // Show in UI
+    qrWrap.innerHTML = "";
+    qrWrap.appendChild(out);
+
+    // Keep wrap size visually stable
+    qrWrap.style.width = "320px";
+    qrWrap.style.height = "320px";
+  }
+
+  function drawRoundedRect(ctx, x, y, w, h, r) {
+    const rr = Math.min(r, Math.floor(Math.min(w, h) / 2));
+    ctx.beginPath();
+    ctx.moveTo(x + rr, y);
+    ctx.arcTo(x + w, y, x + w, y + h, rr);
+    ctx.arcTo(x + w, y + h, x, y + h, rr);
+    ctx.arcTo(x, y + h, x, y, rr);
+    ctx.arcTo(x, y, x + w, y, rr);
+    ctx.closePath();
+  }
+
+  function fitContain(sw, sh, dw, dh) {
+    const s = Math.min(dw / sw, dh / sh);
+    return { w: Math.round(sw * s), h: Math.round(sh * s) };
+  }
+
+  function download() {
+    const canvas = document.getElementById("qrcanvas");
+    if (!canvas) return;
+
+    const format = $("format").value; // png|jpeg|webp
+    const mime = format === "png" ? "image/png"
+               : format === "jpeg" ? "image/jpeg"
+               : "image/webp";
+
+    const a = document.createElement("a");
+    a.download = `qr-with-logo.${format}`;
+    a.href = canvas.toDataURL(mime, 0.92);
+    a.click();
+  }
+
+  // initial render
+  render(false);
+});
+</script>
+</body>
+</html>

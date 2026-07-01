@@ -3,369 +3,343 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>APD 2026 - Công cụ tính điểm & gợi ý ngành</title>
+  <title>APD 2026 - Widget tra cứu điểm quy đổi</title>
   <style>
     :root{
-      --bg:#f5f7fb; --card:#ffffff; --text:#0f172a; --muted:#64748b; --line:#dbe3ef;
-      --blue:#0b66c3; --blue2:#084f9a; --green:#0f8a4c; --amber:#b7791f; --red:#c2410c; --gray:#475569;
-      --soft-blue:#eaf4ff; --soft-green:#eafaf1; --soft-amber:#fff7e6; --soft-red:#fff1ed; --soft-gray:#f1f5f9;
-      --shadow: 0 10px 28px rgba(15,23,42,.08);
-      --radius:16px;
+      --apd-blue:#075eb3;
+      --apd-blue-2:#0a73d9;
+      --apd-navy:#073763;
+      --apd-gold:#f4b43c;
+      --apd-bg:#f6f9fd;
+      --apd-card:#ffffff;
+      --apd-text:#0f172a;
+      --apd-muted:#64748b;
+      --apd-line:#dbe7f5;
+      --apd-soft:#eef6ff;
+      --apd-green:#0f8a4c;
+      --apd-amber:#b7791f;
+      --apd-red:#c2410c;
+      --apd-gray:#475569;
+      --soft-green:#eafaf1;
+      --soft-blue:#eaf4ff;
+      --soft-amber:#fff7e6;
+      --soft-red:#fff1ed;
+      --soft-gray:#f1f5f9;
+      --radius:18px;
+      --shadow:0 14px 36px rgba(15,23,42,.08);
+      --shadow-soft:0 8px 20px rgba(15,23,42,.06);
     }
     *{box-sizing:border-box}
-    body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.45}
-    header{background:linear-gradient(135deg,#0757a5,#0b77d8);color:white;padding:28px 18px 34px}
-    .wrap{max-width:1180px;margin:0 auto}
-    .hero{display:flex;gap:18px;align-items:flex-start;justify-content:space-between}
-    .hero h1{margin:0 0 8px;font-size:clamp(24px,4vw,38px);line-height:1.1}
-    .hero p{margin:0;color:#dbeafe;max-width:840px}
-    .badge{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border:1px solid rgba(255,255,255,.35);border-radius:999px;background:rgba(255,255,255,.12);white-space:nowrap;font-weight:700}
-    main{max-width:1180px;margin:-18px auto 40px;padding:0 18px}
-    .grid{display:grid;grid-template-columns:1fr;gap:18px}
-    @media (min-width:980px){.grid{grid-template-columns:370px 1fr}.sticky{position:sticky;top:14px;align-self:start}}
-    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
-    .card h2{font-size:18px;margin:0;padding:18px 18px 10px}
-    .card .body{padding:0 18px 18px}
-    details.section{border-top:1px solid var(--line);padding:12px 18px}
+    html{scroll-behavior:smooth;background:transparent}
+    body{
+      margin:0;
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      color:var(--apd-text);
+      background:transparent;
+      line-height:1.48;
+    }
+    .apd-widget{
+      width:100%;
+      max-width:1120px;
+      margin:0 auto;
+      padding:14px;
+    }
+    .embed-shell{
+      overflow:hidden;
+      border:1px solid var(--apd-line);
+      border-radius:24px;
+      background:linear-gradient(180deg,#ffffff 0%,#fbfdff 100%);
+      box-shadow:var(--shadow);
+    }
+    .mini-hero{
+      position:relative;
+      overflow:hidden;
+      padding:20px 20px 18px;
+      color:#fff;
+      background:
+        radial-gradient(circle at 90% 0%,rgba(244,180,60,.38),transparent 18rem),
+        linear-gradient(135deg,var(--apd-navy),var(--apd-blue) 58%,var(--apd-blue-2));
+    }
+    .mini-hero::after{
+      content:"";
+      position:absolute;
+      width:260px;height:260px;right:-115px;top:-135px;
+      border-radius:999px;
+      background:rgba(255,255,255,.14);
+      pointer-events:none;
+    }
+    .topline{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;position:relative;z-index:1}
+    .brand{display:flex;align-items:center;gap:12px;min-width:220px}
+    .logo-mark{
+      width:44px;height:44px;border-radius:15px;display:grid;place-items:center;
+      background:#fff;color:var(--apd-navy);font-weight:950;letter-spacing:-.05em;
+      box-shadow:0 10px 24px rgba(0,0,0,.18);
+      flex:none;
+    }
+    .brand small{display:block;color:#dbeafe;font-weight:800;letter-spacing:.04em;text-transform:uppercase;font-size:11px}
+    .brand b{display:block;color:#fff;font-size:16px;letter-spacing:-.02em}
+    .mini-hero h1{position:relative;z-index:1;margin:14px 0 8px;font-size:clamp(22px,3.3vw,34px);line-height:1.12;letter-spacing:-.035em;max-width:820px}
+    .mini-hero p{position:relative;z-index:1;margin:0;color:#e9f4ff;max-width:840px;font-size:14.5px}
+    .hero-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;position:relative;z-index:1}
+    .tag{display:inline-flex;align-items:center;gap:7px;padding:7px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.12);font-size:12px;font-weight:850;color:#f8fbff;backdrop-filter:blur(10px)}
+    .quick-help{
+      display:grid;grid-template-columns:1fr;gap:10px;
+      padding:14px 16px;
+      border-bottom:1px solid var(--apd-line);
+      background:linear-gradient(180deg,#fbfdff,#fff);
+    }
+    @media (min-width:780px){.quick-help{grid-template-columns:repeat(3,1fr)}}
+    .help-item{display:flex;gap:10px;align-items:flex-start;padding:11px;border:1px solid #edf3fa;border-radius:16px;background:#fff;box-shadow:var(--shadow-soft)}
+    .help-icon{width:28px;height:28px;border-radius:10px;background:var(--apd-soft);color:var(--apd-blue);display:grid;place-items:center;font-weight:950;flex:none}
+    .help-item b{display:block;font-size:13px;color:#17324d}.help-item span{display:block;margin-top:2px;font-size:12px;color:var(--apd-muted)}
+    .grid{display:grid;grid-template-columns:1fr;gap:14px;padding:14px;background:var(--apd-bg)}
+    @media (min-width:980px){.grid{grid-template-columns:360px minmax(0,1fr);align-items:start}}
+    .card{background:var(--apd-card);border:1px solid var(--apd-line);border-radius:var(--radius);box-shadow:var(--shadow-soft);overflow:hidden}
+    .card h2{font-size:17px;margin:0;padding:16px 16px 8px;color:#102a43;letter-spacing:-.015em}
+    .panel-subtitle{margin:-2px 16px 12px;color:var(--apd-muted);font-size:12.5px}
+    details.section{border-top:1px solid #edf3fa;padding:0;background:#fff}
     details.section:first-of-type{border-top:none}
-    details.section summary{cursor:pointer;font-weight:800;color:#0f2f55;display:flex;align-items:center;justify-content:space-between}
+    details.section summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;font-weight:900;color:#17324d;font-size:14px;transition:.15s ease}
+    details.section summary:hover{background:#fbfdff}
     details.section summary::-webkit-details-marker{display:none}
-    .hint{font-size:13px;color:var(--muted);margin:6px 0 12px}
-    .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px 12px;margin-top:10px}
+    details.section summary::after{content:"+";width:25px;height:25px;display:grid;place-items:center;border-radius:999px;background:var(--apd-soft);color:var(--apd-blue);font-weight:950;flex:none}
+    details.section[open] summary::after{content:"−";background:var(--apd-blue);color:#fff}
+    details.section[open] summary{border-bottom:1px solid #edf3fa;background:#fbfdff}
+    details.section .hint, details.section .form-grid, details.section .checkrow{margin-left:16px;margin-right:16px}
+    details.section .hint{font-size:12.5px;color:var(--apd-muted);margin-top:12px;margin-bottom:10px}
+    .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
     .form-grid.one{grid-template-columns:1fr}
-    label{font-size:12px;font-weight:750;color:#334155;display:block;margin-bottom:5px}
-    input,select{width:100%;height:38px;border:1px solid #c9d5e4;border-radius:10px;padding:8px 10px;background:#fff;color:#0f172a;font:inherit;font-size:14px;outline:none}
-    input:focus,select:focus{border-color:#0b66c3;box-shadow:0 0 0 3px rgba(11,102,195,.12)}
-    .checkrow{display:flex;gap:9px;align-items:center;margin-top:10px;color:#334155;font-size:14px}
-    .checkrow input{width:16px;height:16px;padding:0}
-    .actions{display:flex;gap:10px;align-items:center;padding:16px 18px;border-top:1px solid var(--line);background:#fbfdff;border-radius:0 0 var(--radius) var(--radius)}
-    button{border:none;border-radius:12px;padding:11px 14px;font-weight:850;cursor:pointer;font:inherit}
-    .btn-primary{background:var(--blue);color:#fff;flex:1}.btn-primary:hover{background:var(--blue2)}
-    .btn-ghost{background:#eef4fb;color:#0f2f55}.btn-ghost:hover{background:#e2ecf7}
-    .result-head{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:18px;border-bottom:1px solid var(--line)}
-    .result-head h2{padding:0;margin:0;font-size:20px}
-    .summary{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;padding:18px}
-    @media (min-width:720px){.summary{grid-template-columns:repeat(5,1fr)}}
-    .metric{border:1px solid var(--line);border-radius:14px;padding:12px;background:#fbfdff}
-    .metric .num{font-size:24px;font-weight:900;margin-bottom:2px}.metric .lbl{font-size:12px;color:var(--muted);font-weight:700}
-    .toolbar{display:flex;gap:10px;align-items:end;flex-wrap:wrap;padding:0 18px 16px}
-    .toolbar .control{min-width:180px;flex:1}
-    .table-wrap{overflow:auto;border-top:1px solid var(--line)}
-    table{width:100%;border-collapse:separate;border-spacing:0;min-width:960px}
-    th,td{padding:12px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;font-size:14px}
-    th{background:#f8fbff;color:#334155;font-size:12px;text-transform:uppercase;letter-spacing:.02em;position:sticky;top:0;z-index:1}
+    label{font-size:11.5px;font-weight:850;color:#334155;display:block;margin-bottom:5px}
+    input,select{width:100%;height:40px;border:1px solid #cbd9ea;border-radius:12px;padding:8px 10px;background:#fff;color:var(--apd-text);font:inherit;font-size:14px;outline:none;transition:.16s ease}
+    input::placeholder{color:#9aa8ba}
+    input:focus,select:focus{border-color:var(--apd-blue-2);box-shadow:0 0 0 4px rgba(10,115,217,.13)}
+    .checkrow{display:flex;gap:9px;align-items:center;margin-top:2px;margin-bottom:14px;color:#334155;font-size:13px;font-weight:650}
+    .checkrow input{width:16px;height:16px;padding:0;flex:none}
+    .actions{display:flex;gap:10px;align-items:center;padding:14px 16px;border-top:1px solid var(--apd-line);background:#fbfdff}
+    button{border:none;border-radius:13px;padding:11px 13px;font-weight:900;cursor:pointer;font:inherit;transition:.16s ease;min-height:42px}
+    .btn-primary{background:linear-gradient(135deg,var(--apd-blue),var(--apd-blue-2));color:#fff;flex:1;box-shadow:0 12px 24px rgba(7,94,179,.22)}
+    .btn-primary:hover{transform:translateY(-1px);filter:brightness(.98)}
+    .btn-ghost{background:#eef6ff;color:#0f3b66;border:1px solid #d9eafa}
+    .btn-ghost:hover{background:#e4f1ff}
+    .result-panel{min-width:0}
+    .result-head{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:16px;border-bottom:1px solid var(--apd-line);background:#fff}
+    .result-head h2{padding:0;margin:0;font-size:19px;letter-spacing:-.025em}
+    .small{font-size:12px;color:var(--apd-muted)}
+    .summary{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;padding:14px 16px}
+    @media (min-width:700px){.summary{grid-template-columns:repeat(3,1fr)}}
+    @media (min-width:1060px){.summary{grid-template-columns:repeat(6,1fr)}}
+    .metric{position:relative;overflow:hidden;border:1px solid #e3edf8;border-radius:15px;padding:12px;background:linear-gradient(180deg,#fff,#fbfdff)}
+    .metric::before{content:"";position:absolute;left:0;top:0;width:4px;height:100%;background:var(--apd-blue)}
+    .metric .num{font-size:22px;font-weight:950;margin-bottom:1px;color:#0f2f55;letter-spacing:-.04em}.metric .lbl{font-size:11.5px;color:var(--apd-muted);font-weight:850}
+    .toolbar{display:grid;grid-template-columns:1fr;gap:10px;padding:0 16px 14px}
+    @media (min-width:780px){.toolbar{grid-template-columns:1fr 1fr 1fr;align-items:end}}
+    .warn{padding:11px 13px;border:1px solid #ffd8a8;background:#fff7e6;border-radius:13px;color:#7c4a03;margin:0 16px 14px;font-size:13px}
+    .table-wrap{overflow:auto;border-top:1px solid var(--apd-line);background:#fff}
+    table{width:100%;border-collapse:separate;border-spacing:0;min-width:920px}
+    th,td{padding:12px 10px;border-bottom:1px solid #edf3fa;text-align:left;vertical-align:top;font-size:13.5px}
+    th{background:#f8fbff;color:#475569;font-size:11px;text-transform:uppercase;letter-spacing:.035em;position:sticky;top:0;z-index:1}
     tr:hover td{background:#fcfdff}
-    .pill{display:inline-flex;align-items:center;border-radius:999px;padding:4px 8px;font-size:12px;font-weight:850;white-space:nowrap}
-    .safe{color:var(--green);background:var(--soft-green)}.ok{color:#0b66c3;background:var(--soft-blue)}.risk{color:var(--amber);background:var(--soft-amber)}.hard{color:var(--red);background:var(--soft-red)}.unknown{color:var(--gray);background:var(--soft-gray)}
-    .small{font-size:12px;color:var(--muted)}
-    .score{font-weight:950;font-size:16px}.method{font-weight:800;color:#0f2f55}.program{font-weight:850}.campus{font-weight:800;color:#0b66c3}
-    .notes{padding:14px 18px;color:#475569;font-size:13px;background:#fbfdff;border-top:1px solid var(--line);border-radius:0 0 var(--radius) var(--radius)}
-    .warn{padding:12px 14px;border:1px solid #ffd8a8;background:#fff7e6;border-radius:12px;color:#7c4a03;margin:0 18px 16px;font-size:14px}
-    .empty{padding:26px 18px;color:#64748b;text-align:center}
-    .explain{margin-top:8px;color:#475569;font-size:12px}.explain summary{cursor:pointer;color:#0b66c3;font-weight:800}
-    .footer-note{margin-top:14px;font-size:12px;color:#64748b}.linklike{color:#0b66c3;font-weight:800}
-
-    /* Responsive bổ sung cho WordPress/mobile */
-    html{scroll-behavior:smooth}
-    img,svg,video{max-width:100%;height:auto}
-    .card,.metric,input,select,button{max-width:100%}
-    @media (max-width:900px){
-      header{padding:22px 14px 30px}
-      .hero{flex-direction:column;gap:12px}
-      .badge{align-self:flex-start}
-      main{margin:-14px auto 28px;padding:0 12px}
-      .grid{gap:14px}
-      .card h2{padding:16px 14px 8px}
-      details.section{padding:12px 14px}
-      .card .body{padding:0 14px 14px}
-      .actions{padding:12px 14px}
-    }
-    @media (max-width:640px){
-      body{background:#fff}
-      header{padding:18px 12px 28px}
-      .hero h1{font-size:24px;line-height:1.15}
-      .hero p{font-size:14px}
-      .badge{font-size:12px;padding:7px 10px}
-      main{padding:0 10px;margin-top:-12px}
-      .card{border-radius:14px;box-shadow:0 6px 18px rgba(15,23,42,.06)}
-      .form-grid,.form-grid.one{grid-template-columns:1fr;gap:9px}
-      input,select{height:42px;font-size:16px;border-radius:11px}
-      label{font-size:12px}
-      details.section summary{font-size:15px}
-      .actions{position:sticky;bottom:0;z-index:20;display:grid;grid-template-columns:1fr;gap:8px;background:rgba(251,253,255,.96);backdrop-filter:blur(8px)}
-      button{width:100%;padding:12px 14px}
-      .result-head{align-items:stretch;padding:14px;gap:10px}
-      .result-head h2{font-size:18px}
-      .summary{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:14px}
-      .metric{padding:10px;border-radius:12px}
-      .metric .num{font-size:21px}
-      .toolbar{display:grid;grid-template-columns:1fr;gap:9px;padding:0 14px 14px}
-      .toolbar .control{min-width:0;width:100%}
-      .warn{margin:0 14px 14px;font-size:13px}
-      .notes{font-size:12px;padding:12px 14px}
-
-      /* Chuyển bảng kết quả thành card trên mobile */
-      .table-wrap{overflow:visible;border-top:1px solid var(--line);padding:0 10px 12px}
-      table{min-width:0;width:100%;border-collapse:collapse}
-      thead{display:none}
-      tbody, tr, td{display:block;width:100%}
-      tbody tr{margin:12px 0;border:1px solid var(--line);border-radius:14px;background:#fff;box-shadow:0 6px 16px rgba(15,23,42,.05);overflow:hidden}
-      tbody tr:hover td{background:#fff}
-      td{border-bottom:1px solid #edf2f7;padding:10px 12px;display:grid;grid-template-columns:108px minmax(0,1fr);gap:10px;align-items:start;font-size:14px}
-      td:last-child{border-bottom:none}
-      td::before{content:attr(data-label);font-size:11px;line-height:1.25;text-transform:uppercase;letter-spacing:.02em;color:var(--muted);font-weight:900;padding-top:2px}
-      td[data-label="#"]{display:none}
-      td.empty{display:block;text-align:center;border:0;padding:22px 12px}
-      td.empty::before{display:none}
-      .program,.method{line-height:1.25}
-      .pill{justify-self:start}
-      .explain{font-size:12px;word-break:break-word}
-      .small{font-size:12px}
-    }
-    @media (max-width:420px){
-      .summary{grid-template-columns:1fr 1fr}
-      td{grid-template-columns:92px minmax(0,1fr);padding:9px 10px;gap:8px}
-      .score{font-size:15px}
-      .campus,.program,.method{font-size:14px}
-    }
-
-
-
-    /* Compact desktop/WordPress embed overrides */
-    :root{--radius:12px;--shadow:0 4px 16px rgba(15,23,42,.06)}
-    body{font-size:13px;line-height:1.34;background:#f7f9fc}
-    header{padding:14px 12px 22px}
-    .wrap,main{max-width:1080px}
-    .hero{gap:12px}
-    .hero h1{font-size:clamp(20px,2.2vw,28px);line-height:1.12;margin:0 0 4px}
-    .hero p{font-size:13px;max-width:720px;line-height:1.35}
-    .badge{font-size:11px;padding:5px 8px;gap:6px}
-    main{margin:-10px auto 24px;padding:0 12px}
-    .grid{gap:12px}
-    @media (min-width:980px){.grid{grid-template-columns:315px minmax(0,1fr)}.sticky{top:10px}}
-    .card{border-radius:var(--radius)}
-    .card h2{font-size:15px;padding:12px 14px 6px}
-    .card .body{padding:0 14px 12px}
-    details.section{padding:8px 14px}
-    details.section summary{font-size:13px;line-height:1.25}
-    .hint{font-size:11px;line-height:1.32;margin:4px 0 8px}
-    .form-grid{gap:7px 8px;margin-top:8px}
-    label{font-size:11px;margin-bottom:3px;line-height:1.2}
-    input,select{height:32px;border-radius:8px;padding:5px 8px;font-size:13px}
-    .checkrow{font-size:12px;margin-top:8px;gap:7px}
-    .checkrow input{width:14px;height:14px}
-    .actions{padding:10px 14px;gap:8px}
-    button{padding:8px 10px;border-radius:9px;font-size:13px}
-    .result-head{padding:12px 14px;gap:8px}
-    .result-head h2{font-size:16px}
-    .small{font-size:11px;line-height:1.3}
-    .summary{padding:12px 14px;gap:8px}
-    @media (min-width:720px){.summary{grid-template-columns:repeat(5,minmax(0,1fr))}}
-    .metric{padding:8px;border-radius:10px}
-    .metric .num{font-size:18px;line-height:1.1}
-    .metric .lbl{font-size:10.5px;line-height:1.15}
-    .toolbar{padding:0 14px 10px;gap:8px}
-    .toolbar .control{min-width:150px}
-    table{min-width:860px}
-    th,td{padding:8px 8px;font-size:12px;line-height:1.3}
-    th{font-size:10px}
-    .score{font-size:14px}
-    .pill{font-size:11px;padding:3px 7px}
-    .program,.method,.campus{font-size:12.5px;line-height:1.25}
-    .notes{padding:10px 14px;font-size:11px;line-height:1.35}
-    .warn{margin:0 14px 10px;padding:9px 10px;font-size:12px}
-    .explain{font-size:11px;margin-top:5px;line-height:1.32}
-    .footer-note{font-size:11px}
-    @media (max-width:640px){
-      header{padding:14px 10px 22px}
-      .hero h1{font-size:20px}
-      main{padding:0 8px;margin-top:-10px}
-      .card h2{font-size:15px;padding:12px 12px 6px}
-      details.section{padding:8px 12px}
-      input,select{height:38px;font-size:15px}
-      .actions{padding:9px 12px}
-      button{padding:10px 12px}
-      .summary{padding:10px 12px;gap:7px}
-      .metric .num{font-size:17px}
-      .toolbar{padding:0 12px 10px}
-      td{font-size:12px;grid-template-columns:88px minmax(0,1fr);padding:8px 10px}
-      td::before{font-size:10px}
-      tbody tr{margin:9px 0;border-radius:12px}
-    }
-
-
-
-    /* WordPress embed mode: website đã có header riêng nên ẩn banner của app */
-    header{display:none!important}
-    body{background:transparent!important}
-    main{margin:0 auto 18px!important;padding:0!important;max-width:1040px!important}
-    .grid{gap:10px!important}
-    @media (min-width:980px){.grid{grid-template-columns:300px minmax(0,1fr)!important}}
-    .card{box-shadow:0 2px 10px rgba(15,23,42,.05)!important}
-    .result-head,.summary,.toolbar,details.section,.actions,.notes{padding-left:12px!important;padding-right:12px!important}
-    .card h2{padding-left:12px!important;padding-right:12px!important}
-    .result-head h2{font-size:15px!important}
-    th,td{padding:7px 7px!important}
-    @media (max-width:640px){main{padding:0!important}.grid{gap:8px!important}.card{border-radius:10px!important}}
-
+    .pill{display:inline-flex;align-items:center;border-radius:999px;padding:5px 8px;font-size:11.5px;font-weight:950;white-space:nowrap}
+    .safe{color:var(--apd-green);background:var(--soft-green)}.ok{color:#0b66c3;background:var(--soft-blue)}.risk{color:var(--apd-amber);background:var(--soft-amber)}.hard{color:var(--apd-red);background:var(--soft-red)}.unknown{color:var(--apd-gray);background:var(--soft-gray)}
+    .score{font-weight:950;font-size:17px;color:#0f2f55}.method{font-weight:900;color:#0f2f55}.program{font-weight:950;color:#102a43}.campus{font-weight:900;color:var(--apd-blue)}
+    .notes{padding:13px 16px;color:#475569;font-size:12.5px;background:#fbfdff;border-top:1px solid var(--apd-line)}
+    .empty{padding:28px 18px;color:#64748b;text-align:center}
+    .explain{margin-top:7px;color:#475569;font-size:12px}.explain summary{cursor:pointer;color:var(--apd-blue);font-weight:900;list-style:none}.explain summary::-webkit-details-marker{display:none}
+    .embed-footer{padding:12px 16px;background:#fff;border-top:1px solid var(--apd-line);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;color:var(--apd-muted);font-size:12px}
+    .linklike{color:var(--apd-blue);font-weight:900}
     .hidden{display:none!important}
+    @media (max-width:720px){
+      .apd-widget{padding:8px}.embed-shell{border-radius:18px}.mini-hero{padding:17px}.brand b{font-size:14px}.mini-hero h1{font-size:23px}.hero-tags{gap:6px}.tag{font-size:11.5px;padding:6px 8px}.grid{padding:10px;gap:10px}.form-grid{grid-template-columns:1fr}.actions{position:sticky;bottom:0;z-index:5;box-shadow:0 -10px 22px rgba(15,23,42,.08);background:rgba(251,253,255,.96);backdrop-filter:blur(12px)}.actions{flex-direction:column}.btn-primary,.btn-ghost{width:100%}
+      table{min-width:0;border-spacing:0 10px;padding:0 10px 10px;background:#f6f9fd}thead{display:none}tbody,tr,td{display:block}tr{background:#fff;border:1px solid var(--apd-line);border-radius:16px;box-shadow:var(--shadow-soft);overflow:hidden;margin:10px 0}td{border-bottom:1px solid #edf3fa;padding:9px 12px}td:last-child{border-bottom:none}td::before{display:block;font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;color:#7b8ba0;font-weight:900;margin-bottom:3px}td:nth-child(1)::before{content:"STT"}td:nth-child(2)::before{content:"Cơ sở"}td:nth-child(3)::before{content:"Ngành/chương trình"}td:nth-child(4)::before{content:"Tổ hợp"}td:nth-child(5)::before{content:"Phương thức"}td:nth-child(6)::before{content:"Điểm tương đương"}td:nth-child(7)::before{content:"Mốc tham khảo"}td:nth-child(8)::before{content:"Chênh lệch"}td:nth-child(9)::before{content:"Đánh giá"}.table-wrap{overflow:visible;background:#f6f9fd}.toolbar{padding:0 12px 12px}.summary{padding:12px}.result-head{padding:14px}.notes{font-size:12px}.quick-help{padding:10px}
+    }
+    @media print{body{background:#fff}.apd-widget{padding:0;max-width:none}.mini-hero,.quick-help,.actions,.toolbar,#exportBtn,.embed-footer{display:none!important}.embed-shell,.card{box-shadow:none;border:none}.grid{display:block;padding:0;background:#fff}.table-wrap{overflow:visible}table{min-width:0}th{position:static}}
+
   </style>
 </head>
-<body>
-<header>
-  <div class="wrap hero">
-    <div>
-      <h1>APD 2026: Tính điểm & gợi ý ngành có khả năng trúng tuyển</h1>
-      <p>Thí sinh nhập hồ sơ điểm. Ứng dụng tự quét cơ sở đào tạo, ngành/chương trình, tổ hợp và phương thức hợp lệ để đề xuất các lựa chọn có cơ hội.</p>
-    </div>
-    <div class="badge">MVP nội bộ</div>
-  </div>
-</header>
-<main>
-  <div class="grid">
-    <section class="card sticky">
-      <h2>1. Nhập hồ sơ điểm</h2>
-      <details class="section" open>
-        <summary>Điểm thi tốt nghiệp THPT 2026</summary>
-        <p class="hint">Nhập theo thang 0–10. Có thể bỏ trống môn không có điểm.</p>
-        <div class="form-grid" id="examInputs"></div>
-      </details>
-      <details class="section">
-        <summary>Điểm học tập THPT / học bạ</summary>
-        <p class="hint">Điểm trung bình chung kết quả học tập cả năm các lớp 10, 11, 12 theo môn, thang 0–10.</p>
-        <div class="form-grid" id="transcriptInputs"></div>
-      </details>
-      <details class="section">
-        <summary>Đánh giá năng lực / tư duy</summary>
-        <p class="hint">HSA từ 75, TSA từ 50, V-ACT từ 600 theo thông tin tuyển sinh 2026.</p>
-        <div class="form-grid">
-          <div><label for="hsa">HSA</label><input id="hsa" type="number" step="0.01" placeholder="VD: 95"></div>
-          <div><label for="tsa">TSA</label><input id="tsa" type="number" step="0.01" placeholder="VD: 60"></div>
-          <div><label for="vact">V-ACT</label><input id="vact" type="number" step="0.01" placeholder="VD: 700"></div>
-        </div>
-      </details>
-      <details class="section">
-        <summary>Chứng chỉ tiếng Anh quốc tế</summary>
-        <p class="hint">Dùng để quy đổi điểm tiếng Anh hoặc cộng khuyến khích nếu không dùng để xét tuyển kết hợp.</p>
-        <div class="form-grid">
-          <div>
-            <label for="certType">Loại chứng chỉ</label>
-            <select id="certType">
-              <option value="none">Không có</option>
-              <option value="ielts">IELTS Academic</option>
-              <option value="toefl_ibt">TOEFL iBT</option>
-              <option value="toefl_itp">TOEFL ITP</option>
-              <option value="toeic">TOEIC 4 kỹ năng</option>
-              <option value="cambridge">Cambridge</option>
-            </select>
-          </div>
-          <div><label for="certScore">Điểm chính</label><input id="certScore" type="number" step="0.01" placeholder="VD IELTS 6.5 / TOEIC R&L 685"></div>
-          <div><label for="toeicSW">TOEIC S&W</label><input id="toeicSW" type="number" step="0.01" placeholder="VD: 280"></div>
-          <div><label for="certDate">Ngày cấp</label><input id="certDate" type="date"></div>
-        </div>
-        <label class="checkrow"><input id="homeEdition" type="checkbox"> Chứng chỉ dạng Home edition</label>
-      </details>
-      <details class="section">
-        <summary>Ưu tiên, điểm thưởng, khuyến khích</summary>
-        <div class="form-grid">
-          <div>
-            <label for="region">Khu vực ưu tiên</label>
-            <select id="region">
-              <option value="0">KV3 - không ưu tiên</option>
-              <option value="0.25">KV2 - 0.25</option>
-              <option value="0.5">KV2-NT - 0.5</option>
-              <option value="0.75">KV1 - 0.75</option>
-            </select>
-          </div>
-          <div>
-            <label for="objectPriority">Đối tượng ưu tiên</label>
-            <select id="objectPriority">
-              <option value="0">Không thuộc đối tượng</option>
-              <option value="2">Nhóm ưu tiên 1 - 2.0</option>
-              <option value="1">Nhóm ưu tiên 2 - 1.0</option>
-            </select>
-          </div>
-          <div>
-            <label for="nationalAward">Giải diện tuyển thẳng nhưng không dùng</label>
-            <select id="nationalAward">
-              <option value="0">Không có</option>
-              <option value="2">Giải Nhất - cộng 2.0</option>
-              <option value="1.5">Giải Nhì - cộng 1.5</option>
-              <option value="1">Giải Ba - cộng 1.0</option>
-            </select>
-          </div>
-          <div>
-            <label for="provincialAward">Giải HSG cấp tỉnh/thành phố</label>
-            <select id="provincialAward">
-              <option value="0">Không có</option>
-              <option value="1.5">Giải Nhất - cộng 1.5</option>
-              <option value="1">Giải Nhì - cộng 1.0</option>
-              <option value="0.5">Giải Ba - cộng 0.5</option>
-            </select>
-          </div>
-        </div>
-      </details>
-      <details class="section">
-        <summary>Bộ lọc kết quả</summary>
-        <div class="form-grid one">
-          <div>
-            <label for="campusFilter">Cơ sở đào tạo</label>
-            <select id="campusFilter">
-              <option value="all">Tất cả</option>
-              <option value="HCP">Trụ sở chính Hà Nội</option>
-              <option value="HCK">Phân hiệu Bắc Ninh</option>
-              <option value="HCD">Phân hiệu Đà Nẵng</option>
-            </select>
-          </div>
-          <div>
-            <label for="keywordFilter">Từ khóa ngành/chương trình</label>
-            <input id="keywordFilter" type="text" placeholder="VD: Marketing, Kế toán, Kinh tế số">
-          </div>
-        </div>
-      </details>
-      <div class="actions">
-        <button class="btn-primary" id="calcBtn">Tính điểm & gợi ý</button>
-        <button class="btn-ghost" id="demoBtn">Dữ liệu mẫu</button>
-      </div>
-    </section>
 
-    <section class="card" id="resultsCard">
-      <div class="result-head">
-        <div>
-          <h2>2. Kết quả gợi ý</h2>
-          <div class="small">Sắp xếp theo mức cơ hội, chênh lệch với mốc tham khảo và điểm xét tuyển.</div>
+<body>
+  <div class="apd-widget" id="apdWidget">
+    <div class="embed-shell">
+      <section class="mini-hero" aria-label="Giới thiệu công cụ APD 2026">
+        <div class="topline">
+          <div class="brand">
+            <div class="logo-mark">APD</div>
+            <div>
+              <small>Công cụ tuyển sinh 2026</small>
+              <b>Tra cứu điểm quy đổi & gợi ý ngành</b>
+            </div>
+          </div>
+          <span class="tag">Phiên bản nhúng WordPress</span>
         </div>
-        <button class="btn-ghost" id="exportBtn">Tải CSV</button>
+        <h1>Tính điểm tương đương và xem ngành phù hợp</h1>
+        <p>Nhập điểm hiện có, hệ thống tự quy đổi về thang tương đương THPT 30 điểm và gợi ý cơ hội xét tuyển tham khảo theo cơ sở, ngành và phương thức.</p>
+        <div class="hero-tags">
+          <span class="tag">✓ Theo bảng quy đổi APD 2026</span>
+          <span class="tag">✓ Có giải thích cách tính</span>
+          <span class="tag">✓ Tối ưu iframe/mobile</span>
+        </div>
+      </section>
+
+      <section class="quick-help" aria-label="Hướng dẫn nhanh">
+        <div class="help-item"><div class="help-icon">1</div><div><b>Nhập điểm</b><span>Có thể nhập một hoặc nhiều nhóm điểm, bỏ trống phần chưa có.</span></div></div>
+        <div class="help-item"><div class="help-icon">2</div><div><b>Bấm tính</b><span>Công cụ chọn tổ hợp/phương thức tốt nhất và quy đổi tương đương.</span></div></div>
+        <div class="help-item"><div class="help-icon">3</div><div><b>Xem gợi ý</b><span>Kết quả là tham khảo, không thay thế thông báo trúng tuyển chính thức.</span></div></div>
+      </section>
+
+      <main>
+        <div class="grid">
+          <section class="card input-panel">
+            <h2>Nhập hồ sơ điểm</h2>
+            <p class="panel-subtitle">Mở từng nhóm thông tin phù hợp với hồ sơ của thí sinh.</p>
+            <details class="section" open>
+              <summary>Điểm thi tốt nghiệp THPT 2026</summary>
+              <p class="hint">Nhập theo thang 0–10. Có thể bỏ trống môn không có điểm.</p>
+              <div class="form-grid" id="examInputs"></div>
+            </details>
+            <details class="section">
+              <summary>Điểm học tập THPT / học bạ</summary>
+              <p class="hint">Điểm trung bình chung kết quả học tập cả năm các lớp 10, 11, 12 theo môn, thang 0–10.</p>
+              <div class="form-grid" id="transcriptInputs"></div>
+            </details>
+            <details class="section">
+              <summary>Đánh giá năng lực / tư duy</summary>
+              <p class="hint">Nhập điểm HSA, TSA hoặc V-ACT nếu có.</p>
+              <div class="form-grid">
+                <div><label for="hsa">HSA</label><input id="hsa" type="number" step="0.01" placeholder="VD: 95"></div>
+                <div><label for="tsa">TSA</label><input id="tsa" type="number" step="0.01" placeholder="VD: 60"></div>
+                <div><label for="vact">V-ACT</label><input id="vact" type="number" step="0.01" placeholder="VD: 700"></div>
+              </div>
+            </details>
+            <details class="section">
+              <summary>Chứng chỉ tiếng Anh quốc tế</summary>
+              <p class="hint">Dùng để quy đổi điểm tiếng Anh hoặc cộng khuyến khích nếu không dùng để xét tuyển kết hợp.</p>
+              <div class="form-grid">
+                <div>
+                  <label for="certType">Loại chứng chỉ</label>
+                  <select id="certType">
+                    <option value="none">Không có</option>
+                    <option value="ielts">IELTS Academic</option>
+                    <option value="toefl_ibt">TOEFL iBT</option>
+                    <option value="toefl_itp">TOEFL ITP</option>
+                    <option value="toeic">TOEIC 4 kỹ năng</option>
+                    <option value="cambridge">Cambridge</option>
+                  </select>
+                </div>
+                <div><label for="certScore">Điểm chính</label><input id="certScore" type="number" step="0.01" placeholder="VD IELTS 6.5 / TOEIC R&L 685"></div>
+                <div><label for="toeicSW">TOEIC S&W</label><input id="toeicSW" type="number" step="0.01" placeholder="VD: 280"></div>
+                <div><label for="certDate">Ngày cấp</label><input id="certDate" type="date"></div>
+              </div>
+              <label class="checkrow"><input id="homeEdition" type="checkbox"> Chứng chỉ dạng Home edition</label>
+            </details>
+            <details class="section">
+              <summary>Ưu tiên, điểm thưởng, khuyến khích</summary>
+              <div class="form-grid">
+                <div>
+                  <label for="region">Khu vực ưu tiên</label>
+                  <select id="region">
+                    <option value="0">KV3 - không ưu tiên</option>
+                    <option value="0.25">KV2 - 0.25</option>
+                    <option value="0.5">KV2-NT - 0.5</option>
+                    <option value="0.75">KV1 - 0.75</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="objectPriority">Đối tượng ưu tiên</label>
+                  <select id="objectPriority">
+                    <option value="0">Không thuộc đối tượng</option>
+                    <option value="2">Nhóm ưu tiên 1 - 2.0</option>
+                    <option value="1">Nhóm ưu tiên 2 - 1.0</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="nationalAward">Giải diện tuyển thẳng nhưng không dùng</label>
+                  <select id="nationalAward">
+                    <option value="0">Không có</option>
+                    <option value="2">Giải Nhất - cộng 2.0</option>
+                    <option value="1.5">Giải Nhì - cộng 1.5</option>
+                    <option value="1">Giải Ba - cộng 1.0</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="provincialAward">Giải HSG cấp tỉnh/thành phố</label>
+                  <select id="provincialAward">
+                    <option value="0">Không có</option>
+                    <option value="1.5">Giải Nhất - cộng 1.5</option>
+                    <option value="1">Giải Nhì - cộng 1.0</option>
+                    <option value="0.5">Giải Ba - cộng 0.5</option>
+                  </select>
+                </div>
+              </div>
+            </details>
+            <details class="section">
+              <summary>Bộ lọc kết quả</summary>
+              <div class="form-grid one">
+                <div>
+                  <label for="campusFilter">Cơ sở đào tạo</label>
+                  <select id="campusFilter">
+                    <option value="all">Tất cả</option>
+                    <option value="HCP">Trụ sở chính Hà Nội</option>
+                    <option value="HCK">Phân hiệu Bắc Ninh</option>
+                    <option value="HCD">Phân hiệu Đà Nẵng</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="keywordFilter">Từ khóa ngành/chương trình</label>
+                  <input id="keywordFilter" type="text" placeholder="VD: Marketing, Kế toán, Kinh tế số">
+                </div>
+              </div>
+            </details>
+            <div class="actions">
+              <button class="btn-primary" id="calcBtn">Tính điểm & gợi ý</button>
+              <button class="btn-ghost" id="demoBtn">Dữ liệu mẫu</button>
+            </div>
+          </section>
+
+          <section class="card result-panel" id="resultsCard">
+            <div class="result-head">
+              <div>
+                <h2>Kết quả gợi ý tham khảo</h2>
+                <div class="small">Sắp xếp theo mức cơ hội, chênh lệch với mốc tham khảo và điểm tương đương THPT.</div>
+              </div>
+              <button class="btn-ghost" id="exportBtn">Tải CSV</button>
+            </div>
+            <div class="summary" id="summaryBox">
+              <div class="metric"><div class="num">0</div><div class="lbl">Kết quả</div></div>
+              <div class="metric"><div class="num">0</div><div class="lbl">An toàn</div></div>
+              <div class="metric"><div class="num">0</div><div class="lbl">Có cơ hội</div></div>
+              <div class="metric"><div class="num">0</div><div class="lbl">Rủi ro</div></div>
+              <div class="metric"><div class="num">0</div><div class="lbl">Khó/chưa đạt</div></div>
+              <div class="metric"><div class="num">0</div><div class="lbl">Cần dữ liệu</div></div>
+            </div>
+            <div id="warnings"></div>
+            <div class="toolbar">
+              <div class="control"><label for="chanceFilter">Lọc theo cơ hội</label><select id="chanceFilter"><option value="all">Tất cả</option><option value="safe">An toàn</option><option value="ok">Có cơ hội</option><option value="risk">Rủi ro</option><option value="hard">Khó</option><option value="unknown">Cần dữ liệu</option></select></div>
+              <div class="control"><label for="methodFilter">Lọc theo phương thức</label><select id="methodFilter"><option value="all">Tất cả</option></select></div>
+              <div class="control"><label for="minScore">Điểm xét tuyển tối thiểu</label><input id="minScore" type="number" step="0.01" placeholder="VD: 22"></div>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th>#</th><th>Cơ sở</th><th>Ngành/chương trình</th><th>Tổ hợp</th><th>Phương thức</th><th>Điểm tương đương</th><th>Mốc tham khảo</th><th>Chênh lệch</th><th>Đánh giá</th>
+                  </tr>
+                </thead>
+                <tbody id="resultRows"><tr><td colspan="9" class="empty">Nhập điểm và bấm “Tính điểm & gợi ý”.</td></tr></tbody>
+              </table>
+            </div>
+            <div class="notes">
+              <b>Lưu ý:</b> Đây là công cụ gợi ý tham khảo. Bảng quy đổi đang dùng theo phụ lục APD 2026; mốc ngành/chương trình trong dữ liệu là mốc tham khảo năm trước hoặc dữ liệu mẫu. Kết quả thực tế còn phụ thuộc chỉ tiêu, phổ điểm, nguyện vọng, điều kiện phương thức và thông báo chính thức của Học viện.
+            </div>
+          </section>
+        </div>
+      </main>
+      <div class="embed-footer">
+        <span>APD 2026 · Công cụ tra cứu điểm quy đổi</span>
+        <span>Dùng tốt nhất trong iframe rộng 100%, cao từ 900px trở lên.</span>
       </div>
-      <div class="summary" id="summaryBox">
-        <div class="metric"><div class="num">0</div><div class="lbl">Kết quả</div></div>
-        <div class="metric"><div class="num">0</div><div class="lbl">An toàn</div></div>
-        <div class="metric"><div class="num">0</div><div class="lbl">Có cơ hội</div></div>
-        <div class="metric"><div class="num">0</div><div class="lbl">Rủi ro</div></div>
-        <div class="metric"><div class="num">0</div><div class="lbl">Cần dữ liệu</div></div>
-      </div>
-      <div id="warnings"></div>
-      <div class="toolbar">
-        <div class="control"><label for="chanceFilter">Lọc theo cơ hội</label><select id="chanceFilter"><option value="all">Tất cả</option><option value="safe">An toàn</option><option value="ok">Có cơ hội</option><option value="risk">Rủi ro</option><option value="hard">Khó</option><option value="unknown">Cần dữ liệu</option></select></div>
-        <div class="control"><label for="methodFilter">Lọc theo phương thức</label><select id="methodFilter"><option value="all">Tất cả</option></select></div>
-        <div class="control"><label for="minScore">Điểm xét tuyển tối thiểu</label><input id="minScore" type="number" step="0.01" placeholder="VD: 22"></div>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>#</th><th>Cơ sở</th><th>Ngành/chương trình</th><th>Tổ hợp</th><th>Phương thức tốt nhất</th><th>Điểm</th><th>Mốc 2025</th><th>Chênh lệch</th><th>Đánh giá</th>
-            </tr>
-          </thead>
-          <tbody id="resultRows"><tr><td colspan="9" class="empty">Nhập điểm và bấm “Tính điểm & gợi ý”.</td></tr></tbody>
-        </table>
-      </div>
-      <div class="notes">
-        <b>Lưu ý:</b> Đây là bản MVP để kiểm tra nghiệp vụ và luồng người dùng. Mốc 2025 chỉ là dữ liệu tham khảo; các ngành có dấu thang 40 được quy đổi tỷ lệ về thang 30 để xếp hạng sơ bộ. Khi APD công bố bảng quy đổi/ngưỡng đầu vào 2026 chính thức, cần cập nhật lại rule engine trước khi dùng công khai.
-      </div>
-    </section>
+    </div>
   </div>
-</main>
+
 <script>
 const SUBJECTS = [
   ['toan','Toán'], ['van','Văn'], ['ly','Lý'], ['hoa','Hóa'], ['anh','Tiếng Anh'],
@@ -407,9 +381,51 @@ const PROGRAMS = [
   {campus:'HCD', code:'7340101DN', name:'Quản trị kinh doanh', group:'Quản trị kinh doanh', quota:150, combos:['A00','A01','D01','D07','X01','X25','X26']},
   {campus:'HCD', code:'7310101DN', name:'Kinh tế nguồn nhân lực / Đấu thầu và Quản lý dự án', group:'Kinh tế', quota:150, combos:['A00','A01','D01','D07','X01','X25','X26']}
 ];
-const CONVERSION_2025 = {
-  HSA: [[70,80,19,21.5],[80,102,21.5,24.5],[102,110,24.5,26],[110,129,26,30]],
-  TSA: [[50,55,19,21.5],[55,68,21.5,24.5],[68,74,24.5,26],[74,89,26,30]]
+
+const THPT_EQUIV_RANGES_2026 = {
+  TSA: {
+    label: 'TSA',
+    ranges: [[50,53,16,19],[53,55,19,21.5],[55,68,21.5,24.5],[68,74,24.5,26],[74,89,26,30]]
+  },
+  HSA: {
+    label: 'HSA',
+    ranges: [[70,75,16,19],[75,80,19,21.5],[80,102,21.5,24.5],[102,110,24.5,26],[110,129,26,30]]
+  },
+  VACT: {
+    label: 'V-ACT',
+    ranges: [[600,701,16,19],[701,790,19,21.5],[790,886,21.5,24.5],[886,932,24.5,26],[932,1122,26,30]]
+  },
+  TRANSCRIPT: {
+    label: 'Điểm kết quả học tập THPT',
+    ranges: [[19,22,16,19],[22,24.5,19,21.5],[24.5,27.5,21.5,24.5],[27.5,29,24.5,26],[29,30,26,27]]
+  },
+  MIX_2EXAM_1TRANSCRIPT: {
+    label: '02 điểm thi THPT + 01 điểm học bạ',
+    ranges: [[17,20,16,19],[20,22.5,19,21.5],[22.5,25.5,21.5,24.5],[25.5,27,24.5,26],[27,29,26,27]]
+  },
+  MIX_1EXAM_2TRANSCRIPT: {
+    label: '01 điểm thi THPT + 02 điểm học bạ',
+    ranges: [[18,21,16,19],[21,23.5,19,21.5],[23.5,26.5,21.5,24.5],[26.5,28,24.5,26],[28,29,26,27]]
+  },
+  MIX_2EXAM_CERT: {
+    label: '02 điểm thi THPT + chứng chỉ tiếng Anh quốc tế',
+    ranges: [[16,19,16,19],[19,21.5,19,21.5],[21.5,24.5,21.5,24.5],[24.5,26,24.5,26],[26,30,26,30]]
+  },
+  MIX_2TRANSCRIPT_CERT: {
+    label: '02 điểm học bạ + chứng chỉ tiếng Anh quốc tế',
+    ranges: [[18,21,16,19],[21,23.5,19,21.5],[23.5,26.5,21.5,24.5],[26.5,28,24.5,26],[28,29,26,27]]
+  }
+};
+const METHOD_KEYS = {
+  THPT: 'THPT',
+  TRANSCRIPT: 'TRANSCRIPT',
+  MIX_2EXAM_1TRANSCRIPT: 'MIX_2EXAM_1TRANSCRIPT',
+  MIX_1EXAM_2TRANSCRIPT: 'MIX_1EXAM_2TRANSCRIPT',
+  MIX_2EXAM_CERT: 'MIX_2EXAM_CERT',
+  MIX_2TRANSCRIPT_CERT: 'MIX_2TRANSCRIPT_CERT',
+  HSA: 'HSA',
+  TSA: 'TSA',
+  VACT: 'VACT'
 };
 let LAST_ROWS = [];
 function buildInputs(){
@@ -424,10 +440,26 @@ function fmt(n){ return (n===null||n===undefined||Number.isNaN(n)) ? '—' : Num
 function readScores(prefix){ const obj={}; for(const [k] of SUBJECTS){ const v=num(`${prefix}_${k}`); if(v!==null) obj[k]=v; } return obj; }
 function inRangeScore(v){ return typeof v==='number' && v>=0 && v<=10; }
 function sumSubjects(scores, subjects){ let s=0; for(const sub of subjects){ if(!inRangeScore(scores[sub])) return null; s += scores[sub]; } return s; }
-function convertLinear(method, value){
-  const rows = CONVERSION_2025[method]; if(!rows || value===null) return null;
-  for(const r of rows){ const [lo,hi,outLo,outHi]=r; if(value>=lo && value<=hi){ return {score: outLo + ((value-lo)/(hi-lo))*(outHi-outLo), range:r}; } }
-  return null;
+function campusFloor(campus){ return campus==='HCP' ? 19 : 16; }
+function unique(arr){ return [...new Set(arr.filter(Boolean))]; }
+function inputMax(methodKey){
+  const cfg = THPT_EQUIV_RANGES_2026[methodKey];
+  if(!cfg) return null;
+  return Math.max(...cfg.ranges.map(r=>r[1]));
+}
+function convertEquivalent(methodKey, value){
+  if(value===null || value===undefined || Number.isNaN(value)) return null;
+  if(methodKey===METHOD_KEYS.THPT) return {score:value, range:null, label:'Điểm thi tốt nghiệp THPT', note:'Phương thức thi tốt nghiệp THPT đã ở thang tương đương 30, không cần quy đổi.'};
+  const cfg = THPT_EQUIV_RANGES_2026[methodKey];
+  if(!cfg) return null;
+  for(const r of cfg.ranges){
+    const [lo,hi,outLo,outHi]=r;
+    if(value>=lo && value<=hi){
+      const score = outLo + ((value-lo)/(hi-lo))*(outHi-outLo);
+      return {score, range:r, label:cfg.label, note:`${cfg.label}: ${fmt(value)} thuộc khoảng ${fmt(lo)}–${fmt(hi)}, quy đổi tương đương ${fmt(outLo)}–${fmt(outHi)} theo phụ lục APD 2026.`};
+    }
+  }
+  return {score:null, range:null, label:cfg.label, note:`${cfg.label}: ${fmt(value)} nằm ngoài các khoảng quy đổi APD 2026 đang khai báo trong công cụ.`};
 }
 function certInfo(){
   const type = document.getElementById('certType').value;
@@ -462,12 +494,12 @@ function certInfo(){
   if(converted===null && invalidReasons.length===0) invalidReasons.push('Mức chứng chỉ chưa đạt ngưỡng quy đổi/khuyến khích.');
   return {type, score, sw, date, home, converted, bonus, valid:invalidReasons.length===0 && converted!==null, invalidReasons};
 }
-function priorityPoint(base){
+function priorityPoint(base30){
   const region=Number(document.getElementById('region').value||0);
   const obj=Number(document.getElementById('objectPriority').value||0);
   const p = region + obj;
-  if(!p) return 0;
-  if(base >= 22.5) return Math.max(0, ((30 - base)/7.5) * p);
+  if(!p || base30===null || !Number.isFinite(base30)) return 0;
+  if(base30 >= 22.5) return Math.max(0, ((30 - base30)/7.5) * p);
   return p;
 }
 function extraPoint(usesCert){
@@ -477,12 +509,14 @@ function extraPoint(usesCert){
   const engBonus = usesCert ? 0 : cert.bonus;
   return Math.min(3, nat + prov + engBonus);
 }
-function applyExtras(raw, usesCert){
+function applyExtrasOn30(raw30, usesCert){
   const extra = extraPoint(usesCert);
-  const pri = priorityPoint(raw);
-  return {final: raw + extra + pri, extra, priority: pri};
+  const pri = priorityPoint(raw30);
+  return {final: raw30 + extra + pri, extra, priority: pri};
 }
 function chance(row){
+  if(row.equivalentScore==null) return {key:'unknown', label:'Cần dữ liệu'};
+  if(row.equivalentScore < campusFloor(row.campus)) return {key:'hard', label:'Chưa đạt ngưỡng'};
   if(row.benchmark30==null) return {key:'unknown', label:'Cần dữ liệu'};
   const m = row.margin;
   if(m>=1) return {key:'safe', label:'An toàn'};
@@ -491,12 +525,12 @@ function chance(row){
   return {key:'hard', label:'Khó'};
 }
 function benchmark(cutoff){
-  if(!cutoff) return {display:'—', value:null, note:'Chưa có mốc 2025 trong dữ liệu'};
-  if(cutoff.scale===40) return {display:`${fmt(cutoff.value)} /40 ≈ ${fmt(cutoff.value*30/40)} /30`, value:cutoff.value*30/40, note:'Mốc 2025 thang 40 đã quy đổi tỷ lệ về thang 30 để tham khảo'};
-  return {display:`${fmt(cutoff.value)} /30`, value:cutoff.value, note:'Mốc 2025 thang 30'};
+  if(!cutoff) return {display:'—', value:null, note:'Chưa có mốc tham khảo trong dữ liệu'};
+  if(cutoff.scale===40) return {display:`${fmt(cutoff.value)} /40 ≈ ${fmt(cutoff.value*30/40)} /30`, value:cutoff.value*30/40, note:'Mốc tham khảo thang 40 đã quy đổi tỷ lệ về thang 30 để xếp hạng sơ bộ'};
+  return {display:`${fmt(cutoff.value)} /30`, value:cutoff.value, note:'Mốc tham khảo thang 30'};
 }
 function comboLabel(code){ return `${code} (${COMBOS[code].map(s=>SUBJECT_LABEL[s]).join(' - ')})`; }
-function bestMixed(combo, exam, tr, campus){
+function bestMixed(combo, exam, tr){
   const subs=COMBOS[combo]; let best=null;
   for(const transcriptSubject of subs){
     let raw=0, ok=true, parts=[];
@@ -529,16 +563,57 @@ function englishCertCombo(combo, source, cert){
   if(!inRangeScore(source.toan) || !inRangeScore(source[other])) return null;
   return {raw: cert.converted + source.toan + source[other], parts:[`Chứng chỉ tiếng Anh quy đổi ${cert.converted}`, `Toán ${source.toan}`, `${SUBJECT_LABEL[other]} ${source[other]}`]};
 }
-function addRow(rows, program, combo, method, raw, usesCert, detail){
-  if(raw===null || !Number.isFinite(raw)) return;
-  const applied = applyExtras(raw, usesCert);
+function addRow(rows, program, combo, method, methodKey, raw, usesCert, detail, notices){
+  if(raw===null || raw===undefined || !Number.isFinite(raw)) return;
   const bm = benchmark(program.cutoff);
+  let raw30 = null, methodScore = null, equivalent = null, extra = 0, priority = 0, methodScoreForDisplay = null, conversionNote = '';
+  if(methodKey===METHOD_KEYS.HSA || methodKey===METHOD_KEYS.TSA || methodKey===METHOD_KEYS.VACT){
+    const cv = convertEquivalent(methodKey, raw);
+    conversionNote = cv ? cv.note : '';
+    raw30 = cv ? cv.score : null;
+    if(raw30===null){
+      equivalent = null;
+      if(notices) notices.push(`${method}: điểm ${fmt(raw)} nằm ngoài bảng quy đổi APD 2026.`);
+    } else {
+      const applied = applyExtrasOn30(raw30, usesCert);
+      equivalent = applied.final;
+      extra = applied.extra; priority = applied.priority;
+      methodScore = raw;
+      methodScoreForDisplay = `${fmt(raw)} điểm ${method}`;
+      conversionNote += ` Sau quy đổi: ${fmt(raw30)}; cộng/khuyến khích ${fmt(extra)}, ưu tiên ${fmt(priority)}.`;
+    }
+  } else if(methodKey===METHOD_KEYS.THPT){
+    const applied = applyExtrasOn30(raw, usesCert);
+    raw30 = raw;
+    methodScore = applied.final;
+    equivalent = applied.final;
+    extra = applied.extra; priority = applied.priority;
+    methodScoreForDisplay = `${fmt(methodScore)} /30`;
+    conversionNote = `Điểm thi THPT gốc ${fmt(raw)} + cộng/khuyến khích ${fmt(extra)} + ưu tiên ${fmt(priority)} = ${fmt(equivalent)}.`;
+  } else {
+    const applied = applyExtrasOn30(raw, usesCert);
+    raw30 = raw;
+    methodScore = applied.final;
+    extra = applied.extra; priority = applied.priority;
+    methodScoreForDisplay = `${fmt(methodScore)} /30`;
+    const cv = convertEquivalent(methodKey, methodScore);
+    if(cv && cv.score!==null){
+      equivalent = cv.score;
+      conversionNote = `Điểm gốc phương thức ${fmt(raw)} + cộng/khuyến khích ${fmt(extra)} + ưu tiên ${fmt(priority)} = ${fmt(methodScore)}. ${cv.note}`;
+    } else {
+      equivalent = null;
+      conversionNote = cv ? cv.note : 'Không tìm thấy bảng quy đổi phù hợp.';
+      const max = inputMax(methodKey);
+      if(notices) notices.push(`${method}: điểm sau cộng ${fmt(methodScore)} ${max ? `vượt/ngoài cận bảng quy đổi tối đa ${fmt(max)}` : 'nằm ngoài bảng quy đổi'}, nên chưa thể quy đổi tự động.`);
+    }
+  }
   const row={
     campus:program.campus, campusName:CAMPUS[program.campus], program:program.name, group:program.group, code:program.code, quota:program.quota,
-    combo, method, raw, score:applied.final, extra:applied.extra, priority:applied.priority, usesCert,
+    combo, method, methodKey, raw, raw30, methodScore, methodScoreForDisplay, equivalentScore:equivalent,
+    score:equivalent, extra, priority, usesCert,
     benchmarkDisplay:bm.display, benchmark30:bm.value, benchmarkNote:bm.note,
-    margin: bm.value==null ? null : applied.final - bm.value,
-    detail
+    margin: bm.value==null || equivalent==null ? null : equivalent - bm.value,
+    detail, conversionNote
   };
   row.chance=chance(row);
   rows.push(row);
@@ -550,46 +625,43 @@ function calculateAll(){
   const campusFilter=document.getElementById('campusFilter').value;
   const kw=(document.getElementById('keywordFilter').value||'').trim().toLowerCase();
   const programs = PROGRAMS.filter(p => (campusFilter==='all'||p.campus===campusFilter) && (!kw || (p.name+' '+p.group+' '+p.code).toLowerCase().includes(kw)));
+  const hsa=num('hsa'), tsa=num('tsa'), vact=num('vact');
   for(const p of programs){
     for(const combo of p.combos){
       const rawExam = sumSubjects(exam, COMBOS[combo]);
-      addRow(rows,p,combo,'Thi TN THPT 2026',rawExam,false, rawExam!==null ? COMBOS[combo].map(s=>`${SUBJECT_LABEL[s]} thi ${exam[s]}`).join(' + ') : '');
+      addRow(rows,p,combo,'Thi TN THPT 2026',METHOD_KEYS.THPT,rawExam,false, rawExam!==null ? COMBOS[combo].map(s=>`${SUBJECT_LABEL[s]} thi ${exam[s]}`).join(' + ') : '', notices);
       if(p.campus!=='HCP'){
         const rawTr = sumSubjects(tr, COMBOS[combo]);
-        addRow(rows,p,combo,'Học bạ THPT',rawTr,false, rawTr!==null ? COMBOS[combo].map(s=>`${SUBJECT_LABEL[s]} học bạ ${tr[s]}`).join(' + ') : '');
+        addRow(rows,p,combo,'Học bạ THPT quy đổi 2026',METHOD_KEYS.TRANSCRIPT,rawTr,false, rawTr!==null ? COMBOS[combo].map(s=>`${SUBJECT_LABEL[s]} học bạ ${tr[s]}`).join(' + ') : '', notices);
       }
       if(p.campus==='HCP'){
-        const mix=bestMixed(combo, exam, tr, p.campus);
-        if(mix) addRow(rows,p,combo,'Kết hợp 2 thi THPT + 1 học bạ',mix.raw,false,mix.parts.join(' + '));
+        const mix=bestMixed(combo, exam, tr);
+        if(mix) addRow(rows,p,combo,'Kết hợp 2 thi THPT + 1 học bạ quy đổi 2026',METHOD_KEYS.MIX_2EXAM_1TRANSCRIPT,mix.raw,false,mix.parts.join(' + '), notices);
         const ecExam=englishCertCombo(combo, exam, cert);
-        if(ecExam) addRow(rows,p,combo,'Chứng chỉ TA + 2 thi THPT',ecExam.raw,true,ecExam.parts.join(' + '));
+        if(ecExam) addRow(rows,p,combo,'Chứng chỉ TA + 2 thi THPT quy đổi 2026',METHOD_KEYS.MIX_2EXAM_CERT,ecExam.raw,true,ecExam.parts.join(' + '), notices);
         const ecTr=englishCertCombo(combo, tr, cert);
-        if(ecTr) addRow(rows,p,combo,'Chứng chỉ TA + 2 học bạ',ecTr.raw,true,ecTr.parts.join(' + '));
+        if(ecTr) addRow(rows,p,combo,'Chứng chỉ TA + 2 học bạ quy đổi 2026',METHOD_KEYS.MIX_2TRANSCRIPT_CERT,ecTr.raw,true,ecTr.parts.join(' + '), notices);
       } else {
         const mixB=bestMixedBranch(combo, exam, tr);
-        if(mixB) addRow(rows,p,combo,'Kết hợp 1 thi THPT + 2 học bạ',mixB.raw,false,mixB.parts.join(' + '));
+        if(mixB) addRow(rows,p,combo,'Kết hợp 1 thi THPT + 2 học bạ quy đổi 2026',METHOD_KEYS.MIX_1EXAM_2TRANSCRIPT,mixB.raw,false,mixB.parts.join(' + '), notices);
         const ecTr=englishCertCombo(combo, tr, cert);
-        if(ecTr) addRow(rows,p,combo,'Chứng chỉ TA + 2 học bạ',ecTr.raw,true,ecTr.parts.join(' + '));
+        if(ecTr) addRow(rows,p,combo,'Chứng chỉ TA + 2 học bạ quy đổi 2026',METHOD_KEYS.MIX_2TRANSCRIPT_CERT,ecTr.raw,true,ecTr.parts.join(' + '), notices);
       }
     }
-    const hsa=num('hsa'), tsa=num('tsa'), vact=num('vact');
-    if(hsa!==null && hsa>=75){ const cv=convertLinear('HSA',hsa); if(cv) addRow(rows,p,'—','HSA quy đổi tham khảo 2025',cv.score,false,`HSA ${hsa}; khoảng ${cv.range[0]}–${cv.range[1]} quy đổi ${cv.range[2]}–${cv.range[3]} theo bảng 2025`); else notices.push('HSA nằm ngoài bảng quy đổi 2025 đang gắn trong MVP.'); }
-    if(tsa!==null && tsa>=50){ const cv=convertLinear('TSA',tsa); if(cv) addRow(rows,p,'—','TSA quy đổi tham khảo 2025',cv.score,false,`TSA ${tsa}; khoảng ${cv.range[0]}–${cv.range[1]} quy đổi ${cv.range[2]}–${cv.range[3]} theo bảng 2025`); else notices.push('TSA nằm ngoài bảng quy đổi 2025 đang gắn trong MVP.'); }
-    if(vact!==null && vact>=600 && (p.campus==='HCP' || p.campus==='HCD')){
-      const bm=benchmark(p.cutoff);
-      rows.push({campus:p.campus,campusName:CAMPUS[p.campus],program:p.name,group:p.group,code:p.code,quota:p.quota,combo:'—',method:'V-ACT đạt điều kiện, chờ bảng quy đổi',raw:null,score:null,extra:null,priority:null,benchmarkDisplay:bm.display,benchmark30:bm.value,benchmarkNote:bm.note,margin:null,chance:{key:'unknown',label:'Cần dữ liệu'},detail:`V-ACT ${vact} đạt ngưỡng từ 600; MVP chưa có bảng quy đổi V-ACT 2026.`});
-    }
+    if(hsa!==null){ addRow(rows,p,'—','HSA quy đổi 2026',METHOD_KEYS.HSA,hsa,false,`HSA ${hsa}`, notices); }
+    if(tsa!==null){ addRow(rows,p,'—','TSA quy đổi 2026',METHOD_KEYS.TSA,tsa,false,`TSA ${tsa}`, notices); }
+    if(vact!==null && (p.campus==='HCP' || p.campus==='HCD')){ addRow(rows,p,'—','V-ACT quy đổi 2026',METHOD_KEYS.VACT,vact,false,`V-ACT ${vact}`, notices); }
   }
   const uniqueBest = new Map();
   for(const r of rows){
     const key=[r.campus,r.code,r.combo,r.method].join('|');
     const old=uniqueBest.get(key);
-    if(!old || (r.score??-999)>(old.score??-999)) uniqueBest.set(key,r);
+    if(!old || (r.equivalentScore??-999)>(old.equivalentScore??-999)) uniqueBest.set(key,r);
   }
   let out=[...uniqueBest.values()];
   out.sort((a,b)=>{
     const rank={safe:5,ok:4,risk:3,hard:2,unknown:1};
-    return (rank[b.chance.key]-rank[a.chance.key]) || ((b.margin??-999)-(a.margin??-999)) || ((b.score??-999)-(a.score??-999));
+    return (rank[b.chance.key]-rank[a.chance.key]) || ((b.margin??-999)-(a.margin??-999)) || ((b.equivalentScore??-999)-(a.equivalentScore??-999));
   });
   LAST_ROWS=out; render(out, notices); populateMethodFilter(out);
 }
@@ -597,35 +669,37 @@ function render(rows, notices=[]){
   const chanceFilter=document.getElementById('chanceFilter').value;
   const methodFilter=document.getElementById('methodFilter').value;
   const minScore=num('minScore');
-  let view=rows.filter(r => (chanceFilter==='all'||r.chance.key===chanceFilter) && (methodFilter==='all'||r.method===methodFilter) && (minScore===null || (r.score!==null && r.score>=minScore)));
-  const counts={safe:0,ok:0,risk:0,unknown:0};
+  let view=rows.filter(r => (chanceFilter==='all'||r.chance.key===chanceFilter) && (methodFilter==='all'||r.method===methodFilter) && (minScore===null || (r.equivalentScore!==null && r.equivalentScore>=minScore)));
+  const counts={safe:0,ok:0,risk:0,hard:0,unknown:0};
   for(const r of rows){ if(r.chance.key in counts) counts[r.chance.key]++; }
   document.getElementById('summaryBox').innerHTML = `
     <div class="metric"><div class="num">${rows.length}</div><div class="lbl">Kết quả</div></div>
     <div class="metric"><div class="num">${counts.safe}</div><div class="lbl">An toàn</div></div>
     <div class="metric"><div class="num">${counts.ok}</div><div class="lbl">Có cơ hội</div></div>
     <div class="metric"><div class="num">${counts.risk}</div><div class="lbl">Rủi ro</div></div>
+    <div class="metric"><div class="num">${counts.hard}</div><div class="lbl">Khó/chưa đạt</div></div>
     <div class="metric"><div class="num">${counts.unknown}</div><div class="lbl">Cần dữ liệu</div></div>`;
-  document.getElementById('warnings').innerHTML = notices.length ? `<div class="warn">${[...new Set(notices)].join('<br>')}</div>` : '';
+  document.getElementById('warnings').innerHTML = notices.length ? `<div class="warn">${unique(notices).join('<br>')}</div>` : '';
   const tbody=document.getElementById('resultRows');
   if(!view.length){ tbody.innerHTML='<tr><td colspan="9" class="empty">Không có kết quả phù hợp với dữ liệu/bộ lọc hiện tại.</td></tr>'; return; }
   tbody.innerHTML=view.slice(0,300).map((r,i)=>{
     const chanceClass=r.chance.key;
     const margin=r.margin==null?'—':(r.margin>=0?`+${fmt(r.margin)}`:fmt(r.margin));
     const combo = r.combo==='—'?'—':comboLabel(r.combo);
-    const quota = r.quota ? `Chỉ tiêu 2026: ${r.quota}` : 'Chỉ tiêu 2026: chưa tách trong MVP';
-    const score = r.score==null?'—':fmt(r.score);
-    const extra = r.score==null ? '' : `<br><span class="small">Gốc ${fmt(r.raw)} + cộng/khuyến khích ${fmt(r.extra)} + ưu tiên ${fmt(r.priority)}</span>`;
+    const quota = r.quota ? `Chỉ tiêu 2026: ${r.quota}` : 'Chỉ tiêu 2026: chưa tách trong dữ liệu';
+    const score = r.equivalentScore==null?'—':fmt(r.equivalentScore);
+    const methodPoint = r.methodScoreForDisplay ? `<br><span class="small">Điểm phương thức: ${r.methodScoreForDisplay}</span>` : '';
+    const rawLine = r.raw==null ? '' : `<br><span class="small">Điểm gốc: ${fmt(r.raw)}; cộng/khuyến khích ${fmt(r.extra)}; ưu tiên ${fmt(r.priority)}</span>`;
     return `<tr>
-      <td data-label="#">${i+1}</td>
-      <td data-label="Cơ sở"><span class="campus">${r.campusName}</span><br><span class="small">${r.campus}</span></td>
-      <td data-label="Ngành"><div class="program">${r.program}</div><div class="small">${r.group} · Mã ${r.code} · ${quota}</div></td>
-      <td data-label="Tổ hợp">${combo}</td>
-      <td data-label="Phương thức"><div class="method">${r.method}</div><details class="explain"><summary>Xem cách tính</summary><div>${r.detail || ''}<br>${extra.replace('<br>','')}<br>${r.benchmarkNote}</div></details></td>
-      <td data-label="Điểm"><span class="score">${score}</span>${extra}</td>
-      <td data-label="Mốc 2025">${r.benchmarkDisplay}</td>
-      <td data-label="Chênh lệch">${margin}</td>
-      <td data-label="Đánh giá"><span class="pill ${chanceClass}">${r.chance.label}</span></td>
+      <td>${i+1}</td>
+      <td><span class="campus">${r.campusName}</span><br><span class="small">${r.campus}</span></td>
+      <td><div class="program">${r.program}</div><div class="small">${r.group} · Mã ${r.code} · ${quota}</div></td>
+      <td>${combo}</td>
+      <td><div class="method">${r.method}</div><details class="explain"><summary>Xem cách tính</summary><div>${r.detail || ''}<br>${r.conversionNote || ''}<br>${r.benchmarkNote}<br>Ngưỡng đầu vào tương đương cơ sở ${r.campusName}: ${fmt(campusFloor(r.campus))} điểm.</div></details></td>
+      <td><span class="score">${score}</span><br><span class="small">điểm tương đương THPT /30</span>${methodPoint}${rawLine}</td>
+      <td>${r.benchmarkDisplay}</td>
+      <td>${margin}</td>
+      <td><span class="pill ${chanceClass}">${r.chance.label}</span></td>
     </tr>`;
   }).join('');
 }
@@ -637,17 +711,17 @@ function populateMethodFilter(rows){
 }
 function exportCSV(){
   if(!LAST_ROWS.length){ alert('Chưa có kết quả để xuất.'); return; }
-  const headers=['co_so','ma','nganh_chuong_trinh','to_hop','phuong_thuc','diem_xet_tuyen','moc_2025','chenh_lech','danh_gia'];
+  const headers=['co_so','ma','nganh_chuong_trinh','to_hop','phuong_thuc','diem_goc','diem_phuong_thuc','diem_tuong_duong_thpt','moc_tham_khao','chenh_lech','danh_gia'];
   const lines=[headers.join(',')];
   for(const r of LAST_ROWS){
-    const vals=[r.campusName,r.code,r.program,r.combo,r.method,fmt(r.score),r.benchmarkDisplay,r.margin==null?'':fmt(r.margin),r.chance.label];
+    const vals=[r.campusName,r.code,r.program,r.combo,r.method,fmt(r.raw),r.methodScoreForDisplay||'',fmt(r.equivalentScore),r.benchmarkDisplay,r.margin==null?'':fmt(r.margin),r.chance.label];
     lines.push(vals.map(v=>`"${String(v).replace(/"/g,'""')}"`).join(','));
   }
   const blob=new Blob(['\ufeff'+lines.join('\n')],{type:'text/csv;charset=utf-8;'});
-  const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='apd_goi_y_nganh_2026.csv'; a.click(); URL.revokeObjectURL(a.href);
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='apd_goi_y_co_hoi_xet_tuyen_2026.csv'; a.click(); URL.revokeObjectURL(a.href);
 }
 function fillDemo(){
-  const data={exam_toan:8.7,exam_van:8.1,exam_ly:7.8,exam_hoa:8.2,exam_anh:8.6,exam_su:7.6,exam_dia:7.2,exam_gdktpl:8.4,tr_toan:8.9,tr_van:8.5,tr_ly:8.1,tr_hoa:8.3,tr_anh:8.8,tr_su:8.0,tr_dia:8.1,tr_gdktpl:8.6,tr_tin:8.4,hsa:95,tsa:'',vact:'',certScore:6.5,toeicSW:'',certDate:'2025-09-01'};
+  const data={exam_toan:8.7,exam_van:8.1,exam_ly:7.8,exam_hoa:8.2,exam_anh:8.6,exam_su:7.6,exam_dia:7.2,exam_gdktpl:8.4,tr_toan:8.9,tr_van:8.5,tr_ly:8.1,tr_hoa:8.3,tr_anh:8.8,tr_su:8.0,tr_dia:8.1,tr_gdktpl:8.6,tr_tin:8.4,hsa:95,tsa:'',vact:790,certScore:6.5,toeicSW:'',certDate:'2025-09-01'};
   for(const [id,v] of Object.entries(data)){ const el=document.getElementById(id); if(el) el.value=v; }
   document.getElementById('certType').value='ielts'; document.getElementById('region').value='0.25'; document.getElementById('objectPriority').value='0'; document.getElementById('nationalAward').value='0'; document.getElementById('provincialAward').value='0'; document.getElementById('homeEdition').checked=false;
   calculateAll();
@@ -657,6 +731,37 @@ document.getElementById('calcBtn').addEventListener('click', calculateAll);
 document.getElementById('demoBtn').addEventListener('click', fillDemo);
 document.getElementById('exportBtn').addEventListener('click', exportCSV);
 for(const id of ['chanceFilter','methodFilter','minScore']) document.getElementById(id).addEventListener('input',()=>render(LAST_ROWS));
+
 </script>
 </body>
 </html>
+
+
+<script>
+(function(){
+  const SOURCE = 'APD_2026_IFRAME_WIDGET';
+  let timer = null;
+  function sendHeight(){
+    clearTimeout(timer);
+    timer = setTimeout(function(){
+      const h = Math.max(
+        document.body ? document.body.scrollHeight : 0,
+        document.documentElement ? document.documentElement.scrollHeight : 0
+      );
+      try { window.parent && window.parent.postMessage({ source: SOURCE, height: h }, '*'); } catch(e) {}
+    }, 80);
+  }
+  window.addEventListener('load', sendHeight);
+  window.addEventListener('resize', sendHeight);
+  document.addEventListener('toggle', sendHeight, true);
+  document.addEventListener('input', sendHeight, true);
+  document.addEventListener('click', sendHeight, true);
+  if('MutationObserver' in window){
+    new MutationObserver(sendHeight).observe(document.documentElement, {childList:true, subtree:true, attributes:true});
+  }
+  sendHeight();
+})();
+</script>
+</body>
+</html>
+

@@ -88,15 +88,25 @@
       border-bottom:1px solid var(--apd-line);
       background:linear-gradient(180deg,#fbfdff,#fff);
     }
-    @media (min-width:780px){.quick-help{grid-template-columns:repeat(3,1fr)}}
     .help-item{display:flex;gap:10px;align-items:flex-start;padding:11px;border:1px solid #edf3fa;border-radius:16px;background:#fff;box-shadow:var(--shadow-soft)}
     .help-icon{width:28px;height:28px;border-radius:10px;background:var(--apd-soft);color:var(--apd-blue);display:grid;place-items:center;font-weight:950;flex:none}
     .help-item b{display:block;font-size:13px;color:#17324d}.help-item span{display:block;margin-top:2px;font-size:12px;color:var(--apd-muted)}
-    .grid{display:grid;grid-template-columns:1fr;gap:14px;padding:14px;background:var(--apd-bg)}
-    @media (min-width:980px){.grid{grid-template-columns:360px minmax(0,1fr);align-items:start}}
+    .step-nav{display:grid;grid-template-columns:1fr;gap:9px;padding:14px 16px;background:#fff;border-bottom:1px solid var(--apd-line)}
+    .step-nav a{display:flex;align-items:center;gap:9px;text-decoration:none;color:#17324d;border:1px solid #e3edf8;background:#fbfdff;border-radius:999px;padding:9px 11px;font-weight:900;font-size:13px;transition:.16s ease}
+    .step-nav a:hover{border-color:#b9d7f5;background:#eef6ff;transform:translateY(-1px)}
+    .step-nav .nav-no{width:24px;height:24px;border-radius:999px;background:var(--apd-blue);color:#fff;display:grid;place-items:center;font-size:12px;flex:none}
+    @media (min-width:760px){.step-nav{grid-template-columns:repeat(3,1fr)}}
+    .workflow{display:grid;grid-template-columns:1fr;gap:14px;padding:14px;background:var(--apd-bg)}
     .card{background:var(--apd-card);border:1px solid var(--apd-line);border-radius:var(--radius);box-shadow:var(--shadow-soft);overflow:hidden}
+    .step-card{scroll-margin-top:16px}
+    .step-head{display:flex;align-items:flex-start;gap:12px;padding:16px;border-bottom:1px solid var(--apd-line);background:linear-gradient(180deg,#fff,#fbfdff)}
+    .step-no{width:36px;height:36px;border-radius:14px;background:linear-gradient(135deg,var(--apd-blue),var(--apd-blue-2));color:#fff;display:grid;place-items:center;font-weight:950;box-shadow:0 10px 20px rgba(7,94,179,.16);flex:none}
+    .step-title{margin:0;color:#102a43;font-size:18px;letter-spacing:-.025em;line-height:1.2}
+    .step-desc{margin:4px 0 0;color:var(--apd-muted);font-size:12.5px}
     .card h2{font-size:17px;margin:0;padding:16px 16px 8px;color:#102a43;letter-spacing:-.015em}
+    .card h2.step-title{padding:0}
     .panel-subtitle{margin:-2px 16px 12px;color:var(--apd-muted);font-size:12.5px}
+    .section-stack{background:#fff}
     details.section{border-top:1px solid #edf3fa;padding:0;background:#fff}
     details.section:first-of-type{border-top:none}
     details.section summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 16px;font-weight:900;color:#17324d;font-size:14px;transition:.15s ease}
@@ -107,22 +117,31 @@
     details.section[open] summary{border-bottom:1px solid #edf3fa;background:#fbfdff}
     details.section .hint, details.section .form-grid, details.section .checkrow{margin-left:16px;margin-right:16px}
     details.section .hint{font-size:12.5px;color:var(--apd-muted);margin-top:12px;margin-bottom:10px}
-    .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+    .form-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:14px}
     .form-grid.one{grid-template-columns:1fr}
+    @media (min-width:560px){.form-grid{grid-template-columns:repeat(2,1fr)}}
+    @media (min-width:900px){.form-grid{grid-template-columns:repeat(3,1fr)}.form-grid.one{grid-template-columns:repeat(2,1fr)}}
+    @media (min-width:1080px){.input-panel .form-grid:not(.one){grid-template-columns:repeat(4,1fr)}}
     label{font-size:11.5px;font-weight:850;color:#334155;display:block;margin-bottom:5px}
     input,select{width:100%;height:40px;border:1px solid #cbd9ea;border-radius:12px;padding:8px 10px;background:#fff;color:var(--apd-text);font:inherit;font-size:14px;outline:none;transition:.16s ease}
     input::placeholder{color:#9aa8ba}
     input:focus,select:focus{border-color:var(--apd-blue-2);box-shadow:0 0 0 4px rgba(10,115,217,.13)}
     .checkrow{display:flex;gap:9px;align-items:center;margin-top:2px;margin-bottom:14px;color:#334155;font-size:13px;font-weight:650}
     .checkrow input{width:16px;height:16px;padding:0;flex:none}
-    .actions{display:flex;gap:10px;align-items:center;padding:14px 16px;border-top:1px solid var(--apd-line);background:#fbfdff}
+    .control-panel .actions{border-top:none;border-bottom:1px solid #edf3fa;background:#fff}
+    .actions{display:flex;gap:10px;align-items:center;padding:14px 16px;background:#fbfdff}
     button{border:none;border-radius:13px;padding:11px 13px;font-weight:900;cursor:pointer;font:inherit;transition:.16s ease;min-height:42px}
     .btn-primary{background:linear-gradient(135deg,var(--apd-blue),var(--apd-blue-2));color:#fff;flex:1;box-shadow:0 12px 24px rgba(7,94,179,.22)}
     .btn-primary:hover{transform:translateY(-1px);filter:brightness(.98)}
     .btn-ghost{background:#eef6ff;color:#0f3b66;border:1px solid #d9eafa}
     .btn-ghost:hover{background:#e4f1ff}
+    .toolbar-title{padding:14px 16px 8px;color:#17324d;font-weight:950;font-size:13px;background:#fff}
+    .toolbar{display:grid;grid-template-columns:1fr;gap:10px;padding:0 16px 14px;background:#fff}
+    @media (min-width:780px){.toolbar{grid-template-columns:1fr 1fr 1fr;align-items:end}}
+    .warn{padding:11px 13px;border:1px solid #ffd8a8;background:#fff7e6;border-radius:13px;color:#7c4a03;margin:14px 16px 0;font-size:13px}
     .result-panel{min-width:0}
-    .result-head{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:16px;border-bottom:1px solid var(--apd-line);background:#fff}
+    .result-head{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;padding:16px;border-bottom:1px solid var(--apd-line);background:linear-gradient(180deg,#fff,#fbfdff)}
+    .result-head .step-head{padding:0;border:0;background:transparent}
     .result-head h2{padding:0;margin:0;font-size:19px;letter-spacing:-.025em}
     .small{font-size:12px;color:var(--apd-muted)}
     .summary{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;padding:14px 16px}
@@ -131,9 +150,6 @@
     .metric{position:relative;overflow:hidden;border:1px solid #e3edf8;border-radius:15px;padding:12px;background:linear-gradient(180deg,#fff,#fbfdff)}
     .metric::before{content:"";position:absolute;left:0;top:0;width:4px;height:100%;background:var(--apd-blue)}
     .metric .num{font-size:22px;font-weight:950;margin-bottom:1px;color:#0f2f55;letter-spacing:-.04em}.metric .lbl{font-size:11.5px;color:var(--apd-muted);font-weight:850}
-    .toolbar{display:grid;grid-template-columns:1fr;gap:10px;padding:0 16px 14px}
-    @media (min-width:780px){.toolbar{grid-template-columns:1fr 1fr 1fr;align-items:end}}
-    .warn{padding:11px 13px;border:1px solid #ffd8a8;background:#fff7e6;border-radius:13px;color:#7c4a03;margin:0 16px 14px;font-size:13px}
     .table-wrap{overflow:auto;border-top:1px solid var(--apd-line);background:#fff}
     table{width:100%;border-collapse:separate;border-spacing:0;min-width:920px}
     th,td{padding:12px 10px;border-bottom:1px solid #edf3fa;text-align:left;vertical-align:top;font-size:13.5px}
@@ -149,10 +165,10 @@
     .linklike{color:var(--apd-blue);font-weight:900}
     .hidden{display:none!important}
     @media (max-width:720px){
-      .apd-widget{padding:8px}.embed-shell{border-radius:18px}.mini-hero{padding:17px}.brand b{font-size:14px}.mini-hero h1{font-size:23px}.hero-tags{gap:6px}.tag{font-size:11.5px;padding:6px 8px}.grid{padding:10px;gap:10px}.form-grid{grid-template-columns:1fr}.actions{position:sticky;bottom:0;z-index:5;box-shadow:0 -10px 22px rgba(15,23,42,.08);background:rgba(251,253,255,.96);backdrop-filter:blur(12px)}.actions{flex-direction:column}.btn-primary,.btn-ghost{width:100%}
+      .apd-widget{padding:8px}.embed-shell{border-radius:18px}.mini-hero{padding:17px}.brand b{font-size:14px}.mini-hero h1{font-size:23px}.hero-tags{gap:6px}.tag{font-size:11.5px;padding:6px 8px}.workflow{padding:10px;gap:10px}.step-nav{padding:10px}.step-head{padding:14px}.step-title{font-size:16px}.form-grid{grid-template-columns:1fr}.actions{position:sticky;bottom:0;z-index:5;box-shadow:0 -10px 22px rgba(15,23,42,.08);background:rgba(251,253,255,.96);backdrop-filter:blur(12px);flex-direction:column}.btn-primary,.btn-ghost{width:100%}
       table{min-width:0;border-spacing:0 10px;padding:0 10px 10px;background:#f6f9fd}thead{display:none}tbody,tr,td{display:block}tr{background:#fff;border:1px solid var(--apd-line);border-radius:16px;box-shadow:var(--shadow-soft);overflow:hidden;margin:10px 0}td{border-bottom:1px solid #edf3fa;padding:9px 12px}td:last-child{border-bottom:none}td::before{display:block;font-size:10.5px;letter-spacing:.04em;text-transform:uppercase;color:#7b8ba0;font-weight:900;margin-bottom:3px}td:nth-child(1)::before{content:"STT"}td:nth-child(2)::before{content:"Cơ sở"}td:nth-child(3)::before{content:"Ngành/chương trình"}td:nth-child(4)::before{content:"Tổ hợp"}td:nth-child(5)::before{content:"Phương thức"}td:nth-child(6)::before{content:"Điểm tương đương"}td:nth-child(7)::before{content:"Mốc tham khảo"}td:nth-child(8)::before{content:"Chênh lệch"}td:nth-child(9)::before{content:"Đánh giá"}.table-wrap{overflow:visible;background:#f6f9fd}.toolbar{padding:0 12px 12px}.summary{padding:12px}.result-head{padding:14px}.notes{font-size:12px}.quick-help{padding:10px}
     }
-    @media print{body{background:#fff}.apd-widget{padding:0;max-width:none}.mini-hero,.quick-help,.actions,.toolbar,#exportBtn,.embed-footer{display:none!important}.embed-shell,.card{box-shadow:none;border:none}.grid{display:block;padding:0;background:#fff}.table-wrap{overflow:visible}table{min-width:0}th{position:static}}
+    @media print{body{background:#fff}.apd-widget{padding:0;max-width:none}.mini-hero,.quick-help,.step-nav,.actions,.toolbar,#exportBtn,.embed-footer{display:none!important}.embed-shell,.card{box-shadow:none;border:none}.workflow{display:block;padding:0;background:#fff}.table-wrap{overflow:visible}table{min-width:0}th{position:static}}
 
   </style>
 </head>
@@ -180,99 +196,116 @@
         </div>-->
       </section>
 
-      <section class="quick-help" aria-label="Hướng dẫn nhanh">
-        <div class="help-item"><div class="help-icon">1</div><div><b>Nhập điểm</b><span>Có thể nhập một hoặc nhiều nhóm điểm, bỏ trống phần chưa có.</span></div></div>
-        <div class="help-item"><div class="help-icon">2</div><div><b>Bấm tính</b><span>Công cụ chọn tổ hợp/phương thức tốt nhất và quy đổi tương đương.</span></div></div>
-        <div class="help-item"><div class="help-icon">3</div><div><b>Xem gợi ý</b><span>Kết quả là tham khảo, không thay thế thông báo trúng tuyển chính thức.</span></div></div>
-      </section>
+      <nav class="step-nav" aria-label="Đi nhanh tới từng bước">
+        <a href="#stepInput"><span class="nav-no">1</span><span>Nhập hồ sơ điểm</span></a>
+        <a href="#stepControl"><span class="nav-no">2</span><span>Tính điểm & lọc</span></a>
+        <a href="#resultsCard"><span class="nav-no">3</span><span>Xem kết quả</span></a>
+      </nav>
 
       <main>
-        <div class="grid">
-          <section class="card input-panel">
-            <h2>Nhập hồ sơ điểm</h2>
-            <p class="panel-subtitle">Mở từng nhóm thông tin phù hợp với hồ sơ của thí sinh.</p>
+        <div class="workflow">
+          <section class="card step-card input-panel" id="stepInput">
+            <div class="step-head">
+              <div class="step-no">1</div>
+              <div>
+                <h2 class="step-title">Nhập hồ sơ điểm</h2>
+                <p class="step-desc">Mở từng nhóm thông tin phù hợp với hồ sơ của thí sinh. Nhóm nào chưa có điểm có thể bỏ trống.</p>
+              </div>
+            </div>
+            <div class="section-stack">
+              <details class="section" open>
+                <summary>Điểm thi tốt nghiệp THPT 2026</summary>
+                <p class="hint">Nhập theo thang 0–10. Có thể bỏ trống môn không có điểm.</p>
+                <div class="form-grid" id="examInputs"></div>
+              </details>
+              <details class="section">
+                <summary>Điểm học tập THPT / học bạ</summary>
+                <p class="hint">Điểm trung bình chung kết quả học tập cả năm các lớp 10, 11, 12 theo môn, thang 0–10.</p>
+                <div class="form-grid" id="transcriptInputs"></div>
+              </details>
+              <details class="section">
+                <summary>Đánh giá năng lực / tư duy</summary>
+                <p class="hint">Nhập điểm HSA, TSA hoặc V-ACT nếu có.</p>
+                <div class="form-grid">
+                  <div><label for="hsa">HSA</label><input id="hsa" type="number" step="0.01" placeholder="VD: 95"></div>
+                  <div><label for="tsa">TSA</label><input id="tsa" type="number" step="0.01" placeholder="VD: 60"></div>
+                  <div><label for="vact">V-ACT</label><input id="vact" type="number" step="0.01" placeholder="VD: 700"></div>
+                </div>
+              </details>
+              <details class="section">
+                <summary>Chứng chỉ tiếng Anh quốc tế</summary>
+                <p class="hint">Dùng để quy đổi điểm tiếng Anh hoặc cộng khuyến khích nếu không dùng để xét tuyển kết hợp.</p>
+                <div class="form-grid">
+                  <div>
+                    <label for="certType">Loại chứng chỉ</label>
+                    <select id="certType">
+                      <option value="none">Không có</option>
+                      <option value="ielts">IELTS Academic</option>
+                      <option value="toefl_ibt">TOEFL iBT</option>
+                      <option value="toefl_itp">TOEFL ITP</option>
+                      <option value="toeic">TOEIC 4 kỹ năng</option>
+                      <option value="cambridge">Cambridge</option>
+                    </select>
+                  </div>
+                  <div><label for="certScore">Điểm chính</label><input id="certScore" type="number" step="0.01" placeholder="VD IELTS 6.5 / TOEIC R&L 685"></div>
+                  <div><label for="toeicSW">TOEIC S&W</label><input id="toeicSW" type="number" step="0.01" placeholder="VD: 280"></div>
+                  <div><label for="certDate">Ngày cấp</label><input id="certDate" type="date"></div>
+                </div>
+                <label class="checkrow"><input id="homeEdition" type="checkbox"> Chứng chỉ dạng Home edition</label>
+              </details>
+              <details class="section">
+                <summary>Ưu tiên, điểm thưởng, khuyến khích</summary>
+                <div class="form-grid">
+                  <div>
+                    <label for="region">Khu vực ưu tiên</label>
+                    <select id="region">
+                      <option value="0">KV3 - không ưu tiên</option>
+                      <option value="0.25">KV2 - 0.25</option>
+                      <option value="0.5">KV2-NT - 0.5</option>
+                      <option value="0.75">KV1 - 0.75</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label for="objectPriority">Đối tượng ưu tiên</label>
+                    <select id="objectPriority">
+                      <option value="0">Không thuộc đối tượng</option>
+                      <option value="2">Nhóm ưu tiên 1 - 2.0</option>
+                      <option value="1">Nhóm ưu tiên 2 - 1.0</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label for="nationalAward">Giải diện tuyển thẳng nhưng không dùng</label>
+                    <select id="nationalAward">
+                      <option value="0">Không có</option>
+                      <option value="2">Giải Nhất - cộng 2.0</option>
+                      <option value="1.5">Giải Nhì - cộng 1.5</option>
+                      <option value="1">Giải Ba - cộng 1.0</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label for="provincialAward">Giải HSG cấp tỉnh/thành phố</label>
+                    <select id="provincialAward">
+                      <option value="0">Không có</option>
+                      <option value="1.5">Giải Nhất - cộng 1.5</option>
+                      <option value="1">Giải Nhì - cộng 1.0</option>
+                      <option value="0.5">Giải Ba - cộng 0.5</option>
+                    </select>
+                  </div>
+                </div>
+              </details>
+            </div>
+          </section>
+
+          <section class="card step-card control-panel" id="stepControl">
+            <div class="step-head">
+              <div class="step-no">2</div>
+              <div>
+                <h2 class="step-title">Chọn phạm vi tra cứu, tính điểm và lọc kết quả</h2>
+                <p class="step-desc">Chọn cơ sở/ngành muốn xem, bấm tính điểm. Sau khi có kết quả, dùng bộ lọc bên dưới để thu gọn danh sách.</p>
+              </div>
+            </div>
             <details class="section" open>
-              <summary>Điểm thi tốt nghiệp THPT 2026</summary>
-              <p class="hint">Nhập theo thang 0–10. Có thể bỏ trống môn không có điểm.</p>
-              <div class="form-grid" id="examInputs"></div>
-            </details>
-            <details class="section">
-              <summary>Điểm học tập THPT / học bạ</summary>
-              <p class="hint">Điểm trung bình chung kết quả học tập cả năm các lớp 10, 11, 12 theo môn, thang 0–10.</p>
-              <div class="form-grid" id="transcriptInputs"></div>
-            </details>
-            <details class="section">
-              <summary>Đánh giá năng lực / tư duy</summary>
-              <p class="hint">Nhập điểm HSA, TSA hoặc V-ACT nếu có.</p>
-              <div class="form-grid">
-                <div><label for="hsa">HSA</label><input id="hsa" type="number" step="0.01" placeholder="VD: 95"></div>
-                <div><label for="tsa">TSA</label><input id="tsa" type="number" step="0.01" placeholder="VD: 60"></div>
-                <div><label for="vact">V-ACT</label><input id="vact" type="number" step="0.01" placeholder="VD: 700"></div>
-              </div>
-            </details>
-            <details class="section">
-              <summary>Chứng chỉ tiếng Anh quốc tế</summary>
-              <p class="hint">Dùng để quy đổi điểm tiếng Anh hoặc cộng khuyến khích nếu không dùng để xét tuyển kết hợp.</p>
-              <div class="form-grid">
-                <div>
-                  <label for="certType">Loại chứng chỉ</label>
-                  <select id="certType">
-                    <option value="none">Không có</option>
-                    <option value="ielts">IELTS Academic</option>
-                    <option value="toefl_ibt">TOEFL iBT</option>
-                    <option value="toefl_itp">TOEFL ITP</option>
-                    <option value="toeic">TOEIC 4 kỹ năng</option>
-                    <option value="cambridge">Cambridge</option>
-                  </select>
-                </div>
-                <div><label for="certScore">Điểm chính</label><input id="certScore" type="number" step="0.01" placeholder="VD IELTS 6.5 / TOEIC R&L 685"></div>
-                <div><label for="toeicSW">TOEIC S&W</label><input id="toeicSW" type="number" step="0.01" placeholder="VD: 280"></div>
-                <div><label for="certDate">Ngày cấp</label><input id="certDate" type="date"></div>
-              </div>
-              <label class="checkrow"><input id="homeEdition" type="checkbox"> Chứng chỉ dạng Home edition</label>
-            </details>
-            <details class="section">
-              <summary>Ưu tiên, điểm thưởng, khuyến khích</summary>
-              <div class="form-grid">
-                <div>
-                  <label for="region">Khu vực ưu tiên</label>
-                  <select id="region">
-                    <option value="0">KV3 - không ưu tiên</option>
-                    <option value="0.25">KV2 - 0.25</option>
-                    <option value="0.5">KV2-NT - 0.5</option>
-                    <option value="0.75">KV1 - 0.75</option>
-                  </select>
-                </div>
-                <div>
-                  <label for="objectPriority">Đối tượng ưu tiên</label>
-                  <select id="objectPriority">
-                    <option value="0">Không thuộc đối tượng</option>
-                    <option value="2">Nhóm ưu tiên 1 - 2.0</option>
-                    <option value="1">Nhóm ưu tiên 2 - 1.0</option>
-                  </select>
-                </div>
-                <div>
-                  <label for="nationalAward">Giải diện tuyển thẳng nhưng không dùng</label>
-                  <select id="nationalAward">
-                    <option value="0">Không có</option>
-                    <option value="2">Giải Nhất - cộng 2.0</option>
-                    <option value="1.5">Giải Nhì - cộng 1.5</option>
-                    <option value="1">Giải Ba - cộng 1.0</option>
-                  </select>
-                </div>
-                <div>
-                  <label for="provincialAward">Giải HSG cấp tỉnh/thành phố</label>
-                  <select id="provincialAward">
-                    <option value="0">Không có</option>
-                    <option value="1.5">Giải Nhất - cộng 1.5</option>
-                    <option value="1">Giải Nhì - cộng 1.0</option>
-                    <option value="0.5">Giải Ba - cộng 0.5</option>
-                  </select>
-                </div>
-              </div>
-            </details>
-            <details class="section">
-              <summary>Bộ lọc kết quả</summary>
+              <summary>Phạm vi ngành/chương trình muốn tra cứu</summary>
               <div class="form-grid one">
                 <div>
                   <label for="campusFilter">Cơ sở đào tạo</label>
@@ -293,13 +326,23 @@
               <button class="btn-primary" id="calcBtn">Tính điểm & gợi ý</button>
               <button class="btn-ghost" id="demoBtn">Dữ liệu mẫu</button>
             </div>
+            <div id="warnings"></div>
+            <div class="toolbar-title">Bộ lọc sau khi tính điểm</div>
+            <div class="toolbar">
+              <div class="control"><label for="chanceFilter">Lọc theo cơ hội</label><select id="chanceFilter"><option value="all">Tất cả</option><option value="safe">An toàn</option><option value="ok">Có cơ hội</option><option value="risk">Rủi ro</option><option value="hard">Khó</option><option value="unknown">Cần dữ liệu</option></select></div>
+              <div class="control"><label for="methodFilter">Lọc theo phương thức</label><select id="methodFilter"><option value="all">Tất cả</option></select></div>
+              <div class="control"><label for="minScore">Điểm xét tuyển tối thiểu</label><input id="minScore" type="number" step="0.01" placeholder="VD: 22"></div>
+            </div>
           </section>
 
-          <section class="card result-panel" id="resultsCard">
+          <section class="card step-card result-panel" id="resultsCard">
             <div class="result-head">
-              <div>
-                <h2>Kết quả gợi ý tham khảo</h2>
-                <div class="small">Sắp xếp theo mức cơ hội, chênh lệch với mốc tham khảo và điểm tương đương THPT.</div>
+              <div class="step-head">
+                <div class="step-no">3</div>
+                <div>
+                  <h2 class="step-title">Kết quả gợi ý tham khảo</h2>
+                  <div class="step-desc">Sắp xếp theo mức cơ hội, chênh lệch với mốc tham khảo và điểm tương đương THPT.</div>
+                </div>
               </div>
               <button class="btn-ghost" id="exportBtn">Tải CSV</button>
             </div>
@@ -310,12 +353,6 @@
               <div class="metric"><div class="num">0</div><div class="lbl">Rủi ro</div></div>
               <div class="metric"><div class="num">0</div><div class="lbl">Khó/chưa đạt</div></div>
               <div class="metric"><div class="num">0</div><div class="lbl">Cần dữ liệu</div></div>
-            </div>
-            <div id="warnings"></div>
-            <div class="toolbar">
-              <div class="control"><label for="chanceFilter">Lọc theo cơ hội</label><select id="chanceFilter"><option value="all">Tất cả</option><option value="safe">An toàn</option><option value="ok">Có cơ hội</option><option value="risk">Rủi ro</option><option value="hard">Khó</option><option value="unknown">Cần dữ liệu</option></select></div>
-              <div class="control"><label for="methodFilter">Lọc theo phương thức</label><select id="methodFilter"><option value="all">Tất cả</option></select></div>
-              <div class="control"><label for="minScore">Điểm xét tuyển tối thiểu</label><input id="minScore" type="number" step="0.01" placeholder="VD: 22"></div>
             </div>
             <div class="table-wrap">
               <table>
@@ -727,10 +764,15 @@ function fillDemo(){
   calculateAll();
 }
 buildInputs();
-document.getElementById('calcBtn').addEventListener('click', calculateAll);
-document.getElementById('demoBtn').addEventListener('click', fillDemo);
+function scrollToResults(){
+  const el=document.getElementById('resultsCard');
+  if(el) setTimeout(()=>el.scrollIntoView({behavior:'smooth', block:'start'}), 80);
+}
+document.getElementById('calcBtn').addEventListener('click', ()=>{ calculateAll(); scrollToResults(); });
+document.getElementById('demoBtn').addEventListener('click', ()=>{ fillDemo(); scrollToResults(); });
 document.getElementById('exportBtn').addEventListener('click', exportCSV);
 for(const id of ['chanceFilter','methodFilter','minScore']) document.getElementById(id).addEventListener('input',()=>render(LAST_ROWS));
+for(const id of ['campusFilter','keywordFilter']) document.getElementById(id).addEventListener('input',()=>{ if(LAST_ROWS.length) calculateAll(); });
 
 </script>
 
